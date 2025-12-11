@@ -1,42 +1,44 @@
-# HistoHelp - Interactive Histology Slide Viewer
+# Tissue Deck
 
-HistoHelp is a modern, interactive web application designed to assist medical and biology students in studying histology slides. It provides a zoomable microscope-like interface, detailed theory panels, and a categorized library of tissue samples sourced from educational repositories.
-
-![HistoHelp Screenshot](public/screenshot_placeholder.png) *Note: detailed view of the application interface.*
+**Tissue Deck** is a modern, interactive histology slide viewer designed to assist medical and biology students in studying tissue samples. It offers a virtual microscope experience with high-resolution, zoomable images, paired with comprehensive theory panels and a categorized library of slides.
 
 ## Features
 
-- **Interactive Microscope View**: Smooth zooming and panning capabilities to examine tissue details, simulating a real microscope experience.
-- **Smart Navigation**:
-    - Categorized sidebar for easy browsing of tissues (e.g., Epithelium, Connective Tissue, etc.).
-    - Real-time search functionality to quickly find specific slides.
-    - Expandable/Collapsible categories.
-- **Rich Annotations**:
-    - **Toggleable Labels**: View markers highlighting specific structures on the slides.
-    - **Theory Panel**: Detailed descriptions and educational context for each slide.
-- **Automated Content Aggregation**: Custom scripts to ingest and normalize data from external sources like WikiLectures.
-- **Modern UI**: Clean, dark-themed interface optimized for focus and readability.
+- **Virtual Microscope Interface**:
+  - powered by **OpenSeadragon** for smooth, high-resolution deep zooming and panning.
+  - Simulates the experience of using a real microscope.
+- **Smart Navigation System**:
+  - Organized sidebar with collapsible categories (e.g., Epithelium, Connective Tissue, Muscle).
+  - Real-time search to instantly locate specific tissues or structures.
+- **Integrated Learning**:
+  - **Theory Panel**: Context-aware educational content alongside each slide, detailing structure, function, and location.
+  - **Interactive Labels**: Toggleable annotations that highlight key histological features on the slides.
+- **Data Engineering Suit**:
+  - Powerful scraping and ingestion scripts (`puppeteer`, `cheerio`) to aggregate content from educational sources like WikiLectures.
+  - Automated data normalization and organization.
+- **Modern & Responsive UI**: Built with React and Vite for a fast, fluid user experience.
 
 ## Tech Stack
 
 ### Frontend
-- **React**: Component-based UI architecture.
-- **Vite**: Fast build tool and development server.
-- **CSS Modules**: Scoped styling for components.
-- **Vanilla CSS**: Global styling and layout management.
+- **React 19**: Robust component-based architecture.
+- **Vite**: Next-generation frontend tooling for lightning-fast builds.
+- **OpenSeadragon**: Advanced deep zoom image viewer.
+- **Lucide React**: Beautiful, consistent iconography.
+- **CSS Modules & Vanilla CSS**: Modular and global styling.
 
-### Data Engineering & Scripts
-- **Node.js**: Runtime for scripting.
-- **Puppeteer**: Headless browser automation for scraping dynamic content.
-- **Cheerio**: HTML parsing for static scraping.
-- **Axios**: HTTP client for data fetching.
+### Data & Scripting
+- **Node.js**: Backend (scripting) environment.
+- **Puppeteer**: Headless browser automation for complex data extraction.
+- **Cheerio**: Fast, flexible implementation of core jQuery for server-side parsing.
+- **Axios**: Promise-based HTTP client.
 
 ## Installation
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/Histo.git
-    cd Histo
+    git clone https://github.com/PranayJuneja/TissueDeck.git
+    cd TissueDeck
     ```
 
 2.  **Install dependencies**:
@@ -46,52 +48,62 @@ HistoHelp is a modern, interactive web application designed to assist medical an
 
 ## Usage
 
-### Running the Application
+### Development Server
 
-To start the development server:
+Start the local development server:
 
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`.
+The application will launch at `http://localhost:5173`.
 
-### Data Ingestion (Scrapers)
+### Data Ingestion
 
-The project includes scripts to populate the local database (`data/tissues.json`) and download images.
+The project includes a suite of scripts in the `scripts/` directory to manage data collection:
 
-**Run the generic scraper:**
-```bash
-node scripts/scraper.js
-```
+-   **Generic Scraper**:
+    ```bash
+    node scripts/scraper.js
+    ```
+-   **WikiLectures Ingest**:
+    ```bash
+    node scripts/ingest_wikilectures.js
+    ```
+-   **Full Ingestion Pipeline**:
+    ```bash
+    node scripts/ingest_full.js
+    ```
 
-**Ingest from WikiLectures:**
-```bash
-node scripts/ingest_wikilectures.js
-```
-
-*Note: content scraping respects the `robots.txt` and terms of service of source websites. Ensure you have permission or are using public domain/creative commons resources.*
+> **Note**: These scripts are intended for educational and local use. Please respect the `robots.txt` and Terms of Service of any websites you interact with.
 
 ## Project Structure
 
 ```
-Histo/
+TissueDeck/
 ├── public/                 # Static assets
-├── scripts/                # Data ingestion scripts
-│   ├── scraper.js          # General scraper
-│   └── ingest_wikilectures.js # WikiLectures specific ingestor
+├── scripts/                # Data scraping and ingestion workflows
+│   ├── ingest_full.js      # Orchestrator for full data update
+│   ├── ingest_wikilectures.js
+│   ├── scraper.js          # Base scraper logic
+│   └── test_wiki.js        # Unit testing for wiki scraper
 ├── src/
-│   ├── components/         # React components (SlideViewer, TheoryPanel, etc.)
-│   ├── data/               # JSON data files (tissues.json)
-│   ├── styles/             # Global CSS files
-│   ├── App.jsx             # Main application layout
-│   └── main.jsx            # Entry point
-└── package.json            # Project dependencies and scripts
+│   ├── components/         # React UI components
+│   │   ├── SlideViewer.jsx # OpenSeadragon integration
+│   │   └── TheoryPanel.jsx # Educational side panel
+│   ├── data/               # App data storage
+│   │   ├── tissues.json    # Main dataset
+│   │   └── scraped_tissues.json
+│   ├── styles/             # Global styles
+│   ├── App.jsx             # Main layout and routing logic
+│   └── main.jsx            # Application entry point
+├── package.json            # Dependencies and script definitions
+└── vite.config.js          # Vite configuration
 ```
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! If you have suggestions for improvements or new features, please submit a Pull Request or open an Issue.
 
 ## License
 
