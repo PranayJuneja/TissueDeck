@@ -166,3 +166,93 @@
     color: rgba(255, 255, 255, 0.5);
     pointer-events: none;
 }
+
+/* ========= RESPONSIVE STYLES ========= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .controlsOverlay {
+        padding: 6px 12px;
+        gap: 12px;
+    }
+
+    .controlBtn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .magBtn {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .controlsOverlay {
+        bottom: 12px;
+        padding: 6px 10px;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 90%;
+    }
+
+    .zoomControls {
+        padding-right: 8px;
+        gap: 4px;
+        border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .controlBtn {
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
+    }
+
+    .magControls {
+        gap: 2px;
+        padding: 2px;
+    }
+
+    .magBtn {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+        min-height: 36px;
+    }
+
+    .errorMessage {
+        max-width: 90%;
+        padding: 16px;
+        font-size: 0.9rem;
+    }
+
+    .sourceCredit {
+        bottom: 60px;
+        right: 8px;
+        font-size: 0.65rem;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .controlsOverlay {
+        bottom: 8px;
+        gap: 6px;
+        padding: 4px 8px;
+    }
+
+    .zoomControls {
+        padding-right: 6px;
+    }
+
+    .controlBtn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .magBtn {
+        padding: 6px 8px;
+        font-size: 0.75rem;
+    }
+}
