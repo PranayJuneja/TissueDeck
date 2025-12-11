@@ -87,11 +87,6 @@ function App() {
 
       {/* Sidebar Navigation */}
       <aside className={`sidebar ${sidebarOpen ? 'sidebar-open' : ''}`}>
-        <div className="sidebar-header-mobile">
-          <button className="close-sidebar-btn" onClick={() => setSidebarOpen(false)}>
-            <span className="material-icon">close</span>
-          </button>
-        </div>
         <div className="brand">
           <h1>
             <span className="brand-prefix">&gt;</span>
@@ -100,15 +95,20 @@ function App() {
           </h1>
         </div>
 
-        <div className="search-container">
-          <span className="material-icon search-icon">search</span>
-          <input
-            type="text"
-            placeholder="Search slides..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="search-input"
-          />
+        <div className="sidebar-controls">
+          <div className="search-container">
+            <span className="material-icon search-icon">search</span>
+            <input
+              type="text"
+              placeholder="Search slides..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="search-input"
+            />
+          </div>
+          <button className="close-sidebar-btn" onClick={() => setSidebarOpen(false)}>
+            <span className="material-icon">close</span>
+          </button>
         </div>
 
         <nav className="nav-list">
@@ -153,9 +153,18 @@ function App() {
       <main className="main-content">
         <header className="top-bar">
           <div className="top-bar-left">
-            <button className="hamburger-btn" onClick={() => setSidebarOpen(true)}>
-              <span className="material-icon">menu</span>
-            </button>
+            <div className="mobile-header-row">
+              <button className="hamburger-btn" onClick={() => setSidebarOpen(true)}>
+                <span className="material-icon">menu</span>
+              </button>
+              <div className="brand mobile-brand">
+                <h1>
+                  <span className="brand-prefix">&gt;</span>
+                  <span className="brand-text">Tissue Deck</span>
+                  <span className="cursor"></span>
+                </h1>
+              </div>
+            </div>
             <div className="breadcrumbs">
               <span className="crumb-category">{selectedGroup?.category}</span>
               <span className="crumb-separator">/</span>
@@ -242,9 +251,19 @@ function App() {
             50% { opacity: 0; }
         }
 
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .sidebar-controls {
+          display: block;
+          margin-bottom: 24px;
+        }
+
         .search-container {
           position: relative;
-          margin-bottom: 24px;
+          width: 100%;
         }
 
         .search-icon {
@@ -381,6 +400,14 @@ function App() {
           border-bottom: 1px solid rgba(147, 143, 153, 0.2);
         }
 
+        .mobile-brand {
+            display: none;
+        }
+        
+        .mobile-header-row {
+            display: contents; /* On desktop, let children flow naturally */
+        }
+
         .breadcrumbs {
           display: flex;
           align-items: center;
@@ -464,7 +491,7 @@ function App() {
         }
 
         .close-sidebar-btn {
-          display: flex;
+          display: none; /* Hidden on desktop */
           align-items: center;
           justify-content: center;
           width: 44px;
@@ -475,6 +502,7 @@ function App() {
           cursor: pointer;
           border-radius: var(--radius-full);
           transition: background 0.2s;
+          flex-shrink: 0; /* Don't shrink in flex container */
         }
 
         .close-sidebar-btn:hover {
@@ -519,10 +547,27 @@ function App() {
           }
 
           .sidebar-header-mobile {
-            display: flex;
-            justify-content: flex-end;
-            padding: 8px 8px 0 8px;
-            margin-bottom: -8px;
+              display: none; /* Removed from DOM but keeping just in case or clearing styles */
+          }
+
+          .sidebar-controls {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              margin-bottom: 16px;
+              margin-top: 8px; /* Add some top spacing since brand is hidden */
+          }
+
+          .search-container {
+              flex: 1;
+          }
+
+          .sidebar .brand {
+             display: none;
+          }
+
+          .close-sidebar-btn {
+              display: flex; /* Show on mobile */
           }
 
           .hamburger-btn {
@@ -588,18 +633,69 @@ function App() {
           }
 
           .top-bar {
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+          }
+          
+          .top-bar-left {
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
             gap: 8px;
           }
+          
+          .mobile-header-row {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            position: relative; /* For absolute centering of brand */
+            justify-content: flex-start; /* Hamburger stays left */
+            min-height: 44px; /* Ensure height for absolute child */
+          }
 
+          .mobile-brand {
+             display: flex; /* Show on mobile */
+             position: absolute;
+             left: 50%;
+             transform: translateX(-50%);
+             white-space: nowrap;
+             margin-left: 0; /* Remove previous margin */
+          }
+          
+          .brand h1 {
+            margin-bottom: 0; /* Reset sidebar margin */
+            font-size: 1.2rem;
+          }
+
+          /* Breadcrumbs in translucent box */
           .breadcrumbs {
+            width: 100%;
+            background: rgba(var(--md-sys-color-surface-variant-rgb, 73, 69, 79), 0.4); /* Fallback or variable */
+            background-color: rgba(30, 30, 30, 0.6); /* Translucent dark box */
+            backdrop-filter: blur(4px);
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-sizing: border-box;
+            margin-top: 4px;
+            
+            /* Ensure text wraps if needed */
             flex-wrap: wrap;
-            gap: 4px;
+            white-space: normal;
           }
 
-          .crumb-name {
-            font-size: 1rem;
+          .crumb-category, .crumb-name {
+            font-size: 0.95rem;
           }
+          
+          .crumb-name {
+             color: #E6E1E5; /* Light text for dark translucent box */
+          }
+          .crumb-separator {
+             color: rgba(230, 225, 229, 0.5);
+          }
+
 
           /* Touch-friendly areas */
           .category-header {

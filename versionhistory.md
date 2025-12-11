@@ -1,5 +1,14 @@
 # Version History
 
+## v1.0 - Mobile UX Overhaul
+**Date:** 2025-12-11
+- **Feature:** Enhanced Mobile Header
+    - Moved "Tissue Deck" brand to top-center of mobile view.
+    - Added breadcrumbs directly beneath the header in a styled translucent box.
+- **Feature:** Mobile Sidebar Refinement
+    - Removed duplicate "Tissue Deck" brand from sidebar on mobile.
+    - Aligned Search Bar and Close button on same row for better space utilization (Search | X).
+
 ## v0.01 - Mobile Responsiveness
 **Date:** 2025-12-11
 - **Feature:** Full mobile and tablet responsiveness.
