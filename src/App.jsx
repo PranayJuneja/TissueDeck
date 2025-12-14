@@ -158,7 +158,6 @@ function App() {
                     </span>
                     <span>{category}</span>
                   </div>
-                  <span className="count">{totalItems}</span>
                 </button>
 
                 {(expandedCategories[category] || searchTerm) && (
@@ -217,7 +216,6 @@ function App() {
                               </span>
                               <span>{sectionName}</span>
                             </div>
-                            <span className="count">{sectionTotal}</span>
                           </button>
 
                           {expandedSections[sectionKey] && (
@@ -262,7 +260,6 @@ function App() {
                                         </span>
                                         <span>{subsectionName}</span>
                                       </div>
-                                      <span className="count">{tissues.length}</span>
                                     </button>
 
                                     {expandedSections[subKey] && (

@@ -85,6 +85,8 @@ Every slide now includes:
 - **Improved** Exam Tips layout with proper text wrapping
 - **Changed** Location/Function display to separate rows
 - **Added** proper `margin-bottom` spacing between Function section and Exam Tips
+- **Removed** count badges from sidebar categories/sections (cleaner look)
+- **Changed** slide viewer branding from "Open Source Histology" to "MIT Licensed"
 
 ---
 
