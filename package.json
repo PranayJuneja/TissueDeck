@@ -1,7 +1,7 @@
 {
   "name": "histo",
   "private": true,
-  "version": "4.21.0",
+  "version": "5.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ai-sdk/gateway": "^2.0.21",
+    "@ai-sdk/react": "^2.0.115",
+    "ai": "^5.0.113",
     "axios": "^1.13.2",
     "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "firebase": "^12.6.0",
+    "firebase-admin": "^13.6.0",
     "lucide-react": "^0.560.0",
     "metadata-scraper": "^0.2.61",
     "openseadragon": "^5.0.1",

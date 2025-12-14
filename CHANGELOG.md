@@ -1,5 +1,105 @@
 # Changelog - Tissue Deck Slide System Overhaul
 
+
+---
+
+## 💎 v5.269 - THE POLISHED GEM UPDATE
+**Date:** December 15, 2025 (4:15 AM IST)
+
+### ✨ Meded AI & Visual Polish
+This update solidifies the platform's identity, refining the user experience from the smallest pixel (favicon) to the core learning interactions (Meded AI).
+
+### 🤖 Meded AI Rebranding
+- **Identity Shift** — Officially renamed "Histology AI" to **"Meded AI"**.
+- **Secure Logging** — Implemented chat logging for security and analytics.
+- **Model Verification** — Validated system prompts and model IDs to ensure high-quality responses.
+
+### 🎨 Visual & UI Refinements
+- **🔬 New Favicon** — Updated site icon to a custom microscope glyph.
+- **📱 Mobile Perfection** — 
+  - Isolated touch gestures (zooming the slide won't scroll the page).
+  - Fixed non-responsive buttons on mobile.
+  - Maximized data box usage for better reading on small screens.
+- **🧹 Sidebar Cleanup** — Removed count numbers for a cleaner, modern aesthetic; improved folder navigation logic for single-item categories.
+- **💬 Chat Interface** — Fixed padding and layout issues in `ChatBot.module.css`.
+- **📜 Footer Quote** — Added "_To err is human, to forgive is design._"
+
+### 📚 Content Expansion (Phase 5 Complete)
+- **Haematolymphoid System** — Full data (features, location, function, exam tips) for all 4 slides.
+- **Musculoskeletal System** — Complete histology coverage for all 7 slides including Skeletal, Smooth, Cardiac Muscle, and Bone/Cartilage types.
+
+### 🔧 Technical Tuning
+- **Scroll Zoom** — Fine-tuned minimum zoom level to `0.35x` for better context.
+- **Navigation Logic** — Smarter sidebar expansion for smoother browsing.
+
+---
+
+## 🤖 v5.0 - AI HISTOLOGY ASSISTANT 🤖
+**Date:** December 15, 2025 (2:20 AM IST)
+
+### 🎉 THE BOLDEST UPDATE YET - AI-POWERED LEARNING
+
+Tissue Deck now features an **AI chatbot** that helps students understand histology in context! Ask questions about any tissue you're viewing and get instant, exam-relevant answers.
+
+---
+
+### ✨ New Features
+
+#### AI Chatbot Integration
+- **🔬 Context-Aware AI** — The chatbot automatically receives information about the tissue you're viewing
+- **💬 Floating Chat Interface** — Beautiful glassmorphism design floating over the slide viewer
+- **📱 Mobile-Friendly** — Works seamlessly on all devices
+- **⚡ Streaming Responses** — Watch the AI type responses in real-time
+- **🔐 Firebase Authentication** — Secure Google sign-in required
+- **📊 Rate Limiting** — 100 messages per user per month (tracked per account)
+
+#### Technical Stack
+- **Vercel AI Gateway** — Unified API for AI model access
+- **OpenAI GPT-5 Nano** — Fast, affordable AI model ($0.05/1M input tokens)
+- **Firebase Auth** — Free tier with 50K MAUs
+- **Vercel Serverless Functions** — Backend API routes
+
+---
+
+### 📁 Files Added
+
+| File | Purpose |
+|------|---------|
+| `src/firebase.js` | Firebase initialization |
+| `src/contexts/AuthContext.jsx` | React auth context provider |
+| `src/components/ChatBot.jsx` | AI chat interface component |
+| `src/components/ChatBot.module.css` | Glassmorphism styling |
+| `api/chat.js` | Vercel serverless API endpoint |
+| `vercel.json` | Serverless function config |
+| `.env.example` | Environment variables template |
+
+### 📝 Files Modified
+
+| File | Change |
+|------|--------|
+| `src/main.jsx` | Wrapped app with AuthProvider |
+| `src/components/SlideViewer.jsx` | Integrated ChatBot component |
+| `package.json` | Added firebase, ai, @ai-sdk/react deps |
+
+---
+
+### 🛠️ Setup Required
+
+To enable the AI chatbot, you need to:
+1. Create a Vercel account and get an AI Gateway API key
+2. Create a Firebase project and enable Google Authentication
+3. Add environment variables to `.env.local` (see `.env.example`)
+4. Deploy to Vercel for serverless functions to work
+
+---
+
+### 💡 Usage Tips
+
+- Click the chat input to expand the full chat interface
+- Ask about tissue features, clinical correlations, exam tips
+- The AI knows exactly which tissue you're viewing
+- Works best with specific questions like "What are the key features of this tissue?"
+
 ---
 
 ## v4.21 - Mobile UI Improvements
