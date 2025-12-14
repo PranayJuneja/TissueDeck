@@ -237,32 +237,33 @@
 @media (max-width: 768px) {
     .controlsOverlay {
         bottom: 12px;
-        padding: 10px 14px;
-        gap: 10px;
-        flex-direction: column;
+        padding: 6px 10px;
+        gap: 6px;
+        flex-direction: row;
         align-items: center;
         max-width: 90%;
     }
 
     .zoomControls {
-        display: none; /* Hidden on mobile - use pinch-to-zoom instead */
+        display: none;
+        /* Hidden on mobile - use pinch-to-zoom instead */
     }
 
     .slideControls {
         margin-left: 0;
         padding-left: 0;
-        gap: 8px;
+        gap: 4px;
     }
 
     .slideBtn {
-        width: 44px;
-        height: 44px;
+        width: 36px;
+        height: 36px;
     }
 
     .controlBtn {
-        width: 44px;
-        height: 44px;
-        font-size: 1.1rem;
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
     }
 
     .magControls {
@@ -271,9 +272,9 @@
     }
 
     .magBtn {
-        padding: 8px 10px;
-        font-size: 0.8rem;
-        min-height: 36px;
+        padding: 6px 8px;
+        font-size: 0.75rem;
+        min-height: 32px;
     }
 
     .errorMessage {
@@ -293,28 +294,28 @@
 @media (max-width: 480px) {
     .controlsOverlay {
         bottom: 8px;
-        gap: 8px;
-        padding: 8px 12px;
+        gap: 4px;
+        padding: 5px 10px;
     }
 
     .zoomControls {
         padding-right: 0;
-        padding-bottom: 8px;
-        gap: 6px;
+        padding-bottom: 0;
+        gap: 4px;
     }
 
     .slideControls {
-        gap: 6px;
+        gap: 4px;
     }
 
     .slideBtn {
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
     }
 
     .controlBtn {
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
     }
 
     .magBtn {

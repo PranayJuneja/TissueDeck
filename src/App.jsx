@@ -877,7 +877,7 @@ function App() {
         /* Mobile Adjustments: < 768px */
         @media (max-width: 768px) {
           .slide-section {
-            min-height: 280px;
+            min-height: 350px;
           }
 
           .info-section {
@@ -977,7 +977,7 @@ function App() {
           }
 
           .slide-section {
-            min-height: 220px;
+            min-height: 280px;
           }
 
           .info-section {
