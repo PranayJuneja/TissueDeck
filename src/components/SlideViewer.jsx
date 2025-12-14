@@ -208,7 +208,12 @@ const SlideViewer = ({ tissue, showLabels }) => {
             </div>
 
             {/* Controls Overlay */}
-            <div className={styles.controlsOverlay}>
+            <div
+                className={styles.controlsOverlay}
+                onTouchStart={(e) => e.stopPropagation()}
+                onTouchMove={(e) => e.stopPropagation()}
+                onTouchEnd={(e) => e.stopPropagation()}
+            >
                 {/* Zoom Controls */}
                 <div className={styles.zoomControls}>
                     <button onClick={handleZoomOut} className={styles.controlBtn} title="Zoom Out">

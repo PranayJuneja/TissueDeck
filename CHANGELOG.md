@@ -1,5 +1,16 @@
 # Changelog - Tissue Deck Slide System Overhaul
 
+---
+
+## v1.0.1 - Mobile Button Fix
+**Date:** December 15, 2025 (12:38 AM IST)
+
+### Bug Fixes
+- ✅ **Fixed mobile control buttons not responding to taps** - Touch events on zoom/slide navigation buttons were being blocked by the parent container's gesture handling. Added `stopPropagation()` to the controls overlay to isolate button interactions from drag/zoom gestures.
+
+---
+
+## v1.0.0 - Initial Release
 **Date:** December 15, 2025  
 **Session Duration:** ~1 hour (11:00 PM - 12:22 AM IST)
 
