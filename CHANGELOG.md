@@ -3,6 +3,17 @@
 
 ---
 
+## 📱 v5.3 - APP-SOLUTELY NATIVE (PWA)
+**Date:** December 15, 2025 (4:45 AM IST)
+
+### 📲 Installable App Experience
+Tissue Deck is now a full-fledged **Progressive Web App (PWA)**!
+- **Add to Home Screen** — Install the app on Android and iOS devices.
+- **Standalone Mode** — Launches without the browser address bar/UI for a native app feel.
+- **Native Integration** — configured with correct icons, meta tags, and manifest for seamless mobile OS integration.
+
+---
+
 ## 💎 v5.269 - THE POLISHED GEM UPDATE
 **Date:** December 15, 2025 (4:15 AM IST)
 
