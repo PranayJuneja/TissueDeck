@@ -345,6 +345,11 @@ function App() {
             <TheoryPanel tissue={selectedTissue} />
           </div>
         </div>
+
+        {/* Mobile Footer */}
+        <footer className="mobile-footer">
+          Made with ❤️ by <a href="https://pranayjuneja.com" target="_blank" rel="noopener noreferrer">Pranay Juneja</a>
+        </footer>
       </main>
 
       <style>{`
@@ -700,6 +705,11 @@ function App() {
 
         /* ========= RESPONSIVE STYLES ========= */
         
+        /* Hide mobile-only elements on desktop */
+        .mobile-footer {
+          display: none;
+        }
+        
         /* Mobile/Tablet Sidebar Overlay */
         .sidebar-overlay {
           display: none;
@@ -848,6 +858,21 @@ function App() {
           
           .view-controls {
             display: none;
+          }
+          
+          .mobile-footer {
+            display: block;
+            text-align: center;
+            padding: 12px 16px;
+            margin-top: 8px;
+            color: var(--md-sys-color-on-surface-variant);
+            font-size: 0.85rem;
+            flex-shrink: 0;
+          }
+          
+          .mobile-footer a {
+            color: inherit;
+            text-decoration: none;
           }
         }
 

@@ -66,9 +66,25 @@ const SlideViewer = ({ tissue, showLabels }) => {
         setIsDragging(false);
     };
 
-    // Touch events for mobile
+    // Touch events for mobile - with pinch-to-zoom support
+    const [lastTouchDistance, setLastTouchDistance] = useState(null);
+
+    const getTouchDistance = (touches) => {
+        if (touches.length < 2) return null;
+        const dx = touches[0].clientX - touches[1].clientX;
+        const dy = touches[0].clientY - touches[1].clientY;
+        return Math.sqrt(dx * dx + dy * dy);
+    };
+
     const handleTouchStart = (e) => {
-        if (zoom > 1 && e.touches.length === 1) {
+        // Prevent default to stop page from scrolling/zooming
+        e.preventDefault();
+
+        if (e.touches.length === 2) {
+            // Pinch gesture starting
+            setLastTouchDistance(getTouchDistance(e.touches));
+        } else if (e.touches.length === 1) {
+            // Single finger drag (panning)
             setIsDragging(true);
             setDragStart({
                 x: e.touches[0].clientX - position.x,
@@ -78,7 +94,22 @@ const SlideViewer = ({ tissue, showLabels }) => {
     };
 
     const handleTouchMove = (e) => {
-        if (isDragging && e.touches.length === 1) {
+        // Prevent default to stop page from scrolling/zooming
+        e.preventDefault();
+
+        if (e.touches.length === 2) {
+            // Pinch-to-zoom
+            const newDistance = getTouchDistance(e.touches);
+            if (lastTouchDistance !== null && newDistance !== null) {
+                const scale = newDistance / lastTouchDistance;
+                setZoom(prev => {
+                    const newZoom = prev * scale;
+                    return Math.min(Math.max(newZoom, 0.35), 5);
+                });
+                setLastTouchDistance(newDistance);
+            }
+        } else if (isDragging && e.touches.length === 1) {
+            // Single finger panning
             setPosition({
                 x: e.touches[0].clientX - dragStart.x,
                 y: e.touches[0].clientY - dragStart.y
@@ -86,8 +117,11 @@ const SlideViewer = ({ tissue, showLabels }) => {
         }
     };
 
-    const handleTouchEnd = () => {
+    const handleTouchEnd = (e) => {
+        // Prevent default
+        e.preventDefault();
         setIsDragging(false);
+        setLastTouchDistance(null);
     };
 
     // Mouse wheel for zooming

@@ -57,6 +57,9 @@ Major overhaul of the slide organization system, adding new slide viewer functio
 - Vertical layout for controls on mobile (flex-direction: column)
 - Larger touch targets for slide navigation buttons (44px on tablet, 40px on phone)
 - Proper spacing adjustments for smaller screens
+- **Touch Gesture Isolation:** Pinch-to-zoom and panning on the slide viewer no longer affects the whole page
+- **Mobile Pinch-to-Zoom:** Added two-finger pinch gesture support for zooming slides
+- **Mobile Footer Credit:** "Made with ❤️ by Pranay Juneja" now displays at the bottom on mobile
 
 ---
 
