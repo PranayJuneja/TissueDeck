@@ -1,0 +1,351 @@
+[
+  {
+    "id": "hepatobiliary-system-and-pancreas-ampulla-ampulla",
+    "name": "Ampulla",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Ampulla",
+    "subsection": null,
+    "description": "The hepatopancreatic ampulla (of Vater) is the dilation formed by the union of the pancreatic duct and common bile duct. The mucosa shows complex valvular folds.",
+    "theory": {
+      "features": [
+        "Complex mucosal folds (valvulae)",
+        "Lined by simple columnar epithelium",
+        "Sphincter of Oddi (smooth muscle) surrounding the specific ducts",
+        "Transition to duodenal epithelium at the papilla",
+        "Accessory pancreatic glands often present"
+      ],
+      "location": [
+        "Wall of the 2nd part of the duodenum",
+        "Medial wall",
+        "Formed by junction of CBD and PD"
+      ],
+      "function": [
+        "Conduit for bile and pancreatic juice flow",
+        "Regulation of flow (via Sphincter of Oddi)",
+        "Prevents reflux of duodenal contents"
+      ],
+      "examTips": "Sphincter of Oddi dysfunction can cause biliary pain. Gallstones can impact here, causing both obstructive jaundice AND pancreatitis ('Gallstone Pancreatitis')."
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Ampulla",
+      "Ampulla"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-medium-power-1-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-ampulla-ampulla-of-vater",
+    "name": "Ampulla of Vater",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Ampulla",
+    "subsection": null,
+    "description": "The Ampulla of Vater specifically refers to the dilated junction where the common bile duct and pancreatic duct enter the duodenum. Key features include the complex sphincter mechanism.",
+    "theory": {
+      "features": [
+        "Dilation at junction of CBD and PD",
+        "Surrounded by Sphincter of Ampulla (part of Sphincter of Oddi)",
+        "Lined by columnar epithelium",
+        "Projects into duodenum as Major Duodenal Papilla",
+        "Contains smooth muscle bundles"
+      ],
+      "location": [
+        "Second (descending) part of duodenum",
+        "Posteromedial wall"
+      ],
+      "function": [
+        "Mixing of bile and pancreatic enzymes",
+        "Controlled release into duodenum"
+      ],
+      "examTips": "Abraham Vater described this. It's a key landmark for ERCP (Endoscopic Retrograde Cholangiopancreatography). Tumors here (Ampullary carcinoma) present early with painless jaundice due to duct obstruction."
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Ampulla",
+      "Ampulla of Vater"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla of Vater/Ampulla-of-Vater-low-power-1-scaled.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-ampulla-major-papilla",
+    "name": "Major Papilla",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Ampulla",
+    "subsection": null,
+    "description": "The Major Duodenal Papilla is the nipple-like projection of the ampulla into the duodenal lumen. It is covered by duodenal mucosa.",
+    "theory": {
+      "features": [
+        "Elevation of duodenal mucosa",
+        "Covered by simple columnar epithelium with goblet cells",
+        "Opening of the ampulla at its tip",
+        "Frenulum of the papilla (distal longitudinal fold)",
+        "Hood-like fold superiorly"
+      ],
+      "location": [
+        "Second part of duodenum",
+        "Medial wall",
+        "8-10 cm distal to pylorus"
+      ],
+      "function": [
+        "Exit point for bile and pancreatic juice",
+        "Mechanical protection of the duct opening"
+      ],
+      "examTips": "The Minor Duodenal Papilla (Accessory Pancreatic Duct opening) is located ~2cm proximal (superior) to the Major Papilla. Cannulation of the major papilla is the first step in ERCP."
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Ampulla",
+      "Major Papilla"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Major Papilla/Major-papilla-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-bile-duct",
+    "name": "Bile duct",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Bile duct",
+    "subsection": null,
+    "description": "Extrahepatic bile ducts are fibromuscular tubes lined by simple columnar epithelium. They transport bile from liver/gallbladder to the duodenum.",
+    "theory": {
+      "features": [
+        "High simple columnar epithelium (Cholangiocytes)",
+        "Thin fibro-muscular wall (sparse smooth muscle)",
+        "No muscularis mucosae",
+        "Accessory mucus glands in submucosa",
+        "Dense connective tissue adventitia"
+      ],
+      "location": [
+        "Porta hepatis (Common Hepatic Duct)",
+        "Lesser omentum (free edge)",
+        "Head of pancreas (Common Bile Duct)"
+      ],
+      "function": [
+        "Transport bile",
+        "Modify bile composition (secretion of bicarbonate)",
+        "Cholangiocytes participate in immune defense"
+      ],
+      "examTips": "Histologically looks simpler than ureter. Ureter has TRANSITIONAL epithelium and THICK muscle. Bile duct has COLUMNAR epithelium and THIN/SPARSE muscle. PSC (Primary Sclerosing Cholangitis) causes 'onion-skin' fibrosis around ducts."
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Bile duct"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD1.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD2.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD3.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-gallbladder-cystic-duct",
+    "name": "Cystic Duct",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Gallbladder",
+    "subsection": null,
+    "description": "The cystic duct connects the gallbladder to the common bile duct. Its mucosa forms spiral valve-like folds known as the Spiral Valves of Heister.",
+    "theory": {
+      "features": [
+        "Spiral valves of Heister (mucosal crescents)",
+        "Lined by simple columnar epithelium",
+        "Muscularis: smooth muscle bundles (complex orientation)",
+        "Connects gallbladder neck to Common Hepatic Duct",
+        "Mucous glands in neck region"
+      ],
+      "location": [
+        "Extrahepatic biliary tree",
+        "Between gallbladder neck and common hepatic duct"
+      ],
+      "function": [
+        "Bidirectional flow of bile (filling and emptying gallbladder)",
+        "Valves prevent collapse/kinking of the duct",
+        "Regulates gallbladder filling"
+      ],
+      "examTips": "The 'Spiral Valves of Heister' are true anatomical valves but spiral FOLDS of mucosa containing smooth muscle. They keep the duct open so bile can flow in bidirectional manner."
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Gallbladder",
+      "Cystic Duct"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-medium-power-1-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-gallbladder-gallbladder",
+    "name": "Gallbladder",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Gallbladder",
+    "subsection": null,
+    "description": "The gallbladder is a muscular sac storing and concentrating bile. Its wall has a characteristic simple columnar epithelium with apical microvilli, a muscularis propria, but NO muscularis mucosae or submucosa.",
+    "theory": {
+      "features": [
+        "Simple columnar epithelium (absorptive)",
+        "Mucosal folds which disappear upon distension",
+        "Rokitansky-Aschoff sinuses: mucosal invaginations into muscle layer",
+        "Muscularis: irregular bundles of smooth muscle",
+        "NO submucosa, NO muscularis mucosae",
+        "Serosa (peritoneal) or Adventitia (hepatic surface)"
+      ],
+      "location": [
+        "Fossa on visceral surface of liver",
+        "Right upper quadrant",
+        "Fundus, Body, Neck"
+      ],
+      "function": [
+        "Stores bile",
+        "Concentrates bile (absorbs water/ions)",
+        "Releases bile in response to CCK"
+      ],
+      "examTips": "Lack of submucosa and muscularis mucosae = Gallbladder. Rokitansky-Aschoff sinuses are predisposed to bacteria/stones (not normal, but common pathological finding). Epithelium concentrates bile 10-fold!"
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Gallbladder",
+      "Gallbladder"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-medium-power-1-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-1-scaled.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-3-300x222.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-liver",
+    "name": "Liver",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Liver",
+    "subsection": null,
+    "description": "The liver is the largest internal organ, organized into hexagonal lobules. Hepatocytes radiate from a central vein, separated by sinusoids, with portal triads at the periphery.",
+    "theory": {
+      "features": [
+        "Classic Lobule: Hexagon with central vein",
+        "Portal Triad (at angles): Portal vein branch, Hepatic artery branch, Bile duct",
+        "Hepatocytes: Polyhedral cells arranged in plates/cords",
+        "Sinusoids: Fenestrated capillaries lined by endothelium & Kupffer cells",
+        "Space of Disse: Between hepatocytes and endothelium"
+      ],
+      "location": [
+        "Right Upper Quadrant (RUQ)",
+        "Beneath diaphragm",
+        "Intraperitoneal (except bare area)"
+      ],
+      "function": [
+        "Metabolism (CHO, Protein, Lipid)",
+        "Detoxification (drugs, toxins)",
+        "Bile synthesis (exocrine)",
+        "Plasma protein synthesis (Albumin, Clotting factors)"
+      ],
+      "examTips": "Identify Portal Triad: Duct (cuboidal epithelium), Artery (thick wall), Vein (thin wall, large lumen). Blood flows Centripetally (Triad -> Central Vein). Bile flows Centrifugally (Hepatocytes -> Triad). Kupffer cells are liver macrophages."
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Liver"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-1.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-2.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-pancreas",
+    "name": "Pancreas",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Pancreas",
+    "subsection": null,
+    "description": "The pancreas is a mixed exo-endocrine gland. The exocrine part consists of serous acini producing digestive enzymes. The endocrine part consists of Islets of Langerhans secreting hormones.",
+    "theory": {
+      "features": [
+        "Exocrine: Serous acini with centroacinar cells (start of duct system)",
+        "Endocrine: Islets of Langerhans (pale staining clusters)",
+        "Intercalated ducts merge into interlobular ducts",
+        "Islets more numerous in tail",
+        "Acini contain zymogen granules (apical eosinophilia)"
+      ],
+      "location": [
+        "Retroperitoneal (except tail)",
+        "Posterior to stomach",
+        "Head in C-loop of duodenum, Tail touches spleen"
+      ],
+      "function": [
+        "Exocrine: Digestive enzymes (Trypsin, Lipase, Amylase) + Bicarbonate",
+        "Endocrine: Insulin (Beta), Glucagon (Alpha), Somatostatin (Delta)"
+      ],
+      "examTips": "Centroacinar cells are UNIQUE to pancreas (pale nucleus in center of acinus). Parotid gland looks similar (serous) but HAS striated ducts and NO Islets. Pancreas HAS Islets and NO striated ducts. Islets = Pale islands in a sea of dark acini."
+    },
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Pancreas"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-1.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-4.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-6.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-7.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-8.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-9.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-10.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-11.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-12.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-13.jpg"
+      ]
+    }
+  }
+]

@@ -1,0 +1,561 @@
+[
+  {
+    "id": "gastrointestinal-tract-appendix",
+    "name": "Appendix",
+    "category": "Gastrointestinal Tract",
+    "section": "Appendix",
+    "subsection": null,
+    "description": "The vermiform appendix is a blind-ended tube with a narrow irregular lumen. Its most characteristic feature is the presence of abundant lymphoid follicles in the submucosa and lamina propria.",
+    "theory": {
+      "features": [
+        "Small, irregular lumen filled with debris",
+        "Abundant lymphoid follicles in submucosa (ring of lymphatic tissue)",
+        "Crypts of Lieberkühn present but irregular",
+        "Muscularis externa: continuous longitudinal layer (no taeniae coli)",
+        "Mesoappendix attached to serosa"
+      ],
+      "location": [
+        "Right iliac fossa",
+        "Attached to cecum",
+        "Intraperitoneal"
+      ],
+      "function": [
+        "Part of GALT (Gut-Associated Lymphoid Tissue)",
+        "Reservoir for gut flora",
+        "Immune defense"
+      ],
+      "examTips": "Identify by: 'Colon-like' features (crypts) + 'Tonsil-like' features (lymphoid follicles) + small diameter. Unlike colon, it has a continuous longitudinal muscle coat. Inflammation = Appendicitis (neutrophils in muscularis propria)."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Appendix"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Appendix/normal-appendix-1.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-colon",
+    "name": "Colon",
+    "category": "Gastrointestinal Tract",
+    "section": "Colon",
+    "subsection": null,
+    "description": "The colon (large intestine) functions in water absorption and mucous secretion. Its mucosa is smooth (no villi/plicae) and contains straight tubular glands (Crypts of Lieberkühn).",
+    "theory": {
+      "features": [
+        "Mucosa: simple columnar epithelium with MANY goblet cells",
+        "Absence of villi and plicae circulares",
+        "Straight tubular, test-tube shaped Crypts of Lieberkühn",
+        "Taeniae coli: 3 distinct bands of outer longitudinal muscle",
+        "Pericryptal fibroblast sheath"
+      ],
+      "location": [
+        "Extends from cecum to rectum",
+        "Abdominal and pelvic cavities",
+        "Retroperitoneal (ascending/descending) & Intraperitoneal (transverse/sigmoid)"
+      ],
+      "function": [
+        "Absorption of water and electrolytes",
+        "Production of mucus (lubrication for feces)",
+        "Vitamin K synthesis by gut bacteria"
+      ],
+      "examTips": "Distinguish from small intestine by ABSENCE of villi. Distinguish from appendix by arrangement of longitudinal muscle (taeniae coli present in colon, continuous in appendix). 'Test-tube' crypts + abundant goblet cells = Colon."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Colon"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-1.jpg",
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-2.jpg",
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-oesophagus-myentric-plexus",
+    "name": "Myenteric Plexus",
+    "category": "Gastrointestinal Tract",
+    "section": "Oesophagus",
+    "subsection": null,
+    "description": "The myenteric plexus (Auerbach's plexus) is a network of autonomic ganglia and nerve fibers located between the inner circular and outer longitudinal muscle layers of the muscularis externa.",
+    "theory": {
+      "features": [
+        "Clusters of large neuronal cell bodies (ganglion cells)",
+        "Located BETWEEN inner circular and outer longitudinal muscle layers",
+        "Surrounded by satellite cells (glial cells)",
+        "Unmyelinated nerve fiber bundles",
+        "Pale-staining nuclei with prominent nucleoli"
+      ],
+      "location": [
+        "Throughout GIT from esophagus to rectum",
+        "Muscularis externa layer",
+        "Specifically between muscle layers"
+      ],
+      "function": [
+        "Controls peristalsis (motility)",
+        "Regulates muscular contraction/relaxation",
+        "Part of Enteric Nervous System (ENS)"
+      ],
+      "examTips": "Look for a pale-staining cluster of cells sandwiched between the two thick eosinophilic muscle layers. Hirschsprung disease = congenital absence (aganglionosis) of these plexuses in distal colon. Compare with Meissner's plexus (in submucosa)."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Oesophagus",
+      "Myentric Plexus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Oesophagus/Myentric Plexus/normal-oesophagus-4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-oesophagus-oesophageal-mucosa",
+    "name": "Oesophageal Mucosa",
+    "category": "Gastrointestinal Tract",
+    "section": "Oesophagus",
+    "subsection": null,
+    "description": "The oesophageal mucosa is protective, lined by thick non-keratinized stratified squamous epithelium. It endures abrasion from swallowed food boluses.",
+    "theory": {
+      "features": [
+        "Epithelium: Non-keratinized stratified squamous (thick)",
+        "Lamina propria: Loose connective tissue, cardiac glands (near stomach)",
+        "Muscularis mucosae: Single longitudinal layer (unusually thick)",
+        "Papillae of connective tissue indent epithelium",
+        "Basal cells: Regenerative layer"
+      ],
+      "location": [
+        "Innermost layer of esophagus",
+        "Lines the lumen",
+        "From pharynx to gastroesophageal junction"
+      ],
+      "function": [
+        "Protection against mechanical abrasion",
+        "Protection against refluxed acid (limited)",
+        "Lubrication (via mucous glands)"
+      ],
+      "examTips": "Key ID: Thick stratified squamous epithelium WITHOUT keratin. Muscularis mucosae is longitudinally oriented and thick. Barrett's Esophagus: Metaplasia to columnar epithelium due to chronic reflux (risk of adenocarcinoma)."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Oesophagus",
+      "Oesophageal Mucosa"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophageal Mucosa/normal-oesophagus-6.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-oesophagus-oesophagus",
+    "name": "Oesophagus",
+    "category": "Gastrointestinal Tract",
+    "section": "Oesophagus",
+    "subsection": null,
+    "description": "The oesophagus is a muscular tube transporting food to the stomach. Key features include non-keratinized stratified squamous epithelium and a muscularis externa that transitions from skeletal to smooth muscle.",
+    "theory": {
+      "features": [
+        "Mucosa: Non-keratinized stratified squamous epithelium",
+        "Submucosa: Esophageal glands proper (mucous)",
+        "Muscularis Externa: Upper 1/3 skeletal, Middle 1/3 mixed, Lower 1/3 smooth",
+        "Adventitia (mostly) or Serosa (short abdominal part)",
+        "Folded mucosa (star-shaped lumen)"
+      ],
+      "location": [
+        "Posterior mediastinum",
+        "C6 to T11 vertebrae",
+        "Connects pharynx to stomach"
+      ],
+      "function": [
+        "Food transport (peristalsis)",
+        "Upper Esophageal Sphincter: Prevents air entry",
+        "Lower Esophageal Sphincter: Prevents acid reflux"
+      ],
+      "examTips": "Esophagus is the ONLY part of GIT with squamous epithelium (except anal canal). Muscularis externa transition is classic: Striated (voluntary swallowing) -> Smooth (involuntary peristalsis). Lack of serosa facilitates spread of esophageal cancer."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Oesophagus",
+      "Oesophagus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-1.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-2.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-3.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-5.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-7.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-salivary-gland",
+    "name": "Salivary gland",
+    "category": "Gastrointestinal Tract",
+    "section": "Salivary gland",
+    "subsection": null,
+    "description": "Salivary glands are exocrine glands with acini (secretory units) and a duct system. The major glands (parotid, submandibular, sublingual) vary in preventing acinar type (serous vs. mucous).",
+    "theory": {
+      "features": [
+        "Secretory Acini: Serous (dark, enzymes), Mucous (pale, mucin), or Mixed (serous demilunes)",
+        "Ducts: Intercalated (cuboidal), Striated (columnar, basal striations), Excretory",
+        "Myoepithelial cells contractile cells around acini",
+        "Septa dividing gland into lobules",
+        "Parotid = Pure Serous; Submandibular = Mixed (Mostly Serous); Sublingual = Mixed (Mostly Mucous)"
+      ],
+      "location": [
+        "Parotid: Anterior to ear",
+        "Submandibular: Beneath mandible",
+        "Sublingual: Floor of mouth"
+      ],
+      "function": [
+        "Saliva production (digestive enzymes like amylase)",
+        "Lubrication (mucins)",
+        "Immune defense (IgA, lysozyme)"
+      ],
+      "examTips": "Identify gland type by acini: Parotid is dark/basophilic (all serous). Sublingual is pale (mostly mucous). Submandibular is mixed. Serous demilunes (crescents) are artifacts of fixation found in mixed glands. Striated ducts resorb Na+."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Salivary gland"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-1.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-2.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-3.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-4.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-5.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-6.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-small-bowel",
+    "name": "Small bowel",
+    "category": "Gastrointestinal Tract",
+    "section": "Small bowel",
+    "subsection": null,
+    "description": "The small intestine is the primary site of absorption, characterized by surface area increasing structures: Plicae circulares, Villi, and Microvilli.",
+    "theory": {
+      "features": [
+        "Villi: Finger-like mucosal projections (Core of lamina propria + lacteal)",
+        "Crypts of Lieberkühn: Intestinal glands at base of villi",
+        "Enterocytes: Simple columnar with microvilli (brush border)",
+        "Goblet cells (increase distally)",
+        "Paneth cells (anti-bacterial) at crypt bases"
+      ],
+      "location": [
+        "Pylorus to Ileocecal valve",
+        "Duodenum -> Jejunum -> Ileum",
+        "Abdominal cavity"
+      ],
+      "function": [
+        "Digestion (surface enzymes)",
+        "Absorption of nutrients (villi)",
+        "Immune defense (Peyer's patches)"
+      ],
+      "examTips": "Duodenum: Brunner's glands in SUBMUCOSA (alkaline secretion). Jejunum: Tallest villi, no glands in submucosa. Ileum: Peyer's patches (lymphoid aggregations) in submucosa. 'Leaves on a tree' appearance of villi."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Small bowel"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-1.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-2.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-3.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-4.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-gastric-antrum",
+    "name": "Gastric Antrum",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "description": "The gastric antrum is the distal stomach containing deep gastric pits and mucous-secreting glands. It is responsible for gastrin secretion.",
+    "theory": {
+      "features": [
+        "Pits > Glands (Pits occupy ~50% of mucosal thickness)",
+        "Glands are branched, coiled, tubuloalveolar",
+        "Cells: Mostly mucus-secreting cells",
+        "G cells (Gastrin) present",
+        "Few/No parietal or chief cells compared to body"
+      ],
+      "location": [
+        "Distal part of stomach",
+        "Proximal to pyloric sphincter",
+        "Between body and pylorus"
+      ],
+      "function": [
+        "Mucus secretion",
+        "Gastrin hormone secretion (G cells)",
+        "Mixing and grinding food"
+      ],
+      "examTips": "Antrum vs Body: Antrum has DEEP pits and coiled mucous glands. Body has shallow pits and straight glands rich in Parietal (acid) and Chief (pepsin) cells. H. pylori preferentially colonizes the antrum."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Gastric Antrum"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Gastrointestinal Tract/Stomach/Gastric Antrum/Gastric-antrum-medium-power-3-scaled.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-gastric-foveolae",
+    "name": "Gastric Foveolae",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "description": "Gastric foveolae (pits) are invaginations of the surface epithelium into the lamina propria. They are lined by surface mucous cells that secrete a protective bicarbonate-rich mucus.",
+    "theory": {
+      "features": [
+        "Lined by tall simple columnar surface mucous cells",
+        "Apical mucin cap (insoluble mucus)",
+        "Continuous with gastric glands at the isthmus",
+        "Depth varies by region (Shallow in body, Deep in antrum)",
+        "Protect against autodigestion"
+      ],
+      "location": [
+        "Luminal surface of entire stomach mucosa",
+        "Open into gastric lumen"
+      ],
+      "function": [
+        "Secretion of visible, viscous, alkaline mucus",
+        "Protection from acid and pepsin",
+        "Conduit for gland secretions"
+      ],
+      "examTips": "Don't confuse pits with villi. Villi project OUT, Pits go IN. In histological section, pits look like channels opening to the surface. Surface mucous cells (pits) differ from Mucous neck cells (gland neck) which secrete soluble mucus."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Gastric Foveolae"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Stomach/Gastric Foveolae/Gastric-foveolae-or-pits-1-scaled.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-normal-stomach",
+    "name": "Normal Stomach",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "description": "The stomach body/fundus contains simple branched tubular glands producing acid and enzymes. Key cell types include Parietal cells (acid) and Chief cells (pepsinogen).",
+    "theory": {
+      "features": [
+        "Pits < Glands (Pits occupy ~25% of thickness)",
+        "Straight vertical tubular glands",
+        "Parietal cells: Eosinophilic, fried-egg appearance (upper gland)",
+        "Chief cells: Basophilic, granular (lower gland)",
+        "Three muscle layers: Oblique, Circular, Longitudinal"
+      ],
+      "location": [
+        "Upper left abdomen",
+        "Body and Fundus regions",
+        "Between cardia and antrum"
+      ],
+      "function": [
+        "Chemical digestion (HCl, Pepsin)",
+        "Mechanical churning",
+        "Production of Intrinsic Factor (absorption of Vit B12)"
+      ],
+      "examTips": "Parietal = Pink (Acidophilic), Pumps Protons. Chief = Blue (Basophilic), Creates Proteins (enzymes). Autoimmune gastritis targets parietal cells -> Pernicious Anemia (B12 deficiency)."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Normal Stomach"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-1.jpg",
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-2.jpg",
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-pylorus",
+    "name": "Pylorus",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "description": "The pylorus connects the stomach to the duodenum. It is characterized by deep pits, mucus-secreting pyloric glands, and a thickened circular muscle layer forming the pyloric sphincter.",
+    "theory": {
+      "features": [
+        "Similar to antrum: Deep pits, coiled mucous glands",
+        "Thickened middle circular muscle layer (Sphincter)",
+        "Lymphoid nodules often present",
+        "Enteroendocrine cells (G cells, D cells)",
+        "Absence of parietal/chief cells"
+      ],
+      "location": [
+        "Junction of stomach and duodenum",
+        "Right lower quadrant",
+        "L1 vertebral level (transpyloric plane)"
+      ],
+      "function": [
+        "Controls gastric emptying (pyloric sphincter)",
+        "Prevents bile reflux",
+        "Gastrin release"
+      ],
+      "examTips": "Hypertrophy of the circular muscle layer in infants = Congenital Hypertrophic Pyloric Stenosis (projectile vomiting). Pylorus histology is 'Mucous + Muscle'. The sphincter is a true anatomical sphincter."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Pylorus"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-low-power-1-scaled.jpg"
+      ],
+      "medium": [],
+      "high": [
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-lamina-propria-high-power-1-scaled.jpg",
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-non-specialised-glands-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-tongue",
+    "name": "Tongue",
+    "category": "Gastrointestinal Tract",
+    "section": "Tongue",
+    "subsection": null,
+    "description": "The tongue is a muscular organ covered by stratified squamous epithelium with papillae on the dorsal surface. It contains interlacing bundles of skeletal muscle in three planes.",
+    "theory": {
+      "features": [
+        "Interlacing skeletal muscle fibers (vertical, transverse, longitudinal)",
+        "Filiform papillae: numerous, conical, keratinized (no taste buds)",
+        "Fungiform papillae: mushroom-shaped, non-keratinized, taste buds on top",
+        "Circumvallate papillae: large, taste buds on sides, glands of von Ebner",
+        "Minor salivary glands embedded in muscle"
+      ],
+      "location": [
+        "Oral cavity",
+        "Floor of mouth",
+        "Attached by frenulum"
+      ],
+      "function": [
+        "Taste sensation",
+        "Mastication and bolus formation",
+        "Speech articulation",
+        "Swallowing"
+      ],
+      "examTips": "Muscle fibers running in ALL directions = Tongue. Filiform = Flame-shaped (friction, no taste). Fungiform = Mushroom (Taste). Circumvallate = Valleys (Taste + Washing by von Ebner glands). Posterior 1/3 has lingual tonsils."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Tongue"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-1-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-2-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-3-annotated.jpg"
+      ],
+      "medium": [],
+      "high": [
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-1-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-2-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-3-annotated.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-tonsil--palatine-tonsil-",
+    "name": "Tonsil (Palatine Tonsil)",
+    "category": "Gastrointestinal Tract",
+    "section": "Tonsil (Palatine Tonsil)",
+    "subsection": null,
+    "description": "The palatine tonsils are lymphoid organs covered by stratified squamous epithelium that dips deeply to form tonsillar crypts. They lack afferent lymphatics.",
+    "theory": {
+      "features": [
+        "Covered by non-keratinized stratified squamous epithelium",
+        "Deep tonsillar crypts (often contain debris)",
+        "Abundant lymphoid follicles with germinal centers",
+        "Partial connective tissue capsule (hemicapsule)",
+        "Mucous glands OUTSIDE the capsule"
+      ],
+      "location": [
+        "Oropharynx",
+        "Between palatoglossal and palatopharyngeal arches (tonsillar fossa)",
+        "Posterolateral oral cavity"
+      ],
+      "function": [
+        "Immune surveillance (first line of defense)",
+        "Antibody production (B cells)",
+        "Part of Waldeyer's ring"
+      ],
+      "examTips": "Distinguish from lymph node: Tonsil has Epithelium (crypts) and NO subcapsular sinus. Palatine tonsil = Stratified Squamous. Pharyngeal tonsil (Adenoid) = Respiratory Epithelium. 'Crypt abscesses' = white spots in tonsillitis."
+    },
+    "path": [
+      "Gastrointestinal Tract",
+      "Tonsil (Palatine Tonsil)"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-1-scaled.jpg",
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-3-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-1-scaled.jpg",
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-3-scaled.jpg"
+      ],
+      "default": []
+    }
+  }
+]

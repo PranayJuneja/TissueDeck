@@ -54,25 +54,14 @@
 }
 
 .featureList {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding-left: 1.2rem;
+    color: var(--color-text-muted);
 }
 
 .featureList li {
     padding: var(--space-xs) 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    display: flex;
-    align-items: flex-start;
-}
-
-.featureList li::before {
-    content: "•";
-    color: var(--color-secondary);
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
 }
 
 .examTipBoard {
@@ -80,8 +69,14 @@
     border: 1px solid rgba(59, 130, 246, 0.2);
     border-radius: var(--radius-md);
     padding: var(--space-md);
+    /* Removed flex to allow text to wrap under icon/title */
+}
+
+.examTipHeader {
     display: flex;
+    align-items: center;
     gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
 }
 
 .tipIcon {
@@ -90,9 +85,11 @@
 
 .gridSection {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* Changed to 1 column to make them rows as requested */
+    grid-template-columns: 1fr;
     gap: var(--space-md);
     text-align: left;
+    margin-bottom: var(--space-lg);
 }
 
 .gridSection ul {

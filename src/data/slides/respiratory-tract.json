@@ -1,0 +1,131 @@
+[
+  {
+    "id": "respiratory-tract-bronchus",
+    "name": "Bronchus",
+    "category": "Respiratory Tract",
+    "section": "Bronchus",
+    "subsection": null,
+    "description": "Bronchi are conducting airways with walls containing cartilage plates, smooth muscle, and mucous glands. They are lined by pseudostratified ciliated columnar epithelium (respiratory epithelium).",
+    "theory": {
+      "features": [
+        "Pseudostratified ciliated columnar epithelium with goblet cells",
+        "Irregular cartilage plates (vs C-shaped rings in trachea)",
+        "Spiral smooth muscle bands (muscle of Reissessen)",
+        "Submucosal seromucous glands",
+        "Fibroelastic connective tissue in lamina propria"
+      ],
+      "location": [
+        "Primary bronchi enter at hila of lungs",
+        "Branch into lobar and segmental bronchi",
+        "Within lung parenchyma"
+      ],
+      "function": [
+        "Conduct air to bronchioles",
+        "Mucociliary clearance of particles",
+        "Bronchoconstriction/dilation via smooth muscle"
+      ],
+      "examTips": "Bronchi have cartilage and glands; bronchioles have neither. As airways branch: epithelium becomes simpler, cartilage disappears, smooth muscle increases proportionally. Asthma involves bronchial smooth muscle spasm and mucus hypersecretion."
+    },
+    "path": [
+      "Respiratory Tract",
+      "Bronchus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-1.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-2.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-3.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-4.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "respiratory-tract-lung",
+    "name": "Lung",
+    "category": "Respiratory Tract",
+    "section": "Lung",
+    "subsection": null,
+    "description": "Lung parenchyma consists of respiratory bronchioles, alveolar ducts, alveolar sacs, and alveoli. The alveoli are thin-walled air spaces for gas exchange, lined by Type I and II pneumocytes.",
+    "theory": {
+      "features": [
+        "Alveoli: thin-walled air spaces for gas exchange",
+        "Type I pneumocytes: flat cells covering 95% of alveolar surface",
+        "Type II pneumocytes: cuboidal cells producing surfactant",
+        "Alveolar macrophages (dust cells) in alveolar spaces",
+        "Interalveolar septa with capillary network and elastic fibers"
+      ],
+      "location": [
+        "Thoracic cavity, paired organs",
+        "Right lung: 3 lobes; Left lung: 2 lobes",
+        "Base on diaphragm, apex extends above 1st rib"
+      ],
+      "function": [
+        "Gas exchange: O2/CO2 across blood-air barrier",
+        "Surfactant reduces surface tension, prevents atelectasis",
+        "Immune defense via alveolar macrophages"
+      ],
+      "examTips": "Blood-air barrier = Type I pneumocyte + fused basement membranes + capillary endothelium (~0.5 μm thick). Type II pneumocytes produce surfactant and are progenitor cells. Surfactant appears at 24-28 weeks - premature babies risk RDS."
+    },
+    "path": [
+      "Respiratory Tract",
+      "Lung"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Respiratory Tract/Lung/normal-lung-1.jpg",
+        "/slides/Respiratory Tract/Lung/normal-lung-2.jpg",
+        "/slides/Respiratory Tract/Lung/normal-lung-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "respiratory-tract-trachea",
+    "name": "Trachea",
+    "category": "Respiratory Tract",
+    "section": "Trachea",
+    "subsection": null,
+    "description": "The trachea is a fibromuscular tube reinforced by 16-20 C-shaped hyaline cartilage rings. It is lined by pseudostratified ciliated columnar epithelium with goblet cells (respiratory epithelium).",
+    "theory": {
+      "features": [
+        "C-shaped hyaline cartilage rings (open posteriorly)",
+        "Pseudostratified ciliated columnar epithelium with goblet cells",
+        "Trachealis muscle spans posterior gap between cartilage ends",
+        "Submucosa with seromucous glands",
+        "Adventitia of fibroelastic connective tissue"
+      ],
+      "location": [
+        "C6 vertebra to T4-T5 (carina)",
+        "Anterior to esophagus",
+        "10-12 cm long, 2-2.5 cm diameter"
+      ],
+      "function": [
+        "Conducts air from larynx to bronchi",
+        "Mucociliary escalator clears debris",
+        "Warms, humidifies, and filters inspired air"
+      ],
+      "examTips": "Trachealis muscle allows esophageal expansion during swallowing. Cilia beat toward pharynx (mucociliary escalator). Goblet cells + ciliated cells = respiratory epithelium. Kartagener syndrome: immotile cilia causing recurrent infections, situs inversus."
+    },
+    "path": [
+      "Respiratory Tract",
+      "Trachea"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Respiratory Tract/Trachea/T1.jpg",
+        "/slides/Respiratory Tract/Trachea/T2.jpg",
+        "/slides/Respiratory Tract/Trachea/T3.jpg",
+        "/slides/Respiratory Tract/Trachea/T4.jpg"
+      ]
+    }
+  }
+]

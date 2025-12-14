@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import slides from './data/slides.json';
+import slides from './data/slides/index.js';
 import SlideViewer from './components/SlideViewer';
 import TheoryPanel from './components/TheoryPanel';
 import './styles/global.css';

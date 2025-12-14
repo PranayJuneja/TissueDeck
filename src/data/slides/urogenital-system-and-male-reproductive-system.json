@@ -1,0 +1,295 @@
+[
+  {
+    "id": "urogenital-system-and-male-reproductive-system-bladder",
+    "name": "Bladder",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Bladder",
+    "subsection": null,
+    "description": "The urinary bladder is a distensible muscular sac. It is lined by urothelium which allows for significant stretching.",
+    "theory": {
+      "features": [
+        "Mucosa: Transitional epithelium (Urothelium)",
+        "Umbrella cells (large, dome-shaped) on surface",
+        "Muscularis propria: 3 layers of smooth muscle (Detrusor muscle)",
+        "Folded mucosa (rugae) when empty",
+        "Serosa (superiorly) or Adventitia (elsewhere)"
+      ],
+      "location": [
+        "Pelvic cavity",
+        "Posterior to pubic symphysis"
+      ],
+      "function": [
+        "Storage of urine",
+        "Expulsion of urine (micturition)"
+      ],
+      "examTips": "Look for Umbrella Cells: Large, binucleated, plaque-bearing cells on the surface. Epithelium thickness varies: 3-4 layers (distended) vs 6-7 layers (relaxed). No muscularis mucosae/submucosa distinct border."
+    },
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Bladder"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Bladder/normal-bladder-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Bladder/normal-bladder-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-kidney",
+    "name": "Kidney",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Kidney",
+    "subsection": null,
+    "description": "The kidney consists of a cortex (containing glomeruli and convoluted tubules) and a medulla (containing loops of Henle and collecting ducts).",
+    "theory": {
+      "features": [
+        "Cortex: Glomeruli (renal corpuscles)",
+        "PCT (brush border, eosinophilic) & DCT (clearer lumen, no brush border)",
+        "Medullary Rays (straight tubules) in cortex",
+        "Medulla: Collecting ducts (cuboidal/columnar) and Loops of Henle (squamous/cuboidal)",
+        "Interlobular arteries and veins"
+      ],
+      "location": [
+        "Retroperitoneal",
+        "Posterior abdominal wall (T12-L3)"
+      ],
+      "function": [
+        "Filtration of blood (Glomerulus)",
+        "Reabsorption/Secretion (Tubules)",
+        "Regulation of BP (Renin), RBCs (Erythropoietin)"
+      ],
+      "examTips": "Differentiate PCT vs DCT: PCT has messy lumen (brush border) and is very pink. DCT has clean lumen and is paler. Glomerulus = Ball of capillaries surrounded by Bowman's space."
+    },
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Kidney"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-3.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-4.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-prostate",
+    "name": "Prostate",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Prostate",
+    "subsection": null,
+    "description": "The prostate is a fibromuscular glandular organ. It consists of tubuloalveolar glands embedded in a fibromuscular stroma.",
+    "theory": {
+      "features": [
+        "Tubuloalveolar glands with folded mucosa",
+        "Epithelium: Simple/Pseudostratified columnar",
+        "Stroma: Abundant smooth muscle and collagen (Fibromuscular)",
+        "Corpora Amylacea (Prostatic concretions): Lamellated pink bodies in lumen (age-related)",
+        "No distinct capsule between glands"
+      ],
+      "location": [
+        "Inferior to bladder",
+        "Surrounds prostatic urethra"
+      ],
+      "function": [
+        "Secretes proteolytic enzymes (PSA) and acid phosphatase",
+        "Liquefaction of semen"
+      ],
+      "examTips": "Key ID features: Corpora Amylacea (looks like cut tree trunks/onions) + Fibromuscular Stroma (pink muscle everywhere between glands). Glands have papillary infoldings but NO true villi."
+    },
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Prostate"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-3.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-4.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-5.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-6.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-seminal-vesicle",
+    "name": "Seminal vesicle",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Seminal vesicle",
+    "subsection": null,
+    "description": "The seminal vesicles are paired glands composed of a highly coiled tube. The mucosa shows extensive branching and folding.",
+    "theory": {
+      "features": [
+        "Extremely complex, honeycomb-like mucosal folds (Primary, Secondary, Tertiary folds)",
+        "Epithelium: Pseudostratified columnar with pigment (lipofuscin)",
+        "Muscularis: Inner circular, Outer longitudinal",
+        "Lumen often contains eosinophilic secretion",
+        "Fibrous adventitia"
+      ],
+      "location": [
+        "Posterior to bladder",
+        "Superior to prostate"
+      ],
+      "function": [
+        "Secretes fructose (energy for sperm)",
+        "Secretes prostaglandins and coagulating proteins",
+        "Makes up 70% of semen volume"
+      ],
+      "examTips": "Honeycomb mucosa is the key. Often confused with Fallopian tube, but SV folds are finer, mesh-like/honeycombed, and the epithelium may contain golden brown pigment (lipofuscin). Fallopian tube has distinct finger-like plicae."
+    },
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Seminal vesicle"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Seminal vesicle/normal-seminal-vesicle-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Seminal vesicle/normal-seminal-vesicle-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Seminal vesicle/normal-seminal-vesicle-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-testis-and-epididymis-epididymis",
+    "name": "Epididymis",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Testis and Epididymis",
+    "subsection": null,
+    "description": "The epididymis is a highly coiled tube connecting the testis to the vas deferens. It is the site of sperm maturation and storage.",
+    "theory": {
+      "features": [
+        "Pseudostratified columnar epithelium with Stereocilia (long microvilli)",
+        "Principal cells (absorptive/secretory) & Basal cells (stem cells)",
+        "Spermatozoa often visible in lumen",
+        "Smooth muscle layer (thickness increases tail-ward)",
+        "Interstitial connective tissue"
+      ],
+      "location": [
+        "Posterolateral aspect of testis",
+        "Scrotum"
+      ],
+      "function": [
+        "Sperm maturation (motility, ability to fertilize)",
+        "Sperm storage (in tail)",
+        "Absorption of fluid"
+      ],
+      "examTips": "Stereocilia are NOT motile (they are actually microvilli). Look for 'clean' circular tubes filled with sperm clumps, lined by tall cells with 'not-cilia' (clumped stereocilia). Smooth muscle coat is circular."
+    },
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Testis and Epididymis",
+      "Epididymis"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Epididymis/normal-testis-and-epididymis-9.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Epididymis/normal-testis-and-epididymis-10.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Epididymis/normal-testis-and-epididymis-11.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-testis-and-epididymis-testis",
+    "name": "Testis",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Testis and Epididymis",
+    "subsection": null,
+    "description": "The testis is the male gonad, enclosed by the Tunica Albuginea. It consists of seminiferous tubules where spermatogenesis occurs.",
+    "theory": {
+      "features": [
+        "Seminiferous Tubules: Complex stratified epithelium (Germinal epithelium)",
+        "Sertoli Cells (nurse cells): Pale, oval nucleus, support germ cells",
+        "Spermatogenic cells: Spermatogonia (basal), Spermatocytes, Spermatids, Spermatozoa (lumen)",
+        "Interstitial Cells of Leydig: Clusters in CT between tubules (secrete Testosterone)",
+        "Myoid cells around tubules"
+      ],
+      "location": [
+        "Scrotum",
+        "Suspended by spermatic cord"
+      ],
+      "function": [
+        "Spermatogenesis (exocrine)",
+        "Androgen production (endocrine - Leydig cells)"
+      ],
+      "examTips": "Identify Leydig cells (pink clusters in 'triangles' between round tubules). In tubules, Spermatogonia are on the BASEMENT MEMBRANE. Sperm tails in lumen. Sertoli cell nuclei are pale and large compared to dark round germ cells."
+    },
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Testis and Epididymis",
+      "Testis"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-3.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-4.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-5.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-6.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-7.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-8.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-ureter",
+    "name": "Ureter",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Ureter",
+    "subsection": null,
+    "description": "The ureter is a muscular tube transporting urine from kidney to bladder. It has a star-shaped lumen in cross-section.",
+    "theory": {
+      "features": [
+        "Mucosa: Transitional epithelium (Urothelium) on lamina propria",
+        "Star-shaped lumen (due to longitudinal mucosal folds)",
+        "Muscularis: Inner longitudinal, Outer circular (Opposite of GI tract!)",
+        "Lower 1/3 has extra outer longitudinal layer",
+        "Adventitia: Fibroelastic CT with vessels/nerves"
+      ],
+      "location": [
+        "Retroperitoneal",
+        "Extends from Renal Pelvis to Bladder"
+      ],
+      "function": [
+        "Peristaltic transport of urine"
+      ],
+      "examTips": "Remember the muscle layers are OPPOSITE to the GIT. GIT = Inner Circular. Ureter = Inner Longitudinal. 'Lumen looks like a star'. Epithelium is transitional (dome cells)."
+    },
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Ureter"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Ureter/normal-ureter-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Ureter/normal-ureter-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Ureter/normal-ureter-3.jpg"
+      ]
+    }
+  }
+]

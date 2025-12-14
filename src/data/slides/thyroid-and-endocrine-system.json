@@ -1,0 +1,122 @@
+[
+  {
+    "id": "thyroid-and-endocrine-system-adrenal",
+    "name": "Adrenal",
+    "category": "Thyroid and Endocrine System",
+    "section": "Adrenal",
+    "subsection": null,
+    "description": "The adrenal gland consists of an outer Cortex (steroid secreting) and an inner Medulla (catecholamine secreting), surrounded by a capsule.",
+    "theory": {
+      "features": [
+        "Cortex Zona Glomerulosa: Clusters/Arches of cells (Salt - Aldosterone)",
+        "Cortex Zona Fasciculata: Straight cords of vacuolated cells (Sugar - Cortisol)",
+        "Cortex Zona Reticularis: Anastomosing network of cells (Sex - Androgens)",
+        "Medulla: Chromaffin cells (large, granular, basophilic) and large veins",
+        "Central Adrenomedullary Vein"
+      ],
+      "location": [
+        "Superior pole of kidneys",
+        "Retroperitoneal"
+      ],
+      "function": [
+        "Stress response (Cortisol, Adrenaline)",
+        "Electrolyte balance (Aldosterone)",
+        "Secondary sex characteristics (Androgens)"
+      ],
+      "examTips": "Remember G-F-R (Glomerulosa, Fasciculata, Reticularis) -> Salt, Sugar, Sex. Medulla stains brown with Chromium salts (Chromaffin reaction). Spongiocytes = vacuolated cells of Zona Fasciculata (lipid droplets)."
+    },
+    "path": [
+      "Thyroid and Endocrine System",
+      "Adrenal"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-1.jpg",
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-2.jpg",
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "thyroid-and-endocrine-system-parathyroid",
+    "name": "Parathyroid",
+    "category": "Thyroid and Endocrine System",
+    "section": "Parathyroid",
+    "subsection": null,
+    "description": "The parathyroid glands are four small glands located on the posterior thyroid. They contain densely packed Chief cells and Oxyphil cells.",
+    "theory": {
+      "features": [
+        "Chief Cells: Small, polygonal, central nucleus, pale cytoplasm (most abundant)",
+        "Oxyphil Cells: Larger, eosinophilic (pink) cytoplasm, small dark nucleus",
+        "Adipocytes (increase with age)",
+        "Thin connective tissue capsule",
+        "Rich capillary network"
+      ],
+      "location": [
+        "Posterior surface of thyroid gland lobes",
+        "Usually 4 glands (2 superior, 2 inferior)"
+      ],
+      "function": [
+        "Calcium homeostasis (increases blood Ca2+)",
+        "secretes Parathyroid Hormone (PTH)"
+      ],
+      "examTips": "Chief cells secrete PTH. Oxyphil cells are packed with mitochondria (hence eosinophilic) and function is unclear. Mistake for lymph node? No follicles/germinal centers here. Mistake for Thyroid? No colloid follicles here."
+    },
+    "path": [
+      "Thyroid and Endocrine System",
+      "Parathyroid"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-1.jpg",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-2.jpg",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-3.jpg",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "thyroid-and-endocrine-system-thyroid",
+    "name": "Thyroid",
+    "category": "Thyroid and Endocrine System",
+    "section": "Thyroid",
+    "subsection": null,
+    "description": "The thyroid gland consists of follicles filled with colloid (thyroglobulin), lined by follicular cells. Parafollicular (C) cells are found between follicles.",
+    "theory": {
+      "features": [
+        "Thyroid Follicles: Spherical units filled with eosinophilic Colloid",
+        "Follicular Cells: Simple cuboidal epithelium (height varies with activity)",
+        "Parafollicular (C) Cells: Pale staining, in clusters between follicles",
+        "Fenestrated capillaries",
+        "Colloid shows marginal scalloping when active"
+      ],
+      "location": [
+        "Anterior neck",
+        "Anterior to trachea (C5-T1 level)"
+      ],
+      "function": [
+        "Metabolism regulation (T3/T4 from Follicular cells)",
+        "Calcium regulation - lowers blood Ca2+ (Calcitonin from C cells)"
+      ],
+      "examTips": "Only endocrine gland that stores hormones EXTRACELLULARLY (in colloid). Active gland = Tall cells + Scalloped colloid. Inactive gland = Flat cells + Distended colloid. C cells secrete Calcitonin."
+    },
+    "path": [
+      "Thyroid and Endocrine System",
+      "Thyroid"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Thyroid and Endocrine System/Thyroid/normal-thyroid-1.jpg"
+      ]
+    }
+  }
+]

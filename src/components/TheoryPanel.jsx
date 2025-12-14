@@ -63,11 +63,11 @@ const TheoryPanel = ({ tissue }) => {
                     {/* Exam Tips */}
                     {theory.examTips && (
                         <section className={`${styles.section} ${styles.examTipBoard}`}>
-                            <div className={styles.tipIcon}>💡</div>
-                            <div>
+                            <div className={styles.examTipHeader}>
+                                <div className={styles.tipIcon}>💡</div>
                                 <h3>Exam Tips</h3>
-                                <p>{theory.examTips}</p>
                             </div>
+                            <p>{theory.examTips}</p>
                         </section>
                     )}
                 </>

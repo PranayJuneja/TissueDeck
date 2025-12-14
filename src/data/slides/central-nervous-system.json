@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "central-nervous-system-brain-cerebellum-cerebellar-cortex",
+    "name": "Cerebellar Cortex",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebellum",
+    "description": "The cerebellar cortex has three distinct layers: outer molecular layer, middle Purkinje cell layer, and inner granular layer. The Purkinje cells are the hallmark of cerebellar histology.",
+    "theory": {
+      "features": [
+        "Three-layered cortex: molecular, Purkinje, granular (outer to inner)",
+        "Purkinje cells: large flask-shaped neurons with extensive dendritic trees",
+        "Molecular layer: mostly neuropil with few cells (basket and stellate cells)",
+        "Granular layer: densely packed small granule cells (most numerous neurons in brain)",
+        "Cerebellar glomeruli: synaptic complexes in granular layer"
+      ],
+      "location": [
+        "Posterior cranial fossa, beneath tentorium cerebelli",
+        "Attached to brainstem via three cerebellar peduncles"
+      ],
+      "function": [
+        "Motor coordination and balance",
+        "Purkinje cells provide sole output of cerebellar cortex (inhibitory)",
+        "Processing of proprioceptive information"
+      ],
+      "examTips": "Purkinje cells are KEY identification feature - large, flask-shaped with prominent nucleolus. Only GABAergic output. Granular layer appears basophilic due to densely packed nuclei. Damage causes ataxia and intention tremor."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebellum",
+      "Cerebellar Cortex"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellar Cortex/Cerebellar-cortex-high-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebellum-cerebellum",
+    "name": "Cerebellum",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebellum",
+    "description": "The cerebellum shows characteristic folia (folds) with a branching white matter core (arbor vitae) covered by three-layered gray matter cortex. It coordinates movement and maintains posture.",
+    "theory": {
+      "features": [
+        "Folia: narrow, parallel folds of cerebellar surface",
+        "Arbor vitae: tree-like branching white matter",
+        "Gray matter covers white matter (opposite of cerebrum arrangement)",
+        "Deep cerebellar nuclei embedded in white matter",
+        "Pia mater follows contour of folia"
+      ],
+      "location": [
+        "Posterior cranial fossa",
+        "Connected to pons, medulla, and midbrain via peduncles",
+        "Separated from cerebrum by tentorium cerebelli"
+      ],
+      "function": [
+        "Coordination of voluntary movements",
+        "Maintenance of balance and posture",
+        "Motor learning and procedural memory"
+      ],
+      "examTips": "Arbor vitae = 'tree of life' - named for branching white matter pattern. Three lobes: anterior, posterior, flocculonodular. Flocculonodular lobe connects to vestibular system (balance). Vermian lesions cause truncal ataxia."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebellum",
+      "Cerebellum"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-2.jpg",
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-3.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-medium-4.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebrum-cerebral-cortex",
+    "name": "Cerebral Cortex",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebrum",
+    "description": "The cerebral cortex is organized into 6 layers of gray matter containing pyramidal neurons, stellate cells, and abundant neuropil. The neocortex follows this 6-layer pattern.",
+    "theory": {
+      "features": [
+        "Six histological layers (I-VI from surface to white matter)",
+        "Layer I (molecular): few cells, mainly dendrites and axons",
+        "Layer III & V: pyramidal neurons (output neurons)",
+        "Layer IV: granule cells (input layer, receives thalamic fibers)",
+        "Neurons, glial cells, and blood vessels in neuropil"
+      ],
+      "location": [
+        "Surface of cerebral hemispheres (gray matter covers white matter)",
+        "Organized into gyri (ridges) and sulci (grooves)",
+        "Thickness varies: 1.5-4.5mm depending on region"
+      ],
+      "function": [
+        "Higher cognitive functions: thought, perception, consciousness",
+        "Motor planning and execution (layer V pyramidal neurons)",
+        "Sensory processing (layer IV receives input)"
+      ],
+      "examTips": "6 layers characterize neocortex (90% of cortex). Motor cortex has thick layer V with giant Betz cells. Sensory cortex has thick layer IV. Remember: 'I-Molecular, II-External granular, III-External pyramidal, IV-Internal granular, V-Internal pyramidal, VI-Multiform'"
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebrum",
+      "Cerebral Cortex"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-low-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebrum-cerebrum",
+    "name": "Cerebrum",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebrum",
+    "description": "The cerebrum is the largest brain region with two hemispheres connected by corpus callosum. It shows outer gray matter cortex, underlying white matter, and deep gray matter nuclei (basal ganglia).",
+    "theory": {
+      "features": [
+        "Gyri and sulci increase surface area for neurons",
+        "Gray matter (cortex) covers white matter",
+        "White matter contains myelinated axons (fibers)",
+        "Basal ganglia: deep gray matter nuclei (caudate, putamen, globus pallidus)",
+        "Lateral ventricles within each hemisphere"
+      ],
+      "location": [
+        "Largest part of brain, fills most of cranium",
+        "Two hemispheres in anterior and middle cranial fossae",
+        "Connected by corpus callosum (largest commissure)"
+      ],
+      "function": [
+        "Seat of consciousness, cognition, and voluntary movement",
+        "Sensory perception and interpretation",
+        "Memory, emotion, and higher executive functions"
+      ],
+      "examTips": "Cerebrum has gray matter externally, white matter internally (opposite of spinal cord). Key regions: frontal (motor, personality), parietal (sensory), temporal (hearing, memory), occipital (vision). Broca's and Wernicke's areas for speech."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebrum",
+      "Cerebrum"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebrum/Cerebrum-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebrum-white-matter",
+    "name": "White Matter",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebrum",
+    "description": "White matter consists of myelinated axons bundled into tracts. The white appearance is due to lipid-rich myelin sheaths produced by oligodendrocytes.",
+    "theory": {
+      "features": [
+        "Myelinated axon bundles (nerve fiber tracts)",
+        "Oligodendrocytes produce myelin (one cell myelinates multiple axons)",
+        "Microglia, astrocytes, and blood vessels present",
+        "Association fibers: connect same hemisphere areas",
+        "Commissural fibers: connect both hemispheres (corpus callosum)"
+      ],
+      "location": [
+        "Deep to cerebral cortex",
+        "Centrum semiovale: large white matter mass of hemispheres",
+        "Internal capsule: between basal ganglia and thalamus"
+      ],
+      "function": [
+        "Rapid conduction of nerve impulses",
+        "Connects different brain regions",
+        "Three fiber types: association, commissural, projection"
+      ],
+      "examTips": "Oligodendrocytes are the myelin-forming cells of CNS (vs Schwann cells in PNS). Multiple sclerosis involves demyelination of white matter. Internal capsule lesions cause contralateral hemiparesis. LFB stain highlights myelin."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebrum",
+      "White Matter"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Cerebrum/White Matter/White-matter-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-hippocampus-dentate-gyrus",
+    "name": "Dentate Gyrus",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Hippocampus",
+    "description": "The dentate gyrus is a C-shaped structure within the hippocampal formation containing densely packed granule cells. It is a major site of adult neurogenesis and plays a role in memory formation.",
+    "theory": {
+      "features": [
+        "Three layers: molecular, granule cell, polymorphic (hilus)",
+        "Granule cells: small, densely packed neurons in granule layer",
+        "Mossy fibers: axons of granule cells project to CA3",
+        "Subgranular zone: site of adult neurogenesis",
+        "C-shaped or V-shaped configuration embracing CA3"
+      ],
+      "location": [
+        "Medial temporal lobe as part of hippocampal formation",
+        "Interlocks with hippocampus proper (Ammon's horn)",
+        "Part of limbic system"
+      ],
+      "function": [
+        "Pattern separation in memory processing",
+        "Adult neurogenesis - new neurons throughout life",
+        "Part of the trisynaptic circuit of hippocampus"
+      ],
+      "examTips": "Dentate gyrus is one of two brain regions with adult neurogenesis (other is subventricular zone). Granule cells send mossy fibers to CA3 pyramidal neurons. Damage affects spatial memory and pattern separation."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Hippocampus",
+      "Dentate Gyrus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-2.jpg",
+        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-4.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-hippocampus-hippocampus",
+    "name": "Hippocampus",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Hippocampus",
+    "description": "The hippocampus (Ammon's horn) is a curved structure with three-layered archicortex divided into CA1-CA4 regions. It is critical for memory consolidation and spatial navigation.",
+    "theory": {
+      "features": [
+        "Three-layered archicortex (simpler than 6-layer neocortex)",
+        "CA regions: CA1, CA2, CA3, CA4 (pyramidal neurons vary in size)",
+        "Pyramidal cell layer: large neurons in characteristic curved arrangement",
+        "Stratum oriens, pyramidale, radiatum, lacunosum-moleculare",
+        "Alveus: white matter covering hippocampal surface"
+      ],
+      "location": [
+        "Medial temporal lobe, floor of lateral ventricle temporal horn",
+        "Part of limbic system",
+        "Bilateral - one in each hemisphere"
+      ],
+      "function": [
+        "Consolidation of short-term to long-term memory",
+        "Spatial memory and navigation",
+        "Episodic memory formation"
+      ],
+      "examTips": "CA1 neurons are most vulnerable to hypoxic injury (watershed zone). Hippocampus is involved in Alzheimer's disease (early atrophy). Bilateral damage causes anterograde amnesia (like patient H.M.). Papez circuit involves hippocampus."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Hippocampus",
+      "Hippocampus"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-2.jpg",
+        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-4.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-medulla-m-o---inferior-olivary-nucleus-",
+    "name": "M.O. (Inferior Olivary Nucleus)",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Medulla",
+    "description": "The inferior olivary nucleus is a prominent convoluted structure in the medulla. It appears as a crumpled bag or bag of cells and is a major relay station for cerebellar afferents.",
+    "theory": {
+      "features": [
+        "Distinctive crinkled/folded appearance (like a crumpled bag)",
+        "Contains principal olive and accessory olivary nuclei",
+        "Large neurons arranged in convolutions",
+        "Surrounded by white matter tracts",
+        "Hilum faces medially toward midline"
+      ],
+      "location": [
+        "Anterolateral medulla oblongata",
+        "Forms olive bulge on external medullary surface",
+        "Between pyramids and inferior cerebellar peduncle"
+      ],
+      "function": [
+        "Source of climbing fibers to cerebellar cortex",
+        "Motor learning and timing",
+        "Receives input from motor cortex, basal ganglia, red nucleus"
+      ],
+      "examTips": "Inferior olive sends climbing fibers to Purkinje cells via inferior cerebellar peduncle. Each climbing fiber synapses on one Purkinje cell (unlike parallel fibers). Involved in motor learning and timing. Lesions cause tremor."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Medulla",
+      "M.O. (Inferior Olivary Nucleus)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Inferior-olivary-nucleus-High-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Medial-lemniscus-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-medulla-medulla-oblongata",
+    "name": "Medulla Oblongata",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Medulla",
+    "description": "The medulla oblongata is the caudal part of brainstem connecting to spinal cord. It contains vital autonomic centers and shows characteristic structures like pyramids, olives, and cranial nerve nuclei.",
+    "theory": {
+      "features": [
+        "Pyramids: ventral white matter (corticospinal tracts)",
+        "Pyramidal decussation at caudal end",
+        "Olives: lateral bulges containing olivary nuclei",
+        "Cranial nerve nuclei: IX, X, XI, XII",
+        "Gracile and cuneate nuclei dorsally"
+      ],
+      "location": [
+        "Between pons (rostrally) and spinal cord (caudally)",
+        "At foramen magnum level",
+        "Forms lower part of floor of 4th ventricle"
+      ],
+      "function": [
+        "Vital centers: cardiac, respiratory, vasomotor",
+        "Decussation of major motor and sensory tracts",
+        "Reflex centers for vomiting, coughing, swallowing"
+      ],
+      "examTips": "Medulla contains life-sustaining centers - injury can be fatal. Lateral medullary syndrome (PICA stroke) causes crossed sensory loss. Pyramidal decussation explains contralateral motor control. Lower cranial nerves (IX-XII) originate here."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Medulla",
+      "Medulla Oblongata"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-4.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-4.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-4.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-midbrain-midbrain",
+    "name": "Midbrain",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Midbrain",
+    "description": "The midbrain (mesencephalon) is the shortest brainstem segment, characterized by cerebral peduncles ventrally, tegmentum, and tectum (superior and inferior colliculi) dorsally. The cerebral aqueduct passes through it.",
+    "theory": {
+      "features": [
+        "Cerebral peduncles: large ventral fiber bundles (corticospinal/bulbar tracts)",
+        "Tectum: superior colliculi (visual) and inferior colliculi (auditory)",
+        "Cerebral aqueduct: connects 3rd and 4th ventricles",
+        "Substantia nigra: dark pigmented nucleus (dopaminergic)",
+        "Red nucleus: reddish due to iron content"
+      ],
+      "location": [
+        "Between pons (caudally) and diencephalon (rostrally)",
+        "Passes through tentorial notch",
+        "Shortest part of brainstem"
+      ],
+      "function": [
+        "Visual and auditory reflexes (tectum)",
+        "Motor control pathways (cerebral peduncles)",
+        "Dopamine production (substantia nigra)"
+      ],
+      "examTips": "Midbrain lesions: Weber syndrome (CN III + contralateral hemiparesis) and Benedikt syndrome (CN III + contralateral tremor). Parinaud syndrome involves superior colliculus. Aqueductal stenosis causes hydrocephalus."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Midbrain",
+      "Midbrain"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Low-power-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-midbrain-substantia-nigra",
+    "name": "Substantia Nigra",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Midbrain",
+    "description": "The substantia nigra is a darkly pigmented nucleus in the midbrain due to neuromelanin in dopaminergic neurons. It has two parts: pars compacta (dopaminergic) and pars reticulata (GABAergic).",
+    "theory": {
+      "features": [
+        "Dark pigmentation due to neuromelanin (dopamine metabolite)",
+        "Pars compacta (SNpc): dopaminergic neurons, dorsal",
+        "Pars reticulata (SNpr): GABAergic neurons, ventral",
+        "Located between cerebral peduncles and tegmentum",
+        "Neurons contain abundant melanin pigment granules"
+      ],
+      "location": [
+        "Midbrain, between crus cerebri and tegmentum",
+        "Extends through length of midbrain",
+        "Forms part of basal ganglia functionally"
+      ],
+      "function": [
+        "Dopamine release to striatum (nigrostriatal pathway)",
+        "Motor planning and movement initiation",
+        "Part of reward and addiction circuits"
+      ],
+      "examTips": "Degeneration of SNpc dopaminergic neurons causes Parkinson's disease (TRAP: Tremor, Rigidity, Akinesia, Postural instability). Neuromelanin increases with age. Lewy bodies are pathological hallmark of Parkinson's."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Midbrain",
+      "Substantia Nigra"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Midbrain/Substantia Nigra/Substantia-nigra-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-anterior-pituitary",
+    "name": "Anterior Pituitary",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "description": "The anterior pituitary (adenohypophysis) is glandular tissue derived from oral ectoderm (Rathke's pouch). It contains cords of epithelial cells that produce trophic hormones under hypothalamic control.",
+    "theory": {
+      "features": [
+        "Cords and clusters of epithelial cells with rich sinusoidal capillaries",
+        "Three cell types by staining: acidophils, basophils, chromophobes",
+        "Acidophils: somatotrophs (GH) and lactotrophs (prolactin)",
+        "Basophils: corticotrophs (ACTH), thyrotrophs (TSH), gonadotrophs (FSH/LH)",
+        "Chromophobes: degranulated or undifferentiated cells"
+      ],
+      "location": [
+        "Anterior part of sella turcica (hypophyseal fossa)",
+        "Derived from Rathke's pouch (oral ectoderm)",
+        "Larger than posterior pituitary (~75% of gland)"
+      ],
+      "function": [
+        "Secretes 6 major hormones: GH, prolactin, ACTH, TSH, FSH, LH",
+        "Regulated by hypothalamic releasing/inhibiting hormones",
+        "Hormones reach target organs via systemic circulation"
+      ],
+      "examTips": "Remember 'FLAT PEG' for anterior pituitary hormones: FSH, LH, ACTH, TSH, Prolactin, Endorphins, GH. Acidophils are GH + Prolactin (growth and lactation). Pituitary adenomas are most commonly prolactinomas."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Anterior Pituitary"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-2.jpg",
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-4.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-pars-intermedia",
+    "name": "Pars Intermedia",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "description": "The pars intermedia is a thin zone between anterior and posterior pituitary, containing basophilic cells and colloid-filled cysts (Rathke's cysts). It is rudimentary in humans but prominent in other animals.",
+    "theory": {
+      "features": [
+        "Thin layer of basophilic cells",
+        "Colloid-filled cysts (remnants of Rathke's pouch)",
+        "Contains POMC-producing cells (like corticotrophs)",
+        "Relatively avascular compared to pars distalis",
+        "May contain melanotrophs in some species"
+      ],
+      "location": [
+        "Between pars distalis (anterior) and pars nervosa (posterior)",
+        "Surrounds residual lumen of Rathke's pouch",
+        "Very thin in adult humans"
+      ],
+      "function": [
+        "Produces MSH (melanocyte-stimulating hormone) - minor in humans",
+        "POMC processing",
+        "Rudimentary role in human physiology"
+      ],
+      "examTips": "Rathke's pouch remnants can form Rathke's cleft cysts or craniopharyngiomas. Pars intermedia is vestigial in humans but prominent in lower vertebrates. MSH causes skin darkening - important in amphibians, not humans."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Pars Intermedia"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Low-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-pituitary-gland",
+    "name": "Pituitary Gland",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "description": "The pituitary gland (hypophysis) is a pea-sized master endocrine gland with two distinct parts: anterior (glandular adenohypophysis) and posterior (neural neurohypophysis), each with different embryological origins.",
+    "theory": {
+      "features": [
+        "Two embryologically distinct parts: adenohypophysis and neurohypophysis",
+        "Adenohypophysis: glandular epithelium from Rathke's pouch",
+        "Neurohypophysis: neural tissue from diencephalon",
+        "Connected to hypothalamus via pituitary stalk",
+        "Hypophyseal portal system connects hypothalamus to anterior pituitary"
+      ],
+      "location": [
+        "Sella turcica of sphenoid bone",
+        "Below optic chiasm (important for visual field defects)",
+        "Connected to hypothalamus by infundibulum"
+      ],
+      "function": [
+        "Master endocrine gland - regulates other glands",
+        "Anterior: synthesizes and secretes hormones",
+        "Posterior: stores and releases hypothalamic hormones (ADH, oxytocin)"
+      ],
+      "examTips": "Pituitary tumor expanding upward compresses optic chiasm causing bitemporal hemianopia. Sheehan syndrome: postpartum pituitary necrosis from hemorrhage. Empty sella syndrome: CSF fills sella, compressing pituitary."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Pituitary Gland"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-2.jpg",
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-4.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-pituitary-stalk",
+    "name": "Pituitary Stalk",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "description": "The pituitary stalk (infundibulum) connects the hypothalamus to the pituitary gland. It contains axons from hypothalamic nuclei and the hypophyseal portal vessels.",
+    "theory": {
+      "features": [
+        "Contains hypothalamo-hypophyseal tract axons",
+        "Hypophyseal portal vessels run along its surface",
+        "Pars tuberalis wraps around the stalk",
+        "Unmyelinated axons from supraoptic and paraventricular nuclei",
+        "Pituicytes (glial cells) present"
+      ],
+      "location": [
+        "Connects median eminence of hypothalamus to pituitary",
+        "Passes through diaphragma sellae",
+        "Posterior to optic chiasm"
+      ],
+      "function": [
+        "Carries axons transporting ADH and oxytocin to posterior pituitary",
+        "Portal vessels carry releasing hormones to anterior pituitary",
+        "Physical and vascular connection between hypothalamus and pituitary"
+      ],
+      "examTips": "Stalk transection causes diabetes insipidus (loss of ADH) and hyperprolactinemia (loss of dopamine inhibition). Hypophyseal portal system is KEY for anterior pituitary regulation - no direct neural control."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Pituitary Stalk"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-posterior-pituitary",
+    "name": "Posterior Pituitary",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "description": "The posterior pituitary (neurohypophysis) is neural tissue derived from the diencephalon. It stores and releases ADH and oxytocin synthesized in hypothalamic nuclei, transported via axons.",
+    "theory": {
+      "features": [
+        "Composed of unmyelinated axons and pituicytes (glial cells)",
+        "Herring bodies: axonal dilations storing hormones",
+        "No epithelial cells - purely neural tissue",
+        "Rich capillary network for hormone release",
+        "Axon terminals from supraoptic and paraventricular nuclei"
+      ],
+      "location": [
+        "Posterior part of pituitary gland in sella turcica",
+        "Derived from floor of diencephalon (neural ectoderm)",
+        "Continuous with infundibulum"
+      ],
+      "function": [
+        "Stores and releases ADH (from supraoptic nucleus)",
+        "Stores and releases oxytocin (from paraventricular nucleus)",
+        "No hormone synthesis - only storage and release"
+      ],
+      "examTips": "Posterior pituitary does NOT synthesize hormones - they're made in hypothalamus. Herring bodies are KEY identification feature - eosinophilic axonal swellings. Diabetes insipidus results from ADH deficiency. Oxytocin: milk ejection and uterine contraction."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Posterior Pituitary"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pons-basal-pons",
+    "name": "Basal Pons",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pons",
+    "description": "The basal pons (basis pontis) is the ventral portion containing transverse pontine fibers, longitudinal corticospinal tracts, and scattered pontine nuclei. It forms the characteristic bulge of the pons.",
+    "theory": {
+      "features": [
+        "Transverse pontine fibers: form middle cerebellar peduncle",
+        "Longitudinal fascicles: corticospinal and corticobulbar tracts",
+        "Pontine nuclei: scattered gray matter masses",
+        "Complex interlacing of fibers and nuclei",
+        "Clear demarcation from tegmentum dorsally"
+      ],
+      "location": [
+        "Ventral (anterior) part of pons",
+        "Between midbrain and medulla",
+        "Anterior to 4th ventricle"
+      ],
+      "function": [
+        "Relay station between cerebral cortex and cerebellum",
+        "Conducts motor tracts to spinal cord",
+        "Integration of motor signals"
+      ],
+      "examTips": "Basal pons lesions: 'locked-in syndrome' if bilateral - consciousness preserved but only vertical eye movements possible. Pontine nuclei relay cortical motor info to cerebellum via middle cerebellar peduncle. Central pontine myelinolysis from rapid sodium correction."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pons",
+      "Basal Pons"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pons-pons",
+    "name": "Pons",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pons",
+    "description": "The pons is the middle brainstem segment with ventral basis pontis and dorsal tegmentum. It contains cranial nerve nuclei (V-VIII), respiratory centers, and connects cerebrum to cerebellum.",
+    "theory": {
+      "features": [
+        "Two main parts: basis pontis (ventral) and tegmentum (dorsal)",
+        "Cranial nerve nuclei: trigeminal (V), abducens (VI), facial (VII), vestibulocochlear (VIII)",
+        "Pneumotaxic and apneustic centers for respiration",
+        "Floor of 4th ventricle dorsally",
+        "Middle cerebellar peduncles connect to cerebellum"
+      ],
+      "location": [
+        "Between midbrain (rostral) and medulla (caudal)",
+        "Bulges anteriorly - appears convex",
+        "Forms upper part of 4th ventricle floor"
+      ],
+      "function": [
+        "Relay between cortex and cerebellum",
+        "Cranial nerve functions: facial sensation, expression, hearing, balance",
+        "Respiratory rhythm modulation"
+      ],
+      "examTips": "Pons houses CN V-VIII nuclei. Remember: 'At Pons (5-8)'. Facial colliculus on 4th ventricle floor contains abducens nucleus with facial nerve fibers looping around it. Lesions cause gaze palsy + facial weakness."
+    },
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pons",
+      "Pons"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Low-power-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord",
+    "name": "Spinal Cord",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "description": "The spinal cord shows characteristic H-shaped or butterfly-shaped gray matter surrounded by white matter. It extends from foramen magnum to L1-L2 vertebral level as the conus medullaris.",
+    "theory": {
+      "features": [
+        "Gray matter centrally: H-shaped with anterior and posterior horns",
+        "White matter peripherally: organized into columns (funiculi)",
+        "Central canal lined by ependymal cells",
+        "31 spinal segments: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal",
+        "Surrounded by meninges: pia, arachnoid, dura mater"
+      ],
+      "location": [
+        "Vertebral canal from foramen magnum to L1-L2",
+        "Conus medullaris: tapered end at L1-L2",
+        "Cauda equina: nerve roots below conus"
+      ],
+      "function": [
+        "Conducts sensory and motor information",
+        "Contains reflex arcs",
+        "Lower motor neurons in anterior horn"
+      ],
+      "examTips": "Spinal cord has gray matter internally, white matter externally (opposite of brain). Ends at L1-L2 in adults (L3 in newborns). Lumbar puncture done below L3 to avoid cord injury. Cervical and lumbar enlargements for limb innervation."
+    },
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord/0.-Spinal-cord-1-1.jpg"
+      ]
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--central-canal-",
+    "name": "Spinal Cord (Central Canal)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "description": "The central canal is a narrow channel in the center of spinal cord gray matter, lined by ependymal cells. It is continuous with the ventricular system and contains cerebrospinal fluid.",
+    "theory": {
+      "features": [
+        "Lined by simple columnar/cuboidal ependymal cells",
+        "Located in gray commissure between anterior horns",
+        "May be obliterated in adults",
+        "Continuous with 4th ventricle superiorly",
+        "Surrounded by substantia gelatinosa centralis"
+      ],
+      "location": [
+        "Center of spinal cord gray matter",
+        "Within gray commissure at level of crossbar of 'H'",
+        "Extends full length of spinal cord"
+      ],
+      "function": [
+        "Circulation of cerebrospinal fluid",
+        "Remnant of neural tube lumen",
+        "May enlarge in syringomyelia"
+      ],
+      "examTips": "Central canal is remnant of embryonic neural tube cavity. Syringomyelia: abnormal cavity near/in central canal - causes 'cape-like' sensory loss (pain and temperature in upper limbs) due to damage to crossing spinothalamic fibers."
+    },
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Central Canal)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/13.-Spinal-cord-–-Central-canal-High-power-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/14.-Spinal-cord-–-Central-canal-High-power-1.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--cervical-enlargement-",
+    "name": "Spinal Cord (Cervical Enlargement)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "description": "The cervical enlargement (C4-T1) is a widening of spinal cord that contains increased gray matter for brachial plexus neurons innervating the upper limbs.",
+    "theory": {
+      "features": [
+        "Enlarged diameter compared to other cord levels",
+        "Larger anterior horns with more motor neurons",
+        "More gray matter relative to white matter",
+        "Oval or elliptical cross-sectional shape",
+        "Contains neurons for brachial plexus (C5-T1)"
+      ],
+      "location": [
+        "C4 to T1 vertebral levels",
+        "Upper spinal cord",
+        "Corresponds to upper limb innervation"
+      ],
+      "function": [
+        "Motor and sensory innervation of upper limbs",
+        "Contains lower motor neurons for arm and hand muscles",
+        "Sensory processing from upper limbs"
+      ],
+      "examTips": "Two enlargements: cervical (C4-T1 for upper limb) and lumbar (L1-S3 for lower limb). Brachial plexus injuries affect cervical enlargement neurons. Polio preferentially affects anterior horn cells here causing upper limb paralysis."
+    },
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Cervical Enlargement)"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/1.-Spinal-cord-–-Cervical-enlargement-Very-low-power-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/2.-Spinal-cord-–-Cervical-enlargement-Very-low-power-Luxol-fast-blue-LFB-stain-1.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--dorsal-column-",
+    "name": "Spinal Cord (Dorsal Column)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "description": "The dorsal columns (posterior funiculi) are white matter tracts carrying fine touch, vibration, and proprioception. They consist of fasciculus gracilis (medial) and fasciculus cuneatus (lateral, above T6).",
+    "theory": {
+      "features": [
+        "Fasciculus gracilis: lower limb sensory fibers (medial)",
+        "Fasciculus cuneatus: upper limb sensory fibers (lateral, above T6)",
+        "First-order neurons with cell bodies in dorsal root ganglia",
+        "Myelinated ascending fibers",
+        "Separated by posterior intermediate sulcus (above T6)"
+      ],
+      "location": [
+        "Posterior white matter between posterior horns",
+        "Bounded by posterior median sulcus and dorsolateral sulcus",
+        "Synapse in brainstem nuclei (gracilis and cuneatus)"
+      ],
+      "function": [
+        "Fine/discriminative touch sensation",
+        "Proprioception (position sense)",
+        "Vibration sense"
+      ],
+      "examTips": "Dorsal column lesion = loss of ipsilateral fine touch, vibration, proprioception below lesion. Remember: 'DCML pathway' - Dorsal Column, Medial Lemniscus. Gracilis = legs (G for gracile, G for ground). Tabes dorsalis (syphilis) affects dorsal columns."
+    },
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Dorsal Column)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/3.-Spinal-cord-–-Dorsal-columns-Medium-power-dorsal-aspect-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/4.-Spinal-cord-–-Dorsal-columns-Medium-power-LFB-stain-1.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--dorsolateral-sulcus-",
+    "name": "Spinal Cord (Dorsolateral Sulcus)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "description": "The dorsolateral sulcus is a groove on the posterolateral surface of spinal cord where dorsal (sensory) nerve roots enter. It marks the boundary between posterior and lateral funiculi.",
+    "theory": {
+      "features": [
+        "Shallow groove on posterolateral spinal cord surface",
+        "Entry point for dorsal root fibers (sensory)",
+        "Boundary between posterior and lateral white columns",
+        "Continuous along entire cord length",
+        "Corresponds to attachment of dorsal rootlets"
+      ],
+      "location": [
+        "Posterolateral surface of spinal cord",
+        "Between posterior funiculus and lateral funiculus",
+        "Paired - one on each side"
+      ],
+      "function": [
+        "Entry zone for primary sensory afferents",
+        "Anatomical landmark for cord orientation",
+        "Surgical landmark for dorsal root entry zone procedures"
+      ],
+      "examTips": "Dorsolateral sulcus = sensory nerve entry (dorsal root). Compare to anterolateral sulcus = motor nerve exit (ventral root). Remember: 'Dorsal = sensory, Ventral = motor' (Bell-Magendie law). DREZ lesions done here for pain relief."
+    },
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Dorsolateral Sulcus)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsolateral Sulcus)/7.-Spinal-cord-–-Dorsolateral-sulcus-Medium-power-1.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--ventral-horns--ventral-horns",
+    "name": "Ventral horns",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": "Spinal Cord (Ventral Horns)",
+    "description": "The ventral (anterior) horns contain large multipolar lower motor neurons (alpha and gamma) that innervate skeletal muscles. They are larger at cervical and lumbar enlargements.",
+    "theory": {
+      "features": [
+        "Large multipolar alpha motor neurons (lower motor neurons)",
+        "Smaller gamma motor neurons for muscle spindles",
+        "Organized somatotopically: medial = axial, lateral = limb muscles",
+        "Abundant Nissl substance in motor neurons",
+        "More prominent in cervical and lumbar enlargements"
+      ],
+      "location": [
+        "Anterior portion of spinal cord gray matter",
+        "Contains cell bodies of LMNs for skeletal muscle",
+        "Surrounded by interneurons and glia"
+      ],
+      "function": [
+        "Lower motor neuron cell bodies for voluntary movement",
+        "Alpha neurons innervate extrafusal muscle fibers",
+        "Gamma neurons innervate intrafusal muscle spindle fibers"
+      ],
+      "examTips": "Anterior horn cell damage = LMN signs (weakness, atrophy, fasciculations, hyporeflexia, hypotonia). Polio and ALS affect anterior horn cells. Somatotopic organization: medial neurons = trunk/proximal, lateral neurons = distal limb muscles."
+    },
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Ventral Horns)",
+      "Ventral horns"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/5.-Spinal-cord-–-Ventral-horns-Medium-power-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/9.-Spinal-cord-–-Ventral-horns-Medium-power-1.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/11.-Spinal-cord-–-Ventral-horns-High-power-1.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--ventral-horns--ventral-horns--lfb-stains-",
+    "name": "Ventral Horns (LFB Stains)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": "Spinal Cord (Ventral Horns)",
+    "description": "Luxol fast blue (LFB) stain highlights myelin in spinal cord sections. White matter stains blue while gray matter appears lighter, clearly demonstrating the distribution of myelinated fibers.",
+    "theory": {
+      "features": [
+        "LFB stains myelin phospholipids blue/green",
+        "White matter columns appear intensely blue",
+        "Gray matter appears pink/pale (counterstain)",
+        "Useful for identifying demyelinating diseases",
+        "Motor neurons visible as large cells in gray matter"
+      ],
+      "location": [
+        "Cross-section of spinal cord at various levels",
+        "Demonstrates myelin distribution patterns",
+        "Anterior horns contain motor neurons"
+      ],
+      "function": [
+        "Histological demonstration of myelin",
+        "Diagnosis of demyelinating conditions",
+        "Study of white matter tract organization"
+      ],
+      "examTips": "LFB is THE stain for myelin visualization. In MS and other demyelinating diseases, LFB shows pale areas where myelin is lost. Remember: LFB = Lipid-loving, stains myelin Blue. Often combined with H&E or Nissl counterstain."
+    },
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Ventral Horns)",
+      "Ventral Horns (LFB Stains)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/10.-Spinal-cord-–-Ventral-horns-Medium-power-LFB-stain-1-1.png",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/6.-Spinal-cord-–-Ventral-horns-Medium-power-LFB-stain-1.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/12.-Spinal-cord-–-Ventral-horns-High-power-Luxol-fast-blue-1.jpg"
+      ],
+      "default": []
+    }
+  }
+]

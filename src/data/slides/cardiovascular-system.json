@@ -1,0 +1,468 @@
+[
+  {
+    "id": "cardiovascular-system-atrioventricular-valve-atrioventricular-valve",
+    "name": "Atrioventricular valve",
+    "category": "Cardiovascular System",
+    "section": "Atrioventricular valve",
+    "subsection": null,
+    "description": "The AV valves (mitral and tricuspid) are composed of dense fibrous connective tissue covered by endothelium. They prevent backflow of blood from ventricles to atria during systole.",
+    "theory": {
+      "features": [
+        "Core of dense irregular connective tissue (fibrosa)",
+        "Covered on both surfaces by endothelium",
+        "Avascular structure - nutrients from blood bathing surfaces",
+        "Spongiosa layer contains loose connective tissue with proteoglycans",
+        "Attachment to fibrous annulus of heart skeleton"
+      ],
+      "location": [
+        "Between atria and ventricles",
+        "Mitral (bicuspid) valve - left side",
+        "Tricuspid valve - right side"
+      ],
+      "function": [
+        "Prevents regurgitation of blood during ventricular systole",
+        "Ensures unidirectional blood flow through heart"
+      ],
+      "examTips": "AV valves are avascular and lack blood vessels, lymphatics, and nerves. The mitral valve has 2 cusps while tricuspid has 3. Remember: 'Left = Less (cusps)'"
+    },
+    "path": [
+      "Cardiovascular System",
+      "Atrioventricular valve",
+      "Atrioventricular valve"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-1.png",
+        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-2.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-atrioventricular-valve-chordae-tendine",
+    "name": "Chordae Tendinae",
+    "category": "Cardiovascular System",
+    "section": "Atrioventricular valve",
+    "subsection": null,
+    "description": "Chordae tendinae are fibrous string-like structures connecting free edges of AV valve cusps to papillary muscles. They are composed of dense collagenous tissue covered by endothelium.",
+    "theory": {
+      "features": [
+        "Cord-like structures of dense regular collagenous tissue",
+        "Covered by thin layer of endocardium",
+        "Central core contains parallel collagen fibers",
+        "May contain elastic fibers near attachment points",
+        "Avascular - no blood vessels within"
+      ],
+      "location": [
+        "Extend from papillary muscles to free margins of AV valve cusps",
+        "Present in both left and right ventricles"
+      ],
+      "function": [
+        "Prevent eversion/prolapse of valve cusps during ventricular systole",
+        "Transmit tension from papillary muscles to valve leaflets",
+        "Maintain valve competence during high pressure"
+      ],
+      "examTips": "Chordae tendinae + papillary muscles = subvalvular apparatus. Rupture of chordae leads to acute mitral/tricuspid regurgitation - a surgical emergency!"
+    },
+    "path": [
+      "Cardiovascular System",
+      "Atrioventricular valve",
+      "Chordae Tendine"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Atrioventricular valve/Chordae Tendine/Chordae-tendineae-1.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-aorta-aorta",
+    "name": "Aorta",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": "Aorta",
+    "description": "The aorta is the largest elastic artery in the body. Its wall is characterized by multiple concentric layers of elastic lamellae in the tunica media, allowing it to withstand and dampen pulsatile blood flow.",
+    "theory": {
+      "features": [
+        "Thick wall with 3 layers: intima, media, adventitia",
+        "40-70 concentric elastic lamellae in tunica media (fenestrated sheets)",
+        "Smooth muscle cells between elastic lamellae",
+        "Vasa vasorum in outer adventitia and outer media",
+        "Internal elastic lamina may be indistinct due to abundant elastic tissue"
+      ],
+      "location": [
+        "Arises from left ventricle at aortic valve",
+        "Ascending aorta → Aortic arch → Descending (thoracic & abdominal) aorta"
+      ],
+      "function": [
+        "Conducts oxygenated blood from heart to systemic circulation",
+        "Windkessel effect - dampens pulsatile flow to continuous flow",
+        "Elastic recoil maintains diastolic blood pressure"
+      ],
+      "examTips": "Elastic arteries = conducting arteries. The aorta has the most elastic lamellae. Vasa vasorum supply outer 2/3 of media; inner 1/3 is nourished by luminal diffusion."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Aorta",
+      "Aorta"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Low-power-1.jpg"
+      ],
+      "medium": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Medium-power-1.jpg"
+      ],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-6.2-scaled.jpg",
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-3-3.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-aorta-aorta--tunica-adventitia",
+    "name": "Aorta- Tunica Adventitia",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": "Aorta",
+    "description": "The tunica adventitia is the outermost layer of the aorta, composed of loose connective tissue containing vasa vasorum, nervi vasorum, and lymphatic vessels.",
+    "theory": {
+      "features": [
+        "Loose connective tissue with collagen and elastic fibers",
+        "Contains vasa vasorum (small arteries supplying vessel wall)",
+        "Nervi vasorum (autonomic nerve fibers) present",
+        "Lymphatic vessels for drainage",
+        "Fibroblasts are the predominant cell type"
+      ],
+      "location": [
+        "Outermost layer of aorta",
+        "Merges with surrounding connective tissue"
+      ],
+      "function": [
+        "Provides nutrition to outer layers of vessel wall via vasa vasorum",
+        "Anchors vessel to surrounding tissues",
+        "Contains autonomic nerves regulating vessel tone"
+      ],
+      "examTips": "External elastic lamina is absent or poorly defined in elastic arteries like aorta. Vasa vasorum are more prominent in veins than arteries due to thinner walls and lower oxygen tension."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Aorta",
+      "Aorta- Tunica Adventitia"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-Medium-power-1.png"
+      ],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-High-power-1.png"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-aorta-aorta--tunica-media",
+    "name": "Aorta- Tunica Media",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": "Aorta",
+    "description": "The tunica media of the aorta is the thickest layer, dominated by concentrically arranged elastic lamellae with smooth muscle cells and extracellular matrix between them.",
+    "theory": {
+      "features": [
+        "40-70 fenestrated elastic lamellae arranged concentrically",
+        "Smooth muscle cells (SMCs) between lamellae",
+        "Ground substance rich in proteoglycans",
+        "Collagen fibers interspersed between elastic layers",
+        "Inner portion avascular; outer portion has vasa vasorum"
+      ],
+      "location": [
+        "Middle layer of aortic wall",
+        "Between tunica intima and adventitia"
+      ],
+      "function": [
+        "Elastic recoil converts pulsatile to continuous flow",
+        "SMCs produce and maintain extracellular matrix",
+        "Provides structural integrity to vessel wall"
+      ],
+      "examTips": "In elastic arteries, tunica media is the thickest layer. The elastic lamellae appear wavy in histological sections. Marfan syndrome involves defective fibrillin-1 causing aortic dissection."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Aorta",
+      "Aorta- Tunica Media"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-1-1.png",
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-3.png"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-coronary-artery",
+    "name": "Coronary Artery",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": null,
+    "description": "Coronary arteries are muscular arteries that supply the myocardium. They have a prominent tunica media with smooth muscle and distinct internal elastic lamina.",
+    "theory": {
+      "features": [
+        "Muscular (medium-sized) artery with thick tunica media",
+        "Prominent internal elastic lamina (appears wavy)",
+        "Tunica media composed mainly of smooth muscle cells",
+        "External elastic lamina may be present",
+        "Located in epicardial fat in coronary sulci"
+      ],
+      "location": [
+        "Left coronary artery: anterior interventricular (LAD) and circumflex branches",
+        "Right coronary artery: supplies right heart and posterior descending artery (in 70%)",
+        "Travel in subepicardial connective tissue"
+      ],
+      "function": [
+        "Supply oxygenated blood to myocardium",
+        "Regulate blood flow via vasoconstriction/vasodilation",
+        "Perfusion occurs mainly during diastole"
+      ],
+      "examTips": "Coronary arteries are functional end arteries - occlusion leads to infarction. LAD is 'widow maker'. Coronary blood flow occurs during diastole because myocardial contraction compresses vessels during systole."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Coronary Artery"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Artery/Coronary-artery-and-veins-Low-power-1.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-coronary-vein",
+    "name": "Coronary Vein",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": null,
+    "description": "Coronary veins drain deoxygenated blood from myocardium into the coronary sinus. They have thinner walls than arteries with less distinct layers and may contain valves.",
+    "theory": {
+      "features": [
+        "Thin-walled compared to accompanying coronary arteries",
+        "Less smooth muscle in tunica media",
+        "May contain valves (endothelial folds)",
+        "Larger lumen relative to wall thickness",
+        "Three layers less distinct than in arteries"
+      ],
+      "location": [
+        "Great cardiac vein → follows LAD",
+        "Middle cardiac vein → follows posterior interventricular artery",
+        "Drain into coronary sinus → right atrium"
+      ],
+      "function": [
+        "Drain deoxygenated blood from myocardium",
+        "Coronary sinus is the main venous drainage route (60%)",
+        "Thebesian veins drain directly into cardiac chambers"
+      ],
+      "examTips": "Coronary sinus receives great, middle, and small cardiac veins. It opens into the right atrium between the IVC opening and tricuspid valve. Thebesian veins contribute to physiological shunting."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Coronary Vein"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-Low-power-1.jpg"
+      ],
+      "medium": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-–-Valve-Medium-power-1.jpg"
+      ],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-1.jpg",
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-4.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-endocardium",
+    "name": "Endocardium",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "description": "The endocardium is the innermost layer of the heart wall, lining the chambers and covering the valves. It consists of endothelium, subendothelial connective tissue, and a deeper subendocardial layer.",
+    "theory": {
+      "features": [
+        "Endothelium: simple squamous epithelium (continuous with blood vessels)",
+        "Subendothelial layer: thin connective tissue with collagen and elastic fibers",
+        "Subendocardial layer: loose connective tissue with Purkinje fibers",
+        "Contains small blood vessels and nerves",
+        "Thicker in atria than ventricles"
+      ],
+      "location": [
+        "Lines all four cardiac chambers",
+        "Continuous with tunica intima of great vessels",
+        "Forms the surface of cardiac valves"
+      ],
+      "function": [
+        "Provides smooth, non-thrombogenic surface for blood flow",
+        "Subendocardial layer contains conducting system (Purkinje fibers)",
+        "Secretes endothelin, NO, and other vasoactive substances"
+      ],
+      "examTips": "Purkinje fibers are in the subendocardial layer - they appear pale with central nuclei and abundant glycogen. Endocardium is thickest in left atrium and thinnest in left ventricle."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Endocardium"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-1.png",
+        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-2.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-epicardium",
+    "name": "Epicardium",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "description": "The epicardium (visceral pericardium) is the outermost layer of the heart wall, composed of mesothelium and underlying connective tissue containing coronary vessels, nerves, and adipose tissue.",
+    "theory": {
+      "features": [
+        "Mesothelium: simple squamous epithelium on outer surface",
+        "Subepicardial layer: loose connective tissue with adipose",
+        "Contains coronary arteries, veins, and lymphatics",
+        "Autonomic nerve fibers and ganglia present",
+        "Adipose tissue prominent in coronary sulci"
+      ],
+      "location": [
+        "Outer surface of heart (visceral layer of serous pericardium)",
+        "Continuous with parietal pericardium at great vessel roots",
+        "Covers entire heart except area of great vessel attachments"
+      ],
+      "function": [
+        "Secretes serous fluid for frictionless heart movement",
+        "Contains and protects coronary vasculature",
+        "Participates in inflammatory responses (pericarditis)"
+      ],
+      "examTips": "Epicardium = visceral pericardium. The pericardial cavity is between visceral and parietal layers. Epicardial fat accumulates with age and obesity - correlates with coronary artery disease."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Epicardium"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-1.png",
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-2.png",
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-3.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-myocardium",
+    "name": "Myocardium",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "description": "The myocardium is the thick middle layer of the heart wall composed of cardiac muscle fibers (cardiomyocytes) arranged in complex spiraling patterns, responsible for cardiac contraction.",
+    "theory": {
+      "features": [
+        "Cardiac muscle fibers: branched, striated, uninucleate/binucleate cells",
+        "Intercalated discs: specialized junctions (desmosomes, fascia adherens, gap junctions)",
+        "Central nucleus (unlike peripheral nuclei in skeletal muscle)",
+        "Abundant mitochondria (30-40% of cell volume)",
+        "Rich capillary network (1 capillary per myocyte)"
+      ],
+      "location": [
+        "Middle layer of heart wall between endocardium and epicardium",
+        "Thickest in left ventricle (10-15mm), thinnest in atria (2mm)"
+      ],
+      "function": [
+        "Generates contractile force for blood pumping",
+        "Gap junctions allow rapid electrical impulse spread",
+        "Functions as a syncytium (coordinated contraction)"
+      ],
+      "examTips": "Intercalated discs are KEY identification feature of cardiac muscle. They appear as dark lines perpendicular to fiber direction. Gap junctions provide electrical coupling - damage leads to arrhythmias."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Myocardium"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-1.png",
+        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-2.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-normal-heart",
+    "name": "Normal Heart",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "description": "The normal heart wall shows three distinct layers: endocardium (innermost), myocardium (thickest, muscular middle layer), and epicardium (outermost). The cardiac skeleton provides structural support.",
+    "theory": {
+      "features": [
+        "Three layers visible: endocardium, myocardium, epicardium",
+        "Cardiac muscle fibers with intercalated discs",
+        "Cardiac skeleton (fibrous rings around valves)",
+        "Conducting system: SA node, AV node, bundle of His, Purkinje fibers",
+        "Rich vasculature from coronary arteries"
+      ],
+      "location": [
+        "Mediastinum between lungs",
+        "Apex pointing left and inferiorly",
+        "Base formed by atria posteriorly"
+      ],
+      "function": [
+        "Pumps blood through pulmonary and systemic circuits",
+        "Atria: receiving chambers; Ventricles: pumping chambers",
+        "Right heart: pulmonary circulation; Left heart: systemic circulation"
+      ],
+      "examTips": "Left ventricle wall is 3x thicker than right ventricle (higher pressure). Cardiac skeleton provides: valve attachment, electrical insulation between atria and ventricles, and structural support."
+    },
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Normal Heart"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Normal Heart/Normal-heart-1.png"
+      ]
+    }
+  }
+]

@@ -1,0 +1,248 @@
+[
+  {
+    "id": "musculoskeletal-system-bone-bone",
+    "name": "Bone",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "description": "Bone is a specialized connective tissue with a mineralized extracellular matrix. It supports the body and protects organs.",
+    "theory": {
+      "features": [
+        "Osteons (Haversian Systems): Structural units of compact bone",
+        "Haversian Canal: Central channel containing blood vessels/nerves",
+        "Concentric Lamellae: Rings of matrix around the canal",
+        "Osteocytes: Mature bone cells in lacunae between lamellae",
+        "Canaliculi: Tiny channels connecting lacunae"
+      ],
+      "location": [
+        "Skeleton",
+        "Shaft (diaphysis) of long bones (Compact Bone)"
+      ],
+      "function": [
+        "Structural support and protection",
+        "Calcium and Phosphate storage",
+        "Hematopoiesis (in marrow)"
+      ],
+      "examTips": "Look for the 'Onion' appearance of Osteons. Black dots = Lacunae containing Osteocytes. Black lines radiating from dots = Canaliculi. In decalcified bone, matrix stains pink (eosinophilic)."
+    },
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Bone"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Musculoskeletal System/Bone/Bone/Bone-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-bone-marrow",
+    "name": "Bone Marrow",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "description": "Bone marrow tissue usually appears in sections of cancellous bone. It contains hematopoietic cells and adipocytes.",
+    "theory": {
+      "features": [
+        "Adipocytes: Clear, signet-ring appearance (Yellow marrow)",
+        "Hematopoietic cells: Mixture of erythroid/myeloid precursors (Red marrow)",
+        "Bone Trabeculae: Eosinophilic spicules of bone surrounding marrow spaces",
+        "Megakaryocytes: Large multilobed nucleus",
+        "Sinusoids"
+      ],
+      "location": [
+        "Medullary cavity of long bones",
+        "Spaces of spongy bone (vertebrae, ribs, sternum)"
+      ],
+      "function": [
+        "Hematopoiesis (Blood cell formation)",
+        "Fat storage"
+      ],
+      "examTips": "In a bone slide, the 'messy' purple stuff between the pink bone trabeculae is the marrow. If mostly fat (clear circles) = Yellow Marrow. If mostly cells (purple dots) = Red Marrow."
+    },
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Bone Marrow"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Musculoskeletal System/Bone/Bone Marrow/Bone-marrow-low-power-1-scaled.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-cancellous-bone",
+    "name": "Cancellous Bone",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "description": "Cancellous (spongy/trabecular) bone consists of a network of bony spicules (trabeculae). The spaces are filled with bone marrow.",
+    "theory": {
+      "features": [
+        "Trabeculae: Anastomosing branching plates of bone",
+        "No Osteons (usually)",
+        "Osteocytes in lacunae within trabeculae",
+        "Endosteum: Lines the trabeculae (osteoblasts/osteoclasts)",
+        "Marrow spaces between trabeculae"
+      ],
+      "location": [
+        "Epiphyses of long bones",
+        "Vertebral bodies",
+        "Flat bones (diploe of skull)"
+      ],
+      "function": [
+        "Metabolic activity (high surface area)",
+        "Reduces skeletal weight",
+        "Houses bone marrow"
+      ],
+      "examTips": "Pink islands of bone (with osteocytes) surrounded by marrow. Does NOT look like an onion (no concentric lamellae of osteons). Osteoblasts line the surface of trabeculae."
+    },
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Cancellous Bone"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-1-scaled.jpg",
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-3-scaled.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-epiphyseal-growth-plate",
+    "name": "Epiphyseal Growth Plate",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "description": "The epiphyseal plate is a zone of hyaline cartilage responsible for longitudinal bone growth. It shows distinct zones of chondrocyte activity.",
+    "theory": {
+      "features": [
+        "Zone of Resting Cartilage: Small, scattered chondrocytes",
+        "Zone of Proliferation: Chondrocytes stacked in columns (coins)",
+        "Zone of Hypertrophy: Large, swollen chondrocytes",
+        "Zone of Calcification: Dead chondrocytes, calcified matrix",
+        "Zone of Ossification: Osteoblasts deposit bone on calcified cartilage spicules"
+      ],
+      "location": [
+        "Between Epiphysis and Diaphysis of growing long bones"
+      ],
+      "function": [
+        "Endochondral Ossification",
+        "Longitudinal Bone Growth"
+      ],
+      "examTips": "Memorize the order: Real People Have Career Options (Resting, Proliferation, Hypertrophy, Calcification, Ossification). Look for the 'stacks of coins' in the Proliferative zone."
+    },
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Epiphyseal Growth Plate"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-6.jpg",
+        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-7.jpg"
+      ]
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-normal-bone",
+    "name": "Normal Bone",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "description": "Normal cortical (compact) bone is composed of densely packed osteons. It forms the hard outer shell of bones.",
+    "theory": {
+      "features": [
+        "Osteons (Haversian Systems)",
+        "Interstitial Lamellae (remnants of old osteons)",
+        "Circumferential Lamellae (outer and inner surfaces)",
+        "Haversian Canals (longitudinal)",
+        "Volkmann's Canals (transverse connections)"
+      ],
+      "location": [
+        "Cortex of all bones",
+        "Diaphysis of long bones"
+      ],
+      "function": [
+        "Maximum strength and support",
+        "Protection"
+      ],
+      "examTips": "Similar to the 'Bone' slide but emphasizes the cortical arrangement. Look for the regular arrangement of circular Osteons. Differentiate High Power vs Low Power views."
+    },
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Normal Bone"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-1.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-2.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-3.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-4.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "musculoskeletal-system-skeletal-muscle",
+    "name": "Skeletal muscle",
+    "category": "Musculoskeletal System",
+    "section": "Skeletal muscle",
+    "subsection": null,
+    "description": "Skeletal muscle consists of long, multinucleated, cylindrical fibers with striations. It is under voluntary control.",
+    "theory": {
+      "features": [
+        "Long, unbranched cylindrical fibers",
+        "Multinucleated (hundreds of nuclei per fiber)",
+        "Peripheral Nuclei (located under sarcolemma)",
+        "Striations (A bands and I bands)",
+        "Connective tissue: Endomysium, Perimysium, Epimysium"
+      ],
+      "location": [
+        "Attached to skeleton",
+        "Tongue, Diaphragm, Upper esophagus"
+      ],
+      "function": [
+        "Voluntary movement",
+        "Posture",
+        "Heat production"
+      ],
+      "examTips": "3 Keys: Cylindrical shape (no branching), Peripheral nuclei ( nuclei are NOT in the center), Striations (visible at high power). Cross-section shows polygonal fields of Cohnheim."
+    },
+    "path": [
+      "Musculoskeletal System",
+      "Skeletal muscle"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-1.jpg",
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-2.jpg",
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-3.jpg"
+      ]
+    }
+  }
+]

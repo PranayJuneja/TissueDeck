@@ -1,0 +1,162 @@
+[
+  {
+    "id": "haematolymphoid-system-bone-marrow",
+    "name": "Bone marrow",
+    "category": "Haematolymphoid System",
+    "section": "Bone marrow",
+    "subsection": null,
+    "description": "Bone marrow is the primary site of hematopoiesis (blood cell formation). It consists of hematopoietic cells and adipose tissue within a trabecular bone framework.",
+    "theory": {
+      "features": [
+        "Hematopoietic Cords: Clusters of developing blood cells",
+        "Sinusoids: Discontinuous capillaries (allow cell entry)",
+        "Megakaryocytes: Giant cells with multilobed complex nuclei (produce platelets)",
+        "Adipocytes (content increases with age - Yellow Marrow)",
+        "Erythroblastic islets and Granulocytic precursors"
+      ],
+      "location": [
+        "Medullary cavities of bones",
+        "Ribs, Vertebrae, Sternum, Pelvis (in adults)"
+      ],
+      "function": [
+        "Production of RBCs (Erythropoiesis)",
+        "Production of WBCs (Granulopoiesis, Monocytopoiesis, Lymphopoiesis)",
+        "Production of Platelets (Thrombopoiesis)"
+      ],
+      "examTips": "Scan for the largest cells first = Megakaryocytes. Red Marrow = High cellularity. Yellow Marrow = Mostly fat. Erythroid precursors have round dark nuclei. Myeloid precursors have indented/lobed nuclei."
+    },
+    "path": [
+      "Haematolymphoid System",
+      "Bone marrow"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-1.jpg",
+        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "haematolymphoid-system-lymph-node",
+    "name": "Lymph node",
+    "category": "Haematolymphoid System",
+    "section": "Lymph node",
+    "subsection": null,
+    "description": "Lymph nodes are encapsulated lymphoid organs that filter lymph. They have a cortex (lymphoid follicles) and a medulla (cords and sinuses).",
+    "theory": {
+      "features": [
+        "Cortex: Lymphoid Follicles (B cells)",
+        "Germinal Centers: Pale central area of secondary follicles (B cell activation)",
+        "Paracortex: Deep cortex (T cell zone, High Endothelial Venules)",
+        "Medulla: Medullary Cords (Plasma cells, Macrophages) and Sinuses",
+        "Subcapsular Sinus: Space beneath capsule receiving afferent lymph"
+      ],
+      "location": [
+        "Along lymphatic vessels",
+        "Neck, Axilla, Groin, Mesentery"
+      ],
+      "function": [
+        "Filter lymph (antigen presentation)",
+        "Adaptive immune response (B and T cell activation)"
+      ],
+      "examTips": "Subcapsular Sinus is DIAGNOSTIC (space under capsule). Germinal Centers indicate active immune response. Paracortex is T-cell dependent (deleted in DiGeorge syndrome)."
+    },
+    "path": [
+      "Haematolymphoid System",
+      "Lymph node"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-1.jpg",
+        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "haematolymphoid-system-spleen",
+    "name": "Spleen",
+    "category": "Haematolymphoid System",
+    "section": "Spleen",
+    "subsection": null,
+    "description": "The spleen filters blood. It consists of White Pulp (lymphoid nodules) and Red Pulp (blood-filled sinusoids and cords), enclosed by a capsule.",
+    "theory": {
+      "features": [
+        "White Pulp: Periarteriolar Lymphoid Sheaths (PALS - T cells) + Follicles (B cells)",
+        "Central Arteriole: arteriole running through PALS (eccentric in follicle)",
+        "Red Pulp: Splenic Cords (Cords of Billroth) + Venous Sinusoids",
+        "Trabeculae: Thick connective tissue distinct from capsule",
+        "NO Cortex/Medulla distinction"
+      ],
+      "location": [
+        "Left Upper Quadrant (LUQ)",
+        "Intraperitoneal"
+      ],
+      "function": [
+        "Filters blood (removes old RBCs)",
+        "Immune response against blood-borne pathogens",
+        "Hematopoiesis (in fetus)"
+      ],
+      "examTips": "Identify the Central Arteriole within the White Pulp (looks like a lymph nodule). No cortex/medulla = Spleen (vs Lymph Node/Thymus). Red pulp looks 'messy' and bloody."
+    },
+    "path": [
+      "Haematolymphoid System",
+      "Spleen"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-1.jpg",
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-2.jpg",
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "haematolymphoid-system-thymus",
+    "name": "Thymus",
+    "category": "Haematolymphoid System",
+    "section": "Thymus",
+    "subsection": null,
+    "description": "The thymus is a primary lymphoid organ for T-cell maturation. It has lobules with a dark cortex and pale medulla containing Hassall's Corpuscles.",
+    "theory": {
+      "features": [
+        "Lobulated architecture (separated by septa)",
+        "Cortex: Dark basophilic (packed immature T lymphocytes/thymocytes)",
+        "Medulla: Pale (mature T cells, epithelial reticular cells)",
+        "Hassall's Corpuscles: Concentric layers of keratinized epithelial cells (Medulla only)",
+        "Blood-Thymus barrier features"
+      ],
+      "location": [
+        "Superior Mediastinum",
+        "Anterior to heart"
+      ],
+      "function": [
+        "T-lymphocyte maturation and selection",
+        "Self-tolerance induction"
+      ],
+      "examTips": "Hassall's Corpuscles are DIAGNOSTIC (look like pink onions in the medulla). Involution: In adults, replaced by adipose tissue (fatty thymus)."
+    },
+    "path": [
+      "Haematolymphoid System",
+      "Thymus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-1.jpg",
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-2.jpg",
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-3.jpg"
+      ]
+    }
+  }
+]

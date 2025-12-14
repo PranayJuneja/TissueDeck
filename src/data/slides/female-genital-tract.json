@@ -1,0 +1,121 @@
+[
+  {
+    "id": "female-genital-tract-fallopian-tube",
+    "name": "Fallopian tube",
+    "category": "Female Genital Tract",
+    "section": "Fallopian tube",
+    "subsection": null,
+    "description": "The fallopian tubes (oviducts) transport the ovum from ovary to uterus. The mucosa has elaborate longitudinal folds (plicae) most prominent in the ampulla.",
+    "theory": {
+      "features": [
+        "Complex mucosal branching folds (Plicae)",
+        "Simple columnar epithelium (Ciliated cells + Peg cells)",
+        "Peg cells: Non-ciliated, secretory (nutrient rich fluid)",
+        "Muscularis: Inner circular, outer longitudinal (peristalsis)",
+        "Serosa: Mesosalpinx"
+      ],
+      "location": [
+        "Extends from ovary to uterus",
+        "Broad ligament (upper border)"
+      ],
+      "function": [
+        "Transport of ovum/zygote to uterus",
+        "Site of fertilization (Ampulla)",
+        "Nourishment of ovum (Peg cells)"
+      ],
+      "examTips": "Looks like a 'labyrinth' of mucosal folds. Epithelium is simple columnar but looks messy due to ciliated vs secretory cells. Ampulla has MOST folds, Isthmus has FEWER folds and THICKER muscle."
+    },
+    "path": [
+      "Female Genital Tract",
+      "Fallopian tube"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-1.jpg",
+        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "female-genital-tract-ovary",
+    "name": "Ovary",
+    "category": "Female Genital Tract",
+    "section": "Ovary",
+    "subsection": null,
+    "description": "The ovary is the female gonad, consisting of a cortex (with ovarian follicles) and a vascular medulla, covered by simple cuboidal 'germinal' epithelium.",
+    "theory": {
+      "features": [
+        "Germinal Epithelium: Simple cuboidal (peritoneal covering)",
+        "Tunica Albuginea: Dense CT underlying epithelium",
+        "Cortex: Contains follicles in various stages (Primordial, Primary, Secondary, Graafian)",
+        "Corpus Luteum: Large, folded, endocrine gland (Granulosa lutein & Theca lutein cells)",
+        "Medulla: Loose CT with large blood vessels (Helicine arteries)"
+      ],
+      "location": [
+        "Lateral wall of pelvis",
+        "Ovarian fossa",
+        "Attached to broad ligament by mesovarium"
+      ],
+      "function": [
+        "Oogenesis (egg production)",
+        "Hormone production (Estrogen, Progesterone)"
+      ],
+      "examTips": "Identify follicles! Primordial = Squamous cells. Primary = Cuboidal cells. Secondary = Antrum forms. Graafian = Huge antrum + Cumulus oophorus. Corpus Luteum looks like a large, folded, eosinophilic mass (endocrine)."
+    },
+    "path": [
+      "Female Genital Tract",
+      "Ovary"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Female Genital Tract/Ovary/normal-ovary-1.jpg",
+        "/slides/Female Genital Tract/Ovary/normal-ovary-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "female-genital-tract-uterus",
+    "name": "Uterus",
+    "category": "Female Genital Tract",
+    "section": "Uterus",
+    "subsection": null,
+    "description": "The uterus consists of Endometrium (mucosa), Myometrium (thick smooth muscle), and Perimetrium (serosa). The endometrium undergoes cyclic changes.",
+    "theory": {
+      "features": [
+        "Endometrium: Simple columnar epithelium + Tubular glands + Stroma",
+        "Stratum Functionalis (sheds) vs Stratum Basalis (regenerates)",
+        "Myometrium: Thick bundles of smooth muscle (interlacing)",
+        "Proliferative Phase: Straight glands, mitotic figures",
+        "Secretory Phase: Saw-toothed/coiled glands, secretions in lumen"
+      ],
+      "location": [
+        "Pelvic cavity",
+        "Between bladder and rectum"
+      ],
+      "function": [
+        "Site of implantation and fetal development",
+        "Menstruation (shedding of functionalis)"
+      ],
+      "examTips": "Endometrium changes! Proliferative = Test tube glands. Secretory = Saw-tooth/Corkscrew glands. Myometrium is massive and vascular (arcuate arteries in stratum vasculare)."
+    },
+    "path": [
+      "Female Genital Tract",
+      "Uterus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Female Genital Tract/Uterus/normal-uterus-1.jpg",
+        "/slides/Female Genital Tract/Uterus/normal-uterus-2.jpg"
+      ]
+    }
+  }
+]

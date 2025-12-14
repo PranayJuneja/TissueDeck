@@ -1,0 +1,85 @@
+[
+  {
+    "id": "skin-hair-bearing-skin",
+    "name": "Hair Bearing Skin",
+    "category": "Skin",
+    "section": "Hair Bearing Skin",
+    "subsection": null,
+    "description": "Hair bearing (thin) skin covers most of the body. It is characterized by the presence of hair follicles, sebaceous glands, and a thinner epidermis compared to thick skin.",
+    "theory": {
+      "features": [
+        "Epidermis: Thin Stratum Corneum",
+        "Dermis: Hair Follicles (invaginations of epidermis)",
+        "Sebaceous Glands: Holocrine glands attached to hair follicles",
+        "Arrector Pili muscles: Smooth muscle attached to follicles",
+        "Sweat Glands: Eccrine (merocrine) and Apocrine (axilla/groin)"
+      ],
+      "location": [
+        "Most of body surface",
+        "Except palms and soles"
+      ],
+      "function": [
+        "Protection (barrier)",
+        "Thermoregulation (hair, sweat, blood flow)",
+        "Sensation (nerve endings)"
+      ],
+      "examTips": "Identify by Hair Follicles and Sebaceous Glands. Stratum Lucidum is ABSENT. Epidermal ridges (rete ridges) are less prominent than in thick skin."
+    },
+    "path": [
+      "Skin",
+      "Hair Bearing Skin"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Skin/Hair Bearing Skin/NH-hair-bearing-micro-annotated.png"
+      ]
+    }
+  },
+  {
+    "id": "skin-normal-skin",
+    "name": "Normal Skin",
+    "category": "Skin",
+    "section": "Normal Skin",
+    "subsection": null,
+    "description": "The skin (integument) consists of the epidermis (epithelium) and dermis (connective tissue). It rests on the hypodermis (subcutaneous fat).",
+    "theory": {
+      "features": [
+        "Epidermis: Keratinized Stratified Squamous Epithelium",
+        "Layers (Deep to Superficial): Basale, Spinosum, Granulosum, (Lucidum), Corneum",
+        "Dermis: Papillary (loose CT) and Reticular (dense irregular CT) layers",
+        "Cells: Keratinocytes (dominant), Melanocytes, Langerhans cells, Merkel cells",
+        "Dermal Papillae interdigitate with Epidermal Rete Ridges"
+      ],
+      "location": [
+        "External surface of the body"
+      ],
+      "function": [
+        "Barrier against pathogens, UV, dehydration",
+        "Vitamin D synthesis",
+        "Sensation and Thermoregulation"
+      ],
+      "examTips": "Thick Skin (Palms/Soles) has NO hair/sebaceous glands, a THICK Stratum Corneum, and a Stratum Lucidum. Thin skin has hair/sebaceous glands and NO Stratum Lucidum. The 'Normal Skin' slide usually refers to Thin Skin unless specified."
+    },
+    "path": [
+      "Skin",
+      "Normal Skin"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Skin/Normal Skin/normal-skin-1.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-2.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-3.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-4.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-5.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-6.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-7.jpg"
+      ]
+    }
+  }
+]

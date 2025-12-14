@@ -1,0 +1,287 @@
+[
+  {
+    "id": "eye-eye--optic-nerve",
+    "name": "Eye  Optic nerve",
+    "category": "Eye",
+    "section": "Eye  Optic nerve",
+    "subsection": null,
+    "description": "The optic nerve (CN II) is an extension of the central nervous system, surrounded by meninges. It consists of myelinated axons of retinal ganglion cells.",
+    "theory": {
+      "features": [
+        "Bundles of myelinated nerve fibers (axons of retinal ganglion cells)",
+        "Surrounded by Dura, Arachnoid, and Pia mater (meninges)",
+        "Septa of connective tissue carrying blood vessels",
+        "Central Retinal Artery and Vein in the center",
+        "Glial cells (Astrocytes, Oligodendrocytes) support the axons"
+      ],
+      "location": [
+        "Posterior aspect of the globe",
+        "Extends from optic disc to optic chiasm"
+      ],
+      "function": [
+        "Transmits visual information from retina to brain",
+        "Special Somatic Afferent (SSA) sensation"
+      ],
+      "examTips": "It is NOT a true peripheral nerve (surrounded by meninges, not epi/peri/endoneurium). Myelinated by Oligodendrocytes (like CNS), not Schwann cells. This explains why Optic Neuritis is common in Multiple Sclerosis (CNS demyelination)."
+    },
+    "path": [
+      "Eye",
+      "Eye  Optic nerve"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye  Optic nerve/optic-1.png",
+        "/slides/Eye/Eye  Optic nerve/optic-2.png",
+        "/slides/Eye/Eye  Optic nerve/optic-3.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye--retina-choroid-and-sclera",
+    "name": "Eye  Retina Choroid and Sclera",
+    "category": "Eye",
+    "section": "Eye  Retina Choroid and Sclera",
+    "subsection": null,
+    "description": "The wall of the eye consists of three tunics: Fibrous (Sclera), Vascular (Choroid), and Neural (Retina). The retina has 10 distinct layers.",
+    "theory": {
+      "features": [
+        "Sclera: Dense irregular connective tissue (Type I collagen)",
+        "Choroid: Highly vascular, pigmented (melanocytes), loose CT",
+        "Retina: 10 layers including Rods/Cones, Ganglion cells, Bipolar cells",
+        "Retinal Pigment Epithelium (RPE): Outermost retinal layer adjacent to choroid",
+        "Bruch's membrane separates choroid and retina"
+      ],
+      "location": [
+        "Posterior segment of the eye"
+      ],
+      "function": [
+        "Sclera: Protection and shape maintenance",
+        "Choroid: Nutrients to outer retina, light absorption",
+        "Retina: Phototransduction (vision)"
+      ],
+      "examTips": "Know the 10 layers of retina in order (from outside in): RPE -> Photoreceptors -> External Limiting Membrane -> Outer Nuclear -> Outer Plexiform -> Inner Nuclear -> Inner Plexiform -> Ganglion Cell -> Nerve Fiber -> Internal Limiting Membrane. 'In the eye, light passes through all layers to reach the photoreceptors'."
+    },
+    "path": [
+      "Eye",
+      "Eye  Retina Choroid and Sclera"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-1.png",
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-2.png",
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-3.png",
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-4.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---conjunctiva",
+    "name": "Eye - Conjunctiva",
+    "category": "Eye",
+    "section": "Eye - Conjunctiva",
+    "subsection": null,
+    "description": "The conjunctiva is a transparent mucous membrane covering the anterior eye (bulbar) and inner eyelids (palpebral). It contains goblet cells for lubrication.",
+    "theory": {
+      "features": [
+        "Stratified columnar epithelium (unusual) with goblet cells",
+        "Becomes stratified squamous near corneal limbus",
+        "Lamina propria: Loose connective tissue with lymphocytes",
+        "Vascular",
+        "Melanocytes may be present"
+      ],
+      "location": [
+        "Covers anterior sclera (Bulbar)",
+        "Lines inner surface of eyelids (Palpebral)",
+        "Forms conjunctival fornices"
+      ],
+      "function": [
+        "Lubrication (mucus from goblet cells)",
+        "Immune protection",
+        "Allows smooth movement of eyelids"
+      ],
+      "examTips": "Epithelium is key: Stratified Columnar with Goblet Cells. This is a rare epithelial type in the body (also found in large ducts). Inflammation = Conjunctivitis ('Pink Eye') due to dilation of its vessels (sclera is avascular)."
+    },
+    "path": [
+      "Eye",
+      "Eye - Conjunctiva"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Conjunctiva/conjunctiva-1.png",
+        "/slides/Eye/Eye - Conjunctiva/conjunctiva-2.png",
+        "/slides/Eye/Eye - Conjunctiva/conjunctiva-3.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---cornea",
+    "name": "Eye - Cornea",
+    "category": "Eye",
+    "section": "Eye - Cornea",
+    "subsection": null,
+    "description": "The cornea is the transparent anterior part of the eye. It is avascular and consists of 5 layers.",
+    "theory": {
+      "features": [
+        "Epithelium: Non-keratinized stratified squamous (rich nerve supply)",
+        "Bowman's layer: Acellular basement membrane",
+        "Stroma (Substantia Propria): 90% of thickness, regular Type I collagen lamellae",
+        "Descemet's membrane: Thick distinct basement membrane",
+        "Endothelium: Simple squamous/cuboidal (pumps water out)"
+      ],
+      "location": [
+        "Anterior 1/6th of the outer fibrous coat"
+      ],
+      "function": [
+        "Refraction of light (2/3 of total refractive power)",
+        "Protection",
+        "Pumps maintain dehydration for transparency"
+      ],
+      "examTips": "Cornea is AVASCULAR (gets O2 from air/aqueous humor). Transparency due to regular arrangement of collagen + dehydration. Epithelium regenerates (Bowman's does NOT). Endothelium does NOT regenerate."
+    },
+    "path": [
+      "Eye",
+      "Eye - Cornea"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Cornea/cornea-1.png",
+        "/slides/Eye/Eye - Cornea/cornea-2.png",
+        "/slides/Eye/Eye - Cornea/cornea-3.png",
+        "/slides/Eye/Eye - Cornea/cornea-4.png",
+        "/slides/Eye/Eye - Cornea/cornea-5.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---iris-and-ciliary-body",
+    "name": "Eye - Iris and Ciliary body",
+    "category": "Eye",
+    "section": "Eye - Iris and Ciliary body",
+    "subsection": null,
+    "description": "The Iris controls light entry (pupil). The Ciliary Body produces aqueous humor and controls lens accommodation.",
+    "theory": {
+      "features": [
+        "Iris: Anterior stromal border (no epithelium), Stroma with melanocytes",
+        "Iris posterior epithelium: Two layers of HIGHLY pigmented cells",
+        "Sphincter pupillae (smooth muscle in stroma) & Dilator pupillae (myoepithelial)",
+        "Ciliary Body: Ciliary processes covered by double layer of epithelium",
+        "Ciliary muscle (smooth muscle for accommodation)"
+      ],
+      "location": [
+        "Anterior Uvea",
+        "Between cornea and lens (Iris)",
+        "Between choroid and iris (Ciliary Body)"
+      ],
+      "function": [
+        "Iris: Regulates pupil size (light adaptation)",
+        "Ciliary Body: Aqueous humor production (non-pigmented cells), Accommodation (muscle)"
+      ],
+      "examTips": "Ciliary epithelium outer layer is PIGMENTED (continuity with RPE), inner is NON-PIGMENTED (continuity with neural retina). Glaucoma = blockage of aqueous drainage at iridocorneal angle."
+    },
+    "path": [
+      "Eye",
+      "Eye - Iris and Ciliary body"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-1.png",
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-2.png",
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-3.png",
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-4.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---whole-globe",
+    "name": "Eye - Whole globe",
+    "category": "Eye",
+    "section": "Eye - Whole globe",
+    "subsection": null,
+    "description": "A cross-section of the whole globe allows visualization of the relationships between the anterior and posterior segments, lens, and fluid chambers.",
+    "theory": {
+      "features": [
+        "Lens: Capsule, Subcapsular epithelium (anterior only), Lens fibers",
+        "Anterior Chamber & Posterior Chamber (filled with Aqueous Humor)",
+        "Vitreous Cavity (filled with Vitreous Humor)",
+        "Ora Serrata: Junction between independent retina and ciliary body",
+        "Fovea Centralis: Depression in macula (visual acuity)"
+      ],
+      "location": [
+        "Orbit"
+      ],
+      "function": [
+        "Vision organ"
+      ],
+      "examTips": "Note the Lens: Epithelium is ONLY on the ANTERIOR surface. New lens fibers are added throughout life (older fibers compressed in nucleus -> Presbyopia/Cataract). Fovea has NO blood vessels and mostly Cones."
+    },
+    "path": [
+      "Eye",
+      "Eye - Whole globe"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Whole globe/whole-globe-1.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-orbit---lacrimal-gland",
+    "name": "Orbit - Lacrimal gland",
+    "category": "Eye",
+    "section": "Orbit - Lacrimal gland",
+    "subsection": null,
+    "description": "The lacrimal gland is a tubuloacinar exocrine gland secreting the aqueous layer of the tear film. It resembles the parotid gland but lacks striated ducts.",
+    "theory": {
+      "features": [
+        "Serous acini (tall columnar cells, apical secretory granules)",
+        "Myoepithelial cells at base of acini",
+        "Ducts lined by simple/stratified cuboidal epithelium",
+        "NO striated ducts (different from salivary glands)",
+        "Lymphocytes/Plasma cells in interstitium"
+      ],
+      "location": [
+        "Superolateral orbit (lacrimal fossa)",
+        "Upper eyelid"
+      ],
+      "function": [
+        "Secretion of tears (Lysozyme, IgA, Lactoferrin)",
+        "Moistening and protection of cornea/conjunctiva"
+      ],
+      "examTips": "Looks remarkably like Parotid Gland (Serous). Differentiate by: ABSENCE of striated ducts in Lacrimal Gland. Also, Lacrimal Gland often has more widely spaced acini and more adipose tissue with age."
+    },
+    "path": [
+      "Eye",
+      "Orbit - Lacrimal gland"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-1.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-2.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-3.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-4.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-5.png"
+      ]
+    }
+  }
+]

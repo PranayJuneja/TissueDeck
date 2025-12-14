@@ -1,0 +1,42 @@
+[
+  {
+    "id": "breast",
+    "name": "Breast",
+    "category": "Breast",
+    "section": null,
+    "subsection": null,
+    "description": "The mammary gland is a modified apocrine sweat gland composed of 15-20 lobes of tubuloalveolar glands embedded in adipose and connective tissue. Its structure varies with age, menstrual cycle, and pregnancy.",
+    "theory": {
+      "features": [
+        "Lobes of tubuloalveolar glands separated by interlobar connective tissue",
+        "Lactiferous ducts (15-20) open at nipple",
+        "Two types of epithelium: luminal secretory and basal myoepithelial cells",
+        "Intralobular stroma: loose, hormone-responsive connective tissue",
+        "Interlobular stroma: dense fibrous connective tissue with adipose"
+      ],
+      "location": [
+        "Anterior chest wall overlying pectoralis major",
+        "Extends from 2nd to 6th rib, sternum to midaxillary line",
+        "Axillary tail of Spence extends toward axilla"
+      ],
+      "function": [
+        "Milk production and secretion during lactation",
+        "Myoepithelial cells contract to expel milk",
+        "Secondary sexual characteristic"
+      ],
+      "examTips": "Breast lymphatic drainage: 75% to axillary nodes (most important for cancer spread). Remember the two cell layers: inner luminal cells (secretory) and outer myoepithelial cells (contractile, tumor suppressors). Cooper's ligaments provide structural support."
+    },
+    "path": [
+      "Breast"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Breast/normal-breast-1.jpg",
+        "/slides/Breast/normal-breast-2.jpg"
+      ]
+    }
+  }
+]
