@@ -2,6 +2,23 @@
 
 ---
 
+## v4.21 - Mobile UI Improvements
+**Date:** December 15, 2025 (1:38 AM IST)
+
+### UI/UX Improvements
+
+- **📱 Expanded Info Panel on Mobile** — Removed restrictive max-height on the data box (BREAST, description, Key Features section) so it now fills all available space until the footer
+- **🔍 Hidden Zoom Controls on Mobile** — Removed zoom buttons (-/↻/+) on mobile view since pinch-to-zoom is available; slide navigation controls remain visible
+- **🧹 Less Wasted Space** — Mobile layout now uses screen real estate more efficiently
+
+### Files Modified
+| File | Change |
+|------|--------|
+| `src/App.jsx` | Mobile CSS: info-section now uses flex:1 instead of max-height |
+| `src/components/SlideViewer.module.css` | Hidden zoomControls on mobile (display: none) |
+
+---
+
 ## 🚀 v4.20 - THE KNOWLEDGE EXPLOSION UPDATE 🚀
 **Date:** December 15, 2025 (1:20 AM IST)  
 **Session Duration:** ~2 hours  

@@ -849,8 +849,9 @@ function App() {
           }
 
           .info-section {
-            max-height: 300px;
-            flex-shrink: 0;
+            flex: 1;
+            min-height: 200px;
+            overflow-y: auto;
           }
           
           .view-controls {
@@ -880,7 +881,7 @@ function App() {
           }
 
           .info-section {
-            max-height: 250px;
+            min-height: 250px;
           }
 
           .top-bar {
@@ -980,7 +981,7 @@ function App() {
           }
 
           .info-section {
-            max-height: 200px;
+            min-height: 180px;
           }
 
           .top-bar {

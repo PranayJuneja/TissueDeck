@@ -245,11 +245,7 @@
     }
 
     .zoomControls {
-        padding-right: 0;
-        padding-bottom: 10px;
-        gap: 8px;
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        display: none; /* Hidden on mobile - use pinch-to-zoom instead */
     }
 
     .slideControls {
