@@ -39,7 +39,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
     };
 
     const handleZoomOut = () => {
-        setZoom(prev => Math.max(prev / 1.5, 0.5));
+        setZoom(prev => Math.max(prev / 1.5, 0.35));
     };
 
     const handleReset = () => {
@@ -96,7 +96,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
         const delta = e.deltaY > 0 ? -0.05 : 0.05;
         setZoom(prev => {
             const newZoom = prev + delta;
-            return Math.min(Math.max(newZoom, 0.5), 5);
+            return Math.min(Math.max(newZoom, 0.35), 5);
         });
     };
 
