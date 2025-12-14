@@ -1,0 +1,2046 @@
+[
+  {
+    "id": "breast",
+    "name": "Breast",
+    "category": "Breast",
+    "section": null,
+    "subsection": null,
+    "path": [
+      "Breast"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Breast/normal-breast-1.jpg",
+        "/slides/Breast/normal-breast-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-atrioventricular-valve-atrioventricular-valve",
+    "name": "Atrioventricular valve",
+    "category": "Cardiovascular System",
+    "section": "Atrioventricular valve",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Atrioventricular valve",
+      "Atrioventricular valve"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-1.png",
+        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-2.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-atrioventricular-valve-chordae-tendine",
+    "name": "Chordae Tendine",
+    "category": "Cardiovascular System",
+    "section": "Atrioventricular valve",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Atrioventricular valve",
+      "Chordae Tendine"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Atrioventricular valve/Chordae Tendine/Chordae-tendineae-1.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-aorta-aorta",
+    "name": "Aorta",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": "Aorta",
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Aorta",
+      "Aorta"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Low-power-1.jpg"
+      ],
+      "medium": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Medium-power-1.jpg"
+      ],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-6.2-scaled.jpg",
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-3-3.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-aorta-aorta--tunica-adventitia",
+    "name": "Aorta- Tunica Adventitia",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": "Aorta",
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Aorta",
+      "Aorta- Tunica Adventitia"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-Medium-power-1.png"
+      ],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-High-power-1.png"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-aorta-aorta--tunica-media",
+    "name": "Aorta- Tunica Media",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": "Aorta",
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Aorta",
+      "Aorta- Tunica Media"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-1-1.png",
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-3.png"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-coronary-artery",
+    "name": "Coronary Artery",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Coronary Artery"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Artery/Coronary-artery-and-veins-Low-power-1.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-blood-vessels-coronary-vein",
+    "name": "Coronary Vein",
+    "category": "Cardiovascular System",
+    "section": "Blood vessels",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Blood vessels",
+      "Coronary Vein"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-Low-power-1.jpg"
+      ],
+      "medium": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-–-Valve-Medium-power-1.jpg"
+      ],
+      "high": [
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-1.jpg",
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-4.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-endocardium",
+    "name": "Endocardium",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Endocardium"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-1.png",
+        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-2.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-epicardium",
+    "name": "Epicardium",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Epicardium"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-1.png",
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-2.png",
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-3.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-myocardium",
+    "name": "Myocardium",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Myocardium"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-1.png",
+        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-2.png"
+      ]
+    }
+  },
+  {
+    "id": "cardiovascular-system-heart-normal-heart",
+    "name": "Normal Heart",
+    "category": "Cardiovascular System",
+    "section": "Heart",
+    "subsection": null,
+    "path": [
+      "Cardiovascular System",
+      "Heart",
+      "Normal Heart"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Cardiovascular System/Heart/Normal Heart/Normal-heart-1.png"
+      ]
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebellum-cerebellar-cortex",
+    "name": "Cerebellar Cortex",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebellum",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebellum",
+      "Cerebellar Cortex"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellar Cortex/Cerebellar-cortex-high-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebellum-cerebellum",
+    "name": "Cerebellum",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebellum",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebellum",
+      "Cerebellum"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-2.jpg",
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-3.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-medium-4.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebrum-cerebral-cortex",
+    "name": "Cerebral Cortex",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebrum",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebrum",
+      "Cerebral Cortex"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-low-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebrum-cerebrum",
+    "name": "Cerebrum",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebrum",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebrum",
+      "Cerebrum"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebrum/Cerebrum-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-cerebrum-white-matter",
+    "name": "White Matter",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Cerebrum",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Cerebrum",
+      "White Matter"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Cerebrum/White Matter/White-matter-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-hippocampus-dentate-gyrus",
+    "name": "Dentate Gyrus",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Hippocampus",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Hippocampus",
+      "Dentate Gyrus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-2.jpg",
+        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-4.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-hippocampus-hippocampus",
+    "name": "Hippocampus",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Hippocampus",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Hippocampus",
+      "Hippocampus"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-2.jpg",
+        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-4.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-medulla-m-o---inferior-olivary-nucleus-",
+    "name": "M.O. (Inferior Olivary Nucleus)",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Medulla",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Medulla",
+      "M.O. (Inferior Olivary Nucleus)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Inferior-olivary-nucleus-High-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Medial-lemniscus-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-medulla-medulla-oblongata",
+    "name": "Medulla Oblongata",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Medulla",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Medulla",
+      "Medulla Oblongata"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-4.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-4.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-2.jpg",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-4.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-midbrain-midbrain",
+    "name": "Midbrain",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Midbrain",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Midbrain",
+      "Midbrain"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Low-power-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-midbrain-substantia-nigra",
+    "name": "Substantia Nigra",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Midbrain",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Midbrain",
+      "Substantia Nigra"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Brain/Midbrain/Substantia Nigra/Substantia-nigra-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-anterior-pituitary",
+    "name": "Anterior Pituitary",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Anterior Pituitary"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-2.jpg",
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-4.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-pars-intermedia",
+    "name": "Pars Intermedia",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Pars Intermedia"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Low-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-pituitary-gland",
+    "name": "Pituitary Gland",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Pituitary Gland"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-2.jpg",
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-4.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-pituitary-stalk",
+    "name": "Pituitary Stalk",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Pituitary Stalk"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pituitary-posterior-pituitary",
+    "name": "Posterior Pituitary",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pituitary",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pituitary",
+      "Posterior Pituitary"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pons-basal-pons",
+    "name": "Basal Pons",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pons",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pons",
+      "Basal Pons"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-Medium-2.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-High-2.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-brain-pons-pons",
+    "name": "Pons",
+    "category": "Central Nervous System",
+    "section": "Brain",
+    "subsection": "Pons",
+    "path": [
+      "Central Nervous System",
+      "Brain",
+      "Pons",
+      "Pons"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Low-power-2.jpg"
+      ],
+      "medium": [
+        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Medium-2.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord",
+    "name": "Spinal Cord",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord/0.-Spinal-cord-1-1.jpg"
+      ]
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--central-canal-",
+    "name": "Spinal Cord (Central Canal)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Central Canal)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/13.-Spinal-cord-–-Central-canal-High-power-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/14.-Spinal-cord-–-Central-canal-High-power-1.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--cervical-enlargement-",
+    "name": "Spinal Cord (Cervical Enlargement)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Cervical Enlargement)"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/1.-Spinal-cord-–-Cervical-enlargement-Very-low-power-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/2.-Spinal-cord-–-Cervical-enlargement-Very-low-power-Luxol-fast-blue-LFB-stain-1.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--dorsal-column-",
+    "name": "Spinal Cord (Dorsal Column)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Dorsal Column)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/3.-Spinal-cord-–-Dorsal-columns-Medium-power-dorsal-aspect-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/4.-Spinal-cord-–-Dorsal-columns-Medium-power-LFB-stain-1.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--dorsolateral-sulcus-",
+    "name": "Spinal Cord (Dorsolateral Sulcus)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": null,
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Dorsolateral Sulcus)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsolateral Sulcus)/7.-Spinal-cord-–-Dorsolateral-sulcus-Medium-power-1.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--ventral-horns--ventral-horns",
+    "name": "Ventral horns",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": "Spinal Cord (Ventral Horns)",
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Ventral Horns)",
+      "Ventral horns"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/5.-Spinal-cord-–-Ventral-horns-Medium-power-1.jpg",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/9.-Spinal-cord-–-Ventral-horns-Medium-power-1.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/11.-Spinal-cord-–-Ventral-horns-High-power-1.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "central-nervous-system-spinal-cord-spinal-cord--ventral-horns--ventral-horns--lfb-stains-",
+    "name": "Ventral Horns (LFB Stains)",
+    "category": "Central Nervous System",
+    "section": "Spinal Cord",
+    "subsection": "Spinal Cord (Ventral Horns)",
+    "path": [
+      "Central Nervous System",
+      "Spinal Cord",
+      "Spinal Cord (Ventral Horns)",
+      "Ventral Horns (LFB Stains)"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/10.-Spinal-cord-–-Ventral-horns-Medium-power-LFB-stain-1-1.png",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/6.-Spinal-cord-–-Ventral-horns-Medium-power-LFB-stain-1.jpg"
+      ],
+      "high": [
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/12.-Spinal-cord-–-Ventral-horns-High-power-Luxol-fast-blue-1.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "eye-eye--optic-nerve",
+    "name": "Eye  Optic nerve",
+    "category": "Eye",
+    "section": "Eye  Optic nerve",
+    "subsection": null,
+    "path": [
+      "Eye",
+      "Eye  Optic nerve"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye  Optic nerve/optic-1.png",
+        "/slides/Eye/Eye  Optic nerve/optic-2.png",
+        "/slides/Eye/Eye  Optic nerve/optic-3.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye--retina-choroid-and-sclera",
+    "name": "Eye  Retina Choroid and Sclera",
+    "category": "Eye",
+    "section": "Eye  Retina Choroid and Sclera",
+    "subsection": null,
+    "path": [
+      "Eye",
+      "Eye  Retina Choroid and Sclera"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-1.png",
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-2.png",
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-3.png",
+        "/slides/Eye/Eye  Retina Choroid and Sclera/retina-4.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---conjunctiva",
+    "name": "Eye - Conjunctiva",
+    "category": "Eye",
+    "section": "Eye - Conjunctiva",
+    "subsection": null,
+    "path": [
+      "Eye",
+      "Eye - Conjunctiva"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Conjunctiva/conjunctiva-1.png",
+        "/slides/Eye/Eye - Conjunctiva/conjunctiva-2.png",
+        "/slides/Eye/Eye - Conjunctiva/conjunctiva-3.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---cornea",
+    "name": "Eye - Cornea",
+    "category": "Eye",
+    "section": "Eye - Cornea",
+    "subsection": null,
+    "path": [
+      "Eye",
+      "Eye - Cornea"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Cornea/cornea-1.png",
+        "/slides/Eye/Eye - Cornea/cornea-2.png",
+        "/slides/Eye/Eye - Cornea/cornea-3.png",
+        "/slides/Eye/Eye - Cornea/cornea-4.png",
+        "/slides/Eye/Eye - Cornea/cornea-5.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---iris-and-ciliary-body",
+    "name": "Eye - Iris and Ciliary body",
+    "category": "Eye",
+    "section": "Eye - Iris and Ciliary body",
+    "subsection": null,
+    "path": [
+      "Eye",
+      "Eye - Iris and Ciliary body"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-1.png",
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-2.png",
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-3.png",
+        "/slides/Eye/Eye - Iris and Ciliary body/iris-4.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-eye---whole-globe",
+    "name": "Eye - Whole globe",
+    "category": "Eye",
+    "section": "Eye - Whole globe",
+    "subsection": null,
+    "path": [
+      "Eye",
+      "Eye - Whole globe"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Eye - Whole globe/whole-globe-1.png"
+      ]
+    }
+  },
+  {
+    "id": "eye-orbit---lacrimal-gland",
+    "name": "Orbit - Lacrimal gland",
+    "category": "Eye",
+    "section": "Orbit - Lacrimal gland",
+    "subsection": null,
+    "path": [
+      "Eye",
+      "Orbit - Lacrimal gland"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-1.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-2.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-3.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-4.png",
+        "/slides/Eye/Orbit - Lacrimal gland/orbit-5.png"
+      ]
+    }
+  },
+  {
+    "id": "female-genital-tract-fallopian-tube",
+    "name": "Fallopian tube",
+    "category": "Female Genital Tract",
+    "section": "Fallopian tube",
+    "subsection": null,
+    "path": [
+      "Female Genital Tract",
+      "Fallopian tube"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-1.jpg",
+        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "female-genital-tract-ovary",
+    "name": "Ovary",
+    "category": "Female Genital Tract",
+    "section": "Ovary",
+    "subsection": null,
+    "path": [
+      "Female Genital Tract",
+      "Ovary"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Female Genital Tract/Ovary/normal-ovary-1.jpg",
+        "/slides/Female Genital Tract/Ovary/normal-ovary-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "female-genital-tract-uterus",
+    "name": "Uterus",
+    "category": "Female Genital Tract",
+    "section": "Uterus",
+    "subsection": null,
+    "path": [
+      "Female Genital Tract",
+      "Uterus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Female Genital Tract/Uterus/normal-uterus-1.jpg",
+        "/slides/Female Genital Tract/Uterus/normal-uterus-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-appendix",
+    "name": "Appendix",
+    "category": "Gastrointestinal Tract",
+    "section": "Appendix",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Appendix"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Appendix/normal-appendix-1.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-colon",
+    "name": "Colon",
+    "category": "Gastrointestinal Tract",
+    "section": "Colon",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Colon"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-1.jpg",
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-2.jpg",
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-oesophagus-myentric-plexus",
+    "name": "Myentric Plexus",
+    "category": "Gastrointestinal Tract",
+    "section": "Oesophagus",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Oesophagus",
+      "Myentric Plexus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Oesophagus/Myentric Plexus/normal-oesophagus-4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-oesophagus-oesophageal-mucosa",
+    "name": "Oesophageal Mucosa",
+    "category": "Gastrointestinal Tract",
+    "section": "Oesophagus",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Oesophagus",
+      "Oesophageal Mucosa"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophageal Mucosa/normal-oesophagus-6.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-oesophagus-oesophagus",
+    "name": "Oesophagus",
+    "category": "Gastrointestinal Tract",
+    "section": "Oesophagus",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Oesophagus",
+      "Oesophagus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-1.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-2.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-3.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-5.jpg",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-7.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-salivary-gland",
+    "name": "Salivary gland",
+    "category": "Gastrointestinal Tract",
+    "section": "Salivary gland",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Salivary gland"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-1.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-2.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-3.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-4.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-5.jpg",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-6.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-small-bowel",
+    "name": "Small bowel",
+    "category": "Gastrointestinal Tract",
+    "section": "Small bowel",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Small bowel"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-1.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-2.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-3.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-4.jpg",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-gastric-antrum",
+    "name": "Gastric Antrum",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Gastric Antrum"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [
+        "/slides/Gastrointestinal Tract/Stomach/Gastric Antrum/Gastric-antrum-medium-power-3-scaled.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-gastric-foveolae",
+    "name": "Gastric Foveolae",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Gastric Foveolae"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Stomach/Gastric Foveolae/Gastric-foveolae-or-pits-1-scaled.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-normal-stomach",
+    "name": "Normal Stomach",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Normal Stomach"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-1.jpg",
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-2.jpg",
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-stomach-pylorus",
+    "name": "Pylorus",
+    "category": "Gastrointestinal Tract",
+    "section": "Stomach",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Stomach",
+      "Pylorus"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-low-power-1-scaled.jpg"
+      ],
+      "medium": [],
+      "high": [
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-lamina-propria-high-power-1-scaled.jpg",
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-non-specialised-glands-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-tongue",
+    "name": "Tongue",
+    "category": "Gastrointestinal Tract",
+    "section": "Tongue",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Tongue"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-1-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-2-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-3-annotated.jpg"
+      ],
+      "medium": [],
+      "high": [
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-1-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-2-annotated.jpg",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-3-annotated.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "gastrointestinal-tract-tonsil--palatine-tonsil-",
+    "name": "Tonsil (Palatine Tonsil)",
+    "category": "Gastrointestinal Tract",
+    "section": "Tonsil (Palatine Tonsil)",
+    "subsection": null,
+    "path": [
+      "Gastrointestinal Tract",
+      "Tonsil (Palatine Tonsil)"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-1-scaled.jpg",
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-3-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-1-scaled.jpg",
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-3-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "haematolymphoid-system-bone-marrow",
+    "name": "Bone marrow",
+    "category": "Haematolymphoid System",
+    "section": "Bone marrow",
+    "subsection": null,
+    "path": [
+      "Haematolymphoid System",
+      "Bone marrow"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-1.jpg",
+        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "haematolymphoid-system-lymph-node",
+    "name": "Lymph node",
+    "category": "Haematolymphoid System",
+    "section": "Lymph node",
+    "subsection": null,
+    "path": [
+      "Haematolymphoid System",
+      "Lymph node"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-1.jpg",
+        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "haematolymphoid-system-spleen",
+    "name": "Spleen",
+    "category": "Haematolymphoid System",
+    "section": "Spleen",
+    "subsection": null,
+    "path": [
+      "Haematolymphoid System",
+      "Spleen"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-1.jpg",
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-2.jpg",
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "haematolymphoid-system-thymus",
+    "name": "Thymus",
+    "category": "Haematolymphoid System",
+    "section": "Thymus",
+    "subsection": null,
+    "path": [
+      "Haematolymphoid System",
+      "Thymus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-1.jpg",
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-2.jpg",
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-ampulla-ampulla",
+    "name": "Ampulla",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Ampulla",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Ampulla",
+      "Ampulla"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-medium-power-1-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-ampulla-ampulla-of-vater",
+    "name": "Ampulla of Vater",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Ampulla",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Ampulla",
+      "Ampulla of Vater"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla of Vater/Ampulla-of-Vater-low-power-1-scaled.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-ampulla-major-papilla",
+    "name": "Major Papilla",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Ampulla",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Ampulla",
+      "Major Papilla"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Major Papilla/Major-papilla-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-bile-duct",
+    "name": "Bile duct",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Bile duct",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Bile duct"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD1.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD2.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD3.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-gallbladder-cystic-duct",
+    "name": "Cystic Duct",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Gallbladder",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Gallbladder",
+      "Cystic Duct"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-medium-power-1-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-gallbladder-gallbladder",
+    "name": "Gallbladder",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Gallbladder",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Gallbladder",
+      "Gallbladder"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-medium-power-1-scaled.jpg"
+      ],
+      "high": [
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-1-scaled.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-3-300x222.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-liver",
+    "name": "Liver",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Liver",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Liver"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-1.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-2.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "hepatobiliary-system-and-pancreas-pancreas",
+    "name": "Pancreas",
+    "category": "Hepatobiliary System and Pancreas",
+    "section": "Pancreas",
+    "subsection": null,
+    "path": [
+      "Hepatobiliary System and Pancreas",
+      "Pancreas"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-1.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-4.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-6.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-7.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-8.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-9.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-10.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-11.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-12.jpg",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-13.jpg"
+      ]
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-bone",
+    "name": "Bone",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Bone"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [
+        "/slides/Musculoskeletal System/Bone/Bone/Bone-high-power-1-scaled.jpg"
+      ],
+      "default": []
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-bone-marrow",
+    "name": "Bone Marrow",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Bone Marrow"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Musculoskeletal System/Bone/Bone Marrow/Bone-marrow-low-power-1-scaled.jpg"
+      ],
+      "medium": [],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-cancellous-bone",
+    "name": "Cancellous Bone",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Cancellous Bone"
+    ],
+    "slides": {
+      "low": [
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-low-power-1-scaled.jpg"
+      ],
+      "medium": [
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-1-scaled.jpg",
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-3-scaled.jpg"
+      ],
+      "high": [],
+      "default": []
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-epiphyseal-growth-plate",
+    "name": "Epiphyseal Growth Plate",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Epiphyseal Growth Plate"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-6.jpg",
+        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-7.jpg"
+      ]
+    }
+  },
+  {
+    "id": "musculoskeletal-system-bone-normal-bone",
+    "name": "Normal Bone",
+    "category": "Musculoskeletal System",
+    "section": "Bone",
+    "subsection": null,
+    "path": [
+      "Musculoskeletal System",
+      "Bone",
+      "Normal Bone"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-1.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-2.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-3.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-4.jpg",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "musculoskeletal-system-skeletal-muscle",
+    "name": "Skeletal muscle",
+    "category": "Musculoskeletal System",
+    "section": "Skeletal muscle",
+    "subsection": null,
+    "path": [
+      "Musculoskeletal System",
+      "Skeletal muscle"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-1.jpg",
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-2.jpg",
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "respiratory-tract-bronchus",
+    "name": "Bronchus",
+    "category": "Respiratory Tract",
+    "section": "Bronchus",
+    "subsection": null,
+    "path": [
+      "Respiratory Tract",
+      "Bronchus"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-1.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-2.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-3.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-4.jpg",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "respiratory-tract-lung",
+    "name": "Lung",
+    "category": "Respiratory Tract",
+    "section": "Lung",
+    "subsection": null,
+    "path": [
+      "Respiratory Tract",
+      "Lung"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Respiratory Tract/Lung/normal-lung-1.jpg",
+        "/slides/Respiratory Tract/Lung/normal-lung-2.jpg",
+        "/slides/Respiratory Tract/Lung/normal-lung-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "respiratory-tract-trachea",
+    "name": "Trachea",
+    "category": "Respiratory Tract",
+    "section": "Trachea",
+    "subsection": null,
+    "path": [
+      "Respiratory Tract",
+      "Trachea"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Respiratory Tract/Trachea/T1.jpg",
+        "/slides/Respiratory Tract/Trachea/T2.jpg",
+        "/slides/Respiratory Tract/Trachea/T3.jpg",
+        "/slides/Respiratory Tract/Trachea/T4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "skin-hair-bearing-skin",
+    "name": "Hair Bearing Skin",
+    "category": "Skin",
+    "section": "Hair Bearing Skin",
+    "subsection": null,
+    "path": [
+      "Skin",
+      "Hair Bearing Skin"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Skin/Hair Bearing Skin/NH-hair-bearing-micro-annotated.png"
+      ]
+    }
+  },
+  {
+    "id": "skin-normal-skin",
+    "name": "Normal Skin",
+    "category": "Skin",
+    "section": "Normal Skin",
+    "subsection": null,
+    "path": [
+      "Skin",
+      "Normal Skin"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Skin/Normal Skin/normal-skin-1.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-2.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-3.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-4.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-5.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-6.jpg",
+        "/slides/Skin/Normal Skin/normal-skin-7.jpg"
+      ]
+    }
+  },
+  {
+    "id": "thyroid-and-endocrine-system-adrenal",
+    "name": "Adrenal",
+    "category": "Thyroid and Endocrine System",
+    "section": "Adrenal",
+    "subsection": null,
+    "path": [
+      "Thyroid and Endocrine System",
+      "Adrenal"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-1.jpg",
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-2.jpg",
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "thyroid-and-endocrine-system-parathyroid",
+    "name": "Parathyroid",
+    "category": "Thyroid and Endocrine System",
+    "section": "Parathyroid",
+    "subsection": null,
+    "path": [
+      "Thyroid and Endocrine System",
+      "Parathyroid"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-1.jpg",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-2.jpg",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-3.jpg",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "thyroid-and-endocrine-system-thyroid",
+    "name": "Thyroid",
+    "category": "Thyroid and Endocrine System",
+    "section": "Thyroid",
+    "subsection": null,
+    "path": [
+      "Thyroid and Endocrine System",
+      "Thyroid"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Thyroid and Endocrine System/Thyroid/normal-thyroid-1.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-bladder",
+    "name": "Bladder",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Bladder",
+    "subsection": null,
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Bladder"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Bladder/normal-bladder-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Bladder/normal-bladder-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-kidney",
+    "name": "Kidney",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Kidney",
+    "subsection": null,
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Kidney"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-3.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-4.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Kidney/normal-kidney-5.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-prostate",
+    "name": "Prostate",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Prostate",
+    "subsection": null,
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Prostate"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-3.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-4.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-5.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Prostate/normal-prostate-6.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-seminal-vesicle",
+    "name": "Seminal vesicle",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Seminal vesicle",
+    "subsection": null,
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Seminal vesicle"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Seminal vesicle/normal-seminal-vesicle-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Seminal vesicle/normal-seminal-vesicle-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Seminal vesicle/normal-seminal-vesicle-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-testis-and-epididymis-epididymis",
+    "name": "Epididymis",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Testis and Epididymis",
+    "subsection": null,
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Testis and Epididymis",
+      "Epididymis"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Epididymis/normal-testis-and-epididymis-9.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Epididymis/normal-testis-and-epididymis-10.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Epididymis/normal-testis-and-epididymis-11.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-testis-and-epididymis-testis",
+    "name": "Testis",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Testis and Epididymis",
+    "subsection": null,
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Testis and Epididymis",
+      "Testis"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-3.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-4.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-5.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-6.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-7.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Testis and Epididymis/Testis/normal-testis-and-epididymis-8.jpg"
+      ]
+    }
+  },
+  {
+    "id": "urogenital-system-and-male-reproductive-system-ureter",
+    "name": "Ureter",
+    "category": "Urogenital System and Male Reproductive System",
+    "section": "Ureter",
+    "subsection": null,
+    "path": [
+      "Urogenital System and Male Reproductive System",
+      "Ureter"
+    ],
+    "slides": {
+      "low": [],
+      "medium": [],
+      "high": [],
+      "default": [
+        "/slides/Urogenital System and Male Reproductive System/Ureter/normal-ureter-1.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Ureter/normal-ureter-2.jpg",
+        "/slides/Urogenital System and Male Reproductive System/Ureter/normal-ureter-3.jpg"
+      ]
+    }
+  }
+]

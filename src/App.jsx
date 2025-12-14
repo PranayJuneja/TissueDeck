@@ -1,84 +1,113 @@
 import { useState, useMemo, useEffect } from 'react';
-import tissues from './data/tissues.json';
+import slides from './data/slides.json';
 import SlideViewer from './components/SlideViewer';
 import TheoryPanel from './components/TheoryPanel';
 import './styles/global.css';
 
 function App() {
-  const [selectedGroupName, setSelectedGroupName] = useState(null);
-  const [selectedMagnification, setSelectedMagnification] = useState(null);
+  const [selectedTissueId, setSelectedTissueId] = useState(null);
   const [showLabels, setShowLabels] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedCategories, setExpandedCategories] = useState({});
+  const [expandedSections, setExpandedSections] = useState({});
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // 1. Group Tissues by Base Name
-  const groupedSlides = useMemo(() => {
-    const groups = {};
+  // Process slides into hierarchical structure for sidebar
+  const { tissueList, hierarchicalCategories } = useMemo(() => {
+    // Create a simple list for selection
+    const list = slides.map(tissue => ({
+      ...tissue,
+      displayName: tissue.name,
+      // Combine all slides for display purposes
+      allSlides: [
+        ...(tissue.slides.low || []),
+        ...(tissue.slides.medium || []),
+        ...(tissue.slides.high || []),
+        ...(tissue.slides.default || [])
+      ]
+    }));
 
-    tissues.forEach(tissue => {
-      // Extract magnification from name, e.g., "Thyroid (40x)" -> Base: "Thyroid", Mag: "40x"
-      // If no magnification found, use 'Default' or 'Overview'
-      const match = tissue.name.match(/^(.*?)\s*\(?(\d+x)\)?$/i);
-      const baseName = match ? match[1].trim() : tissue.name;
-      const mag = match ? match[2].toLowerCase() : 'overview';
-
-      if (!groups[baseName]) {
-        groups[baseName] = {
-          name: baseName,
-          category: tissue.category || 'Uncategorized',
-          slides: {}
-        };
+    // Create hierarchical structure for sidebar
+    const hierarchy = {};
+    slides.forEach(tissue => {
+      const cat = tissue.category || 'Uncategorized';
+      if (!hierarchy[cat]) {
+        hierarchy[cat] = { sections: {}, items: [] };
       }
-      groups[baseName].slides[mag] = tissue;
+
+      if (tissue.section) {
+        if (!hierarchy[cat].sections[tissue.section]) {
+          hierarchy[cat].sections[tissue.section] = { subsections: {}, items: [] };
+        }
+
+        if (tissue.subsection) {
+          if (!hierarchy[cat].sections[tissue.section].subsections[tissue.subsection]) {
+            hierarchy[cat].sections[tissue.section].subsections[tissue.subsection] = [];
+          }
+          hierarchy[cat].sections[tissue.section].subsections[tissue.subsection].push(tissue);
+        } else {
+          hierarchy[cat].sections[tissue.section].items.push(tissue);
+        }
+      } else {
+        hierarchy[cat].items.push(tissue);
+      }
     });
 
-    return Object.values(groups).sort((a, b) => a.name.localeCompare(b.name));
+    return { tissueList: list, hierarchicalCategories: hierarchy };
   }, []);
 
   // Initialize selection
   useEffect(() => {
-    if (!selectedGroupName && groupedSlides.length > 0) {
-      const firstGroup = groupedSlides[0];
-      setSelectedGroupName(firstGroup.name);
-      // Select first available magnification (numerically sorted if possible)
-      const mags = Object.keys(firstGroup.slides).sort((a, b) => parseInt(a) - parseInt(b));
-      setSelectedMagnification(mags[0]);
+    if (!selectedTissueId && tissueList.length > 0) {
+      setSelectedTissueId(tissueList[0].id);
     }
-  }, [groupedSlides, selectedGroupName]);
+  }, [tissueList, selectedTissueId]);
 
   // Get current selection
-  const selectedGroup = groupedSlides.find(g => g.name === selectedGroupName) || groupedSlides[0];
-  const currentSlide = selectedGroup?.slides[selectedMagnification] || Object.values(selectedGroup?.slides || {})[0];
+  const selectedTissue = tissueList.find(t => t.id === selectedTissueId) || tissueList[0];
 
-  // Group groupedSlides by Category for Sidebar
-  const filteredGroups = groupedSlides.filter(g =>
-    g.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    g.category.toLowerCase().includes(searchTerm.toLowerCase())
+  // Filter based on search
+  const filteredTissues = tissueList.filter(t =>
+    t.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    t.category.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (t.section && t.section.toLowerCase().includes(searchTerm.toLowerCase()))
   );
-
-  const sidebarCategories = useMemo(() => {
-    return filteredGroups.reduce((acc, group) => {
-      if (!acc[group.category]) acc[group.category] = [];
-      acc[group.category].push(group);
-      return acc;
-    }, {});
-  }, [filteredGroups]);
 
   const toggleCategory = (cat) => {
     setExpandedCategories(prev => ({ ...prev, [cat]: !prev[cat] }));
   };
 
-  const handleGroupSelect = (group) => {
-    setSelectedGroupName(group.name);
-    // Try to keep current magnification if it exists in new group, else default to lowest
-    const availableMags = Object.keys(group.slides).sort((a, b) => parseInt(a) - parseInt(b));
-    if (!group.slides[selectedMagnification]) {
-      setSelectedMagnification(availableMags[0]);
+  const toggleSection = (sectionKey, singleItem = null) => {
+    // If there's only one item in this section, auto-select it
+    if (singleItem) {
+      handleTissueSelect(singleItem);
     }
+    setExpandedSections(prev => ({ ...prev, [sectionKey]: !prev[sectionKey] }));
+  };
+
+  const handleTissueSelect = (tissue) => {
+    setSelectedTissueId(tissue.id);
     // Close sidebar on mobile after selection
     setSidebarOpen(false);
   };
+
+  // Build filtered hierarchical categories when searching
+  const getFilteredCategories = () => {
+    if (!searchTerm) return hierarchicalCategories;
+
+    // When searching, show flat list of matching tissues grouped by category
+    const filtered = {};
+    filteredTissues.forEach(tissue => {
+      const cat = tissue.category;
+      if (!filtered[cat]) {
+        filtered[cat] = { sections: {}, items: [] };
+      }
+      filtered[cat].items.push(tissue);
+    });
+    return filtered;
+  };
+
+  const displayCategories = getFilteredCategories();
 
   return (
     <div className="layout">
@@ -112,38 +141,158 @@ function App() {
         </div>
 
         <nav className="nav-list">
-          {Object.entries(sidebarCategories).map(([category, items]) => (
-            <div key={category} className="category-group">
-              <button
-                className="category-header"
-                onClick={() => toggleCategory(category)}
-              >
-                <div className="flex-row">
-                  <span className="material-icon header-icon">
-                    {expandedCategories[category] || searchTerm ? 'expand_more' : 'chevron_right'}
-                  </span>
-                  <span>{category}</span>
-                </div>
-                <span className="count">{items.length}</span>
-              </button>
+          {Object.entries(displayCategories).map(([category, catData]) => {
+            const totalItems = catData.items.length +
+              Object.values(catData.sections).reduce((sum, sec) =>
+                sum + sec.items.length + Object.values(sec.subsections).reduce((s, sub) => s + sub.length, 0), 0);
 
-              {(expandedCategories[category] || searchTerm) && (
-                <div className="category-items">
-                  {items.map(group => (
-                    <button
-                      key={group.name}
-                      className={`nav-item ${selectedGroupName === group.name ? 'active' : ''}`}
-                      onClick={() => handleGroupSelect(group)}
-                    >
-                      {group.name}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+            return (
+              <div key={category} className="category-group">
+                <button
+                  className="category-header"
+                  onClick={() => toggleCategory(category)}
+                >
+                  <div className="flex-row">
+                    <span className="material-icon header-icon">
+                      {expandedCategories[category] || searchTerm ? 'expand_more' : 'chevron_right'}
+                    </span>
+                    <span>{category}</span>
+                  </div>
+                  <span className="count">{totalItems}</span>
+                </button>
 
-          {filteredGroups.length === 0 && (
+                {(expandedCategories[category] || searchTerm) && (
+                  <div className="category-items">
+                    {/* Direct items under category */}
+                    {catData.items.map(tissue => (
+                      <button
+                        key={tissue.id}
+                        className={`nav-item ${selectedTissueId === tissue.id ? 'active' : ''}`}
+                        onClick={() => handleTissueSelect(tissue)}
+                      >
+                        {tissue.name}
+                      </button>
+                    ))}
+
+                    {/* Sections */}
+                    {Object.entries(catData.sections).map(([sectionName, secData]) => {
+                      const sectionKey = `${category}-${sectionName}`;
+                      const sectionTotal = secData.items.length +
+                        Object.values(secData.subsections).reduce((s, sub) => s + sub.length, 0);
+
+                      // Find single item if section has exactly 1 item total
+                      let sectionSingleItem = null;
+                      if (sectionTotal === 1) {
+                        if (secData.items.length === 1) {
+                          sectionSingleItem = secData.items[0];
+                        } else {
+                          // Check subsections for single item
+                          const allSubItems = Object.values(secData.subsections).flat();
+                          if (allSubItems.length === 1) sectionSingleItem = allSubItems[0];
+                        }
+                      }
+
+                      // If section has only 1 item, render it directly without dropdown
+                      if (sectionSingleItem) {
+                        return (
+                          <button
+                            key={sectionKey}
+                            className={`nav-item ${selectedTissueId === sectionSingleItem.id ? 'active' : ''}`}
+                            onClick={() => handleTissueSelect(sectionSingleItem)}
+                          >
+                            {sectionSingleItem.name}
+                          </button>
+                        );
+                      }
+
+                      return (
+                        <div key={sectionKey} className="section-group">
+                          <button
+                            className="section-header"
+                            onClick={() => toggleSection(sectionKey)}
+                          >
+                            <div className="flex-row">
+                              <span className="material-icon header-icon" style={{ fontSize: '16px' }}>
+                                {expandedSections[sectionKey] ? 'expand_more' : 'chevron_right'}
+                              </span>
+                              <span>{sectionName}</span>
+                            </div>
+                            <span className="count">{sectionTotal}</span>
+                          </button>
+
+                          {expandedSections[sectionKey] && (
+                            <div className="section-items">
+                              {/* Direct items under section */}
+                              {secData.items.map(tissue => (
+                                <button
+                                  key={tissue.id}
+                                  className={`nav-item ${selectedTissueId === tissue.id ? 'active' : ''}`}
+                                  onClick={() => handleTissueSelect(tissue)}
+                                >
+                                  {tissue.name}
+                                </button>
+                              ))}
+
+                              {/* Subsections */}
+                              {Object.entries(secData.subsections).map(([subsectionName, tissues]) => {
+                                const subKey = `${sectionKey}-${subsectionName}`;
+
+                                // If subsection has only 1 item, render it directly without dropdown
+                                if (tissues.length === 1) {
+                                  return (
+                                    <button
+                                      key={subKey}
+                                      className={`nav-item ${selectedTissueId === tissues[0].id ? 'active' : ''}`}
+                                      onClick={() => handleTissueSelect(tissues[0])}
+                                    >
+                                      {tissues[0].name}
+                                    </button>
+                                  );
+                                }
+
+                                return (
+                                  <div key={subKey} className="subsection-group">
+                                    <button
+                                      className="subsection-header"
+                                      onClick={() => toggleSection(subKey)}
+                                    >
+                                      <div className="flex-row">
+                                        <span className="material-icon header-icon" style={{ fontSize: '14px' }}>
+                                          {expandedSections[subKey] ? 'expand_more' : 'chevron_right'}
+                                        </span>
+                                        <span>{subsectionName}</span>
+                                      </div>
+                                      <span className="count">{tissues.length}</span>
+                                    </button>
+
+                                    {expandedSections[subKey] && (
+                                      <div className="subsection-items">
+                                        {tissues.map(tissue => (
+                                          <button
+                                            key={tissue.id}
+                                            className={`nav-item ${selectedTissueId === tissue.id ? 'active' : ''}`}
+                                            onClick={() => handleTissueSelect(tissue)}
+                                          >
+                                            {tissue.name}
+                                          </button>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+
+          {filteredTissues.length === 0 && (
             <div className="no-results">No slides found</div>
           )}
         </nav>
@@ -166,9 +315,15 @@ function App() {
               </div>
             </div>
             <div className="breadcrumbs">
-              <span className="crumb-category">{selectedGroup?.category}</span>
+              <span className="crumb-category">{selectedTissue?.category}</span>
+              {selectedTissue?.section && (
+                <>
+                  <span className="crumb-separator">/</span>
+                  <span className="crumb-section">{selectedTissue?.section}</span>
+                </>
+              )}
               <span className="crumb-separator">/</span>
-              <span className="crumb-name">{selectedGroup?.name}</span>
+              <span className="crumb-name">{selectedTissue?.name}</span>
             </div>
           </div>
 
@@ -182,14 +337,12 @@ function App() {
         <div className="work-area">
           <div className="slide-section">
             <SlideViewer
-              group={selectedGroup}
-              selectedMagnification={selectedMagnification}
-              onMagnificationChange={setSelectedMagnification}
+              tissue={selectedTissue}
               showLabels={showLabels}
             />
           </div>
           <div className="info-section">
-            <TheoryPanel tissue={currentSlide} />
+            <TheoryPanel tissue={selectedTissue} />
           </div>
         </div>
       </main>
@@ -320,6 +473,7 @@ function App() {
           cursor: pointer;
           border-radius: var(--radius-sm);
           transition: background 0.2s;
+          text-align: left;
         }
 
         .category-header:hover {
@@ -330,6 +484,12 @@ function App() {
             display: flex;
             align-items: center;
             gap: 8px;
+            text-align: left;
+            flex: 1;
+        }
+
+        .flex-row span:not(.material-icon) {
+            text-align: left;
         }
 
         .header-icon {
@@ -352,6 +512,75 @@ function App() {
           padding-left: 12px; 
           border-left: 1px solid rgba(147, 143, 153, 0.2);
           margin-left: 20px;
+        }
+
+        /* Section and Subsection Styling */
+        .section-group {
+          margin-top: 4px;
+        }
+
+        .section-header {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 6px 10px;
+          background: transparent;
+          border: none;
+          color: var(--md-sys-color-on-surface-variant);
+          font-family: var(--font-family-base);
+          font-weight: 500;
+          font-size: 0.85rem;
+          cursor: pointer;
+          border-radius: var(--radius-sm);
+          transition: background 0.2s;
+        }
+
+        .section-header:hover {
+          background-color: rgba(230, 225, 229, 0.08);
+        }
+
+        .section-items {
+          display: flex;
+          flex-direction: column;
+          padding-left: 12px;
+          border-left: 1px solid rgba(147, 143, 153, 0.15);
+          margin-left: 16px;
+          margin-top: 2px;
+        }
+
+        .subsection-group {
+          margin-top: 2px;
+        }
+
+        .subsection-header {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 4px 8px;
+          background: transparent;
+          border: none;
+          color: var(--md-sys-color-on-surface-variant);
+          font-family: var(--font-family-base);
+          font-weight: 400;
+          font-size: 0.8rem;
+          cursor: pointer;
+          border-radius: var(--radius-sm);
+          transition: background 0.2s;
+        }
+
+        .subsection-header:hover {
+          background-color: rgba(230, 225, 229, 0.08);
+        }
+
+        .subsection-items {
+          display: flex;
+          flex-direction: column;
+          padding-left: 10px;
+          border-left: 1px solid rgba(147, 143, 153, 0.1);
+          margin-left: 12px;
+          margin-top: 2px;
         }
 
         .nav-item {
