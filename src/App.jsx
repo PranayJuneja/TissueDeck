@@ -2,7 +2,20 @@ import { useState, useMemo, useEffect } from 'react';
 import slides from './data/slides/index.js';
 import SlideViewer from './components/SlideViewer';
 import TheoryPanel from './components/TheoryPanel';
+import ChatBot from './components/ChatBot';
 import './styles/global.css';
+
+// Format tissue context for AI chatbot
+const formatTissueContext = (tissue) => {
+  if (!tissue) return null;
+  let context = `Tissue: ${tissue.name}\nCategory: ${tissue.category}`;
+  if (tissue.description) context += `\nDescription: ${tissue.description}`;
+  if (tissue.theory?.features) context += `\nKey Features: ${tissue.theory.features.length > 0 ? tissue.theory.features.join(', ') : 'None listed'}`;
+  if (tissue.theory?.location) context += `\nLocation: ${tissue.theory.location.length > 0 ? tissue.theory.location.join(', ') : 'None listed'}`;
+  if (tissue.theory?.function) context += `\nFunction: ${tissue.theory.function.length > 0 ? tissue.theory.function.join(', ') : 'None listed'}`;
+  if (tissue.theory?.examTips) context += `\nExam Tips: ${tissue.theory.examTips}`;
+  return context;
+};
 
 function App() {
   const [selectedTissueId, setSelectedTissueId] = useState(null);
@@ -293,6 +306,10 @@ function App() {
             <div className="no-results">No slides found</div>
           )}
         </nav>
+
+        <div className="sidebar-footer">
+          Made with ❤️ by <a href="https://pranayjuneja.com" target="_blank" rel="noopener noreferrer">Pranay Juneja</a>
+        </div>
       </aside>
 
       {/* Main Content Area */}
@@ -338,15 +355,14 @@ function App() {
               showLabels={showLabels}
             />
           </div>
-          <div className="info-section">
-            <TheoryPanel tissue={selectedTissue} />
+          <div className="info-column">
+            <div className="info-section">
+              <TheoryPanel tissue={selectedTissue} />
+            </div>
+            <ChatBot tissueContext={formatTissueContext(selectedTissue)} />
           </div>
         </div>
 
-        {/* Mobile Footer */}
-        <footer className="mobile-footer">
-          Made with ❤️ by <a href="https://pranayjuneja.com" target="_blank" rel="noopener noreferrer">Pranay Juneja</a>
-        </footer>
       </main>
 
       <style>{`
@@ -365,9 +381,23 @@ function App() {
           display: flex;
           flex-direction: column;
           padding: 20px;
-          border-right: 1px solid var(--md-sys-color-outline); /* Reduced opacity outline via alpha usually, or specific color */
           border-right-color: rgba(147, 143, 153, 0.2);
           overflow-y: auto;
+        }
+
+        .sidebar-footer {
+          display: none;
+          margin-top: auto;
+          padding: 20px 0 0 0; /* Top padding only, bottom handled by container padding */
+          text-align: center;
+          font-size: 0.85rem;
+          color: var(--md-sys-color-on-surface); /* Correct white color */
+        }
+
+        .sidebar-footer a {
+          color: inherit;
+          text-decoration: none;
+          font-weight: 500;
         }
 
         .brand h1 {
@@ -691,13 +721,20 @@ function App() {
             box-shadow: var(--shadow-2);
         }
         
-        .info-section {
+        .info-column {
+            display: flex;
+            flex-direction: column;
+            position: relative; /* Context for absolute ChatBot */
             background: var(--md-sys-color-surface);
             border-radius: var(--radius-lg);
             border: 1px solid rgba(147, 143, 153, 0.2);
             overflow: hidden;
-            display: flex;
-            flex-direction: column;
+        }
+
+        .info-section {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 80px; /* Space for ChatBot */
         }
 
         /* ========= RESPONSIVE STYLES ========= */
@@ -759,7 +796,7 @@ function App() {
             left: 0;
             width: 85%;
             max-width: 320px;
-            height: 100vh;
+            height: 100dvh; /* Use dynamic viewport height for mobile */
             z-index: 1000;
             transform: translateX(-100%);
             transition: transform 0.3s ease;
@@ -769,6 +806,12 @@ function App() {
           .sidebar.sidebar-open {
             transform: translateX(0);
             box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
+          }
+
+          .sidebar-footer {
+            display: block;
+            margin-top: auto;
+            padding-bottom: 100px; /* Force it well above bottom edge */
           }
 
           .sidebar-overlay {
@@ -848,41 +891,39 @@ function App() {
             flex: 1;
           }
 
-          .info-section {
+          .info-column {
             flex: 1;
             min-height: 200px;
-            overflow-y: auto;
           }
+
           
           .view-controls {
             display: none;
           }
           
           .mobile-footer {
-            display: block;
-            text-align: center;
-            padding: 12px 16px;
-            margin-top: 8px;
-            color: var(--md-sys-color-on-surface-variant);
-            font-size: 0.85rem;
-            flex-shrink: 0;
+            display: none;
           }
-          
+
           .mobile-footer a {
-            color: inherit;
-            text-decoration: none;
+            display: none;
           }
         }
 
         /* Mobile Adjustments: < 768px */
         @media (max-width: 768px) {
+          .work-area {
+            display: flex;
+            flex-direction: column;
+          }
           .slide-section {
             min-height: 350px;
           }
 
-          .info-section {
+          .info-column {
             min-height: 250px;
           }
+
 
           .top-bar {
             flex-direction: column;

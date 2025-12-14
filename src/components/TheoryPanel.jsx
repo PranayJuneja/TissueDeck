@@ -1,17 +1,6 @@
 import styles from './TheoryPanel.module.css';
-import ChatBot from './ChatBot';
 
-// Format tissue context for AI chatbot
-const formatTissueContext = (tissue) => {
-    if (!tissue) return null;
-    let context = `Tissue: ${tissue.name}\nCategory: ${tissue.category}`;
-    if (tissue.description) context += `\nDescription: ${tissue.description}`;
-    if (tissue.theory?.features) context += `\nKey Features: ${tissue.theory.features.join(', ')}`;
-    if (tissue.theory?.location) context += `\nLocation: ${tissue.theory.location.join(', ')}`;
-    if (tissue.theory?.function) context += `\nFunction: ${tissue.theory.function.join(', ')}`;
-    if (tissue.theory?.examTips) context += `\nExam Tips: ${tissue.theory.examTips}`;
-    return context;
-};
+// Helper for displaying theory features
 
 const TheoryPanel = ({ tissue }) => {
     if (!tissue) {
@@ -88,8 +77,6 @@ const TheoryPanel = ({ tissue }) => {
                 )}
             </div>
 
-            {/* AI Chatbot */}
-            <ChatBot tissueContext={formatTissueContext(tissue)} />
         </div>
     );
 };

@@ -3,6 +3,24 @@
 
 ---
 
+## 💅 v5.4 - THE LAYOUT POLISH
+**Date:** December 15, 2025 (5:08 AM IST)
+
+### 🖥️ Desktop UI Refinements
+- **ChatBot Constraint** — The AI ChatBot is now strictly encapsulated within the "Theory Panel" column on desktop.
+  - No longer floats over other content or obscures the slide.
+  - Resizes dynamically with the layout.
+  - Maintains `position: absolute` context relative to the info column.
+
+### 📱 Mobile UI Refinements
+- **Sticky Sidebar Footer** — The "Made with ❤️" footer in the sidebar is now permanently visible at the bottom of the list.
+  - Added aggressive padding to prevent it from being cut off by browser URL bars.
+  - Improved contrast (bright white text).
+- **Docked ChatBot** — On mobile, the ChatBot remains docked to the bottom-right of the viewport for easy access.
+- **Unified Layout** — Refactored internal component structure (`info-column`) to handle both desktop constraints and mobile flexibility cleanly.
+
+---
+
 ## 📱 v5.3 - APP-SOLUTELY NATIVE (PWA)
 **Date:** December 15, 2025 (4:45 AM IST)
 
