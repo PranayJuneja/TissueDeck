@@ -25,6 +25,9 @@
   - "Tissue Deck" branding centered in top row
   - Breadcrumbs displayed in a translucent box below
   - Previously the branding would disappear at tablet widths
+- **Hidden Zoom Controls on Tablet** — Removed zoom buttons (-/↻/+) on tablet view since pinch-to-zoom is available
+  - Consistent with mobile behavior
+  - Fixed slide controls padding after removing zoom buttons
 
 ### 🔍 Search UX Improvements
 - **Clear Button** — Added an (X) button inside the search input that appears when text is present

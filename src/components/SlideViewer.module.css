@@ -222,6 +222,16 @@
         gap: 12px;
     }
 
+    .zoomControls {
+        display: none;
+        /* Hidden on tablet - use pinch-to-zoom instead */
+    }
+
+    .slideControls {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
     .controlBtn {
         width: 40px;
         height: 40px;
