@@ -2,7 +2,7 @@
 
 **Tissue Deck** is a free, open-source histology learning platform built for 1st-year MBBS students. Experience histology like never before — explore high-resolution zoomable slides with a virtual microscope, access structured theory for every tissue, and get instant AI-powered explanations tailored to your exams. Clean, modern, and designed to make slide identification effortless.
 
-[![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
@@ -158,7 +158,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## 📄 License
 
-This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 

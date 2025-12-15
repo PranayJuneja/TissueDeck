@@ -3,6 +3,34 @@
 
 ---
 
+## 🧹 v6.0 - THE GREAT DEBLOAT
+**Date:** December 15, 2025 (5:35 PM IST)
+
+### 🪶 Major Codebase Cleanup
+Massive refactoring effort to reduce bloat and improve maintainability.
+
+#### Metrics
+| Metric | Before | After |
+|--------|--------|-------|
+| `App.jsx` lines | 1,278 | 330 |
+| Total lines removed | — | **1,135** |
+| CSS organization | Inline | Module |
+
+#### Changes
+- **Extracted Inline CSS** — Moved ~900 lines of inline CSS from `App.jsx` to new `App.module.css`
+- **Removed Unused Component** — Deleted `LiquidGlassFilter.jsx` (187 lines) — SVG filters were never used
+- **Removed Duplicate Code** — Eliminated duplicate `@keyframes blink` animation
+- **Consolidated Responsive Styles** — Merged repeated media query rules
+
+#### Files Changed
+| File | Change |
+|------|--------|
+| `src/App.jsx` | Refactored from 1,278 → 330 lines |
+| `src/App.module.css` | **NEW** — Extracted CSS module |
+| `src/components/LiquidGlassFilter.jsx` | **DELETED** — Unused |
+
+---
+
 ## ✨ v5.7 - LIQUID GLASS UI
 **Date:** December 15, 2025 (5:30 PM IST)
 
