@@ -3,6 +3,7 @@ import slides from './data/slides/index.js';
 import SlideViewer from './components/SlideViewer';
 import TheoryPanel from './components/TheoryPanel';
 import ChatBot from './components/ChatBot';
+import LiquidGlassFilter from './components/LiquidGlassFilter';
 import './styles/global.css';
 
 // Format tissue context for AI chatbot
@@ -124,6 +125,9 @@ function App() {
 
   return (
     <div className="layout">
+      {/* SVG Filters for Liquid Glass Effect */}
+      <LiquidGlassFilter />
+
       {/* Mobile Overlay */}
       {sidebarOpen && <div className="sidebar-overlay" onClick={() => setSidebarOpen(false)} />}
 
@@ -475,21 +479,58 @@ function App() {
         .search-input {
           width: 100%;
           box-sizing: border-box;
-          padding: 10px 40px 10px 40px;
-          background-color: var(--md-sys-color-surface-variant);
-          border: none;
+          padding: 12px 40px 12px 40px;
+          
+          /* LIQUID GLASS BACKGROUND */
+          background: 
+            linear-gradient(135deg,
+              rgba(255, 255, 255, 0.08) 0%,
+              rgba(255, 255, 255, 0.03) 40%,
+              rgba(255, 255, 255, 0.01) 100%),
+            rgba(30, 32, 40, 0.4);
+          
+          border: 1px solid rgba(255, 255, 255, 0.1);
           border-radius: var(--radius-full);
-          color: var(--md-sys-color-on-surface-variant);
+          color: var(--md-sys-color-on-surface);
           font-family: var(--font-family-base);
           font-size: 0.9rem;
-          outline: 2px solid transparent;
-          transition: all 0.2s;
+          
+          /* LIQUID GLASS BLUR */
+          backdrop-filter: blur(20px) saturate(150%);
+          -webkit-backdrop-filter: blur(20px) saturate(150%);
+          
+          /* LIQUID GLASS SHADOWS */
+          box-shadow:
+            0 4px 16px rgba(0, 0, 0, 0.2),
+            0 2px 6px rgba(0, 0, 0, 0.15),
+            inset 0 1px 1px rgba(255, 255, 255, 0.15),
+            inset 0 -1px 4px rgba(0, 0, 0, 0.08);
+          
+          outline: none;
+          transition: all 0.3s ease;
+        }
+
+        .search-input::placeholder {
+          color: rgba(255, 255, 255, 0.5);
         }
 
         .search-input:focus {
-          background-color: var(--md-sys-color-surface-variant); /* slightly lighter if needed */
+          background: 
+            linear-gradient(135deg,
+              rgba(255, 255, 255, 0.1) 0%,
+              rgba(255, 255, 255, 0.04) 40%,
+              rgba(255, 255, 255, 0.02) 100%),
+            rgba(30, 32, 40, 0.5);
+          
+          border: 1px solid rgba(139, 92, 246, 0.4);
           color: var(--md-sys-color-on-surface);
-          outline: 2px solid var(--md-sys-color-primary);
+          
+          box-shadow:
+            0 0 20px rgba(139, 92, 246, 0.1),
+            0 6px 20px rgba(0, 0, 0, 0.25),
+            0 2px 8px rgba(0, 0, 0, 0.18),
+            inset 0 1px 1px rgba(255, 255, 255, 0.18),
+            inset 0 -1px 4px rgba(0, 0, 0, 0.08);
         }
 
         .search-clear-btn {

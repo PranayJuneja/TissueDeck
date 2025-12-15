@@ -6,40 +6,93 @@
     left: 12px;
     /* Stretch across parent */
     width: auto;
-    /* Remove fixed width */
     z-index: 900;
-    border-radius: 18px;
+    border-radius: 24px;
 
-    /* Glassmorphic background - more translucent for visible blur */
-    background: rgba(15, 17, 23, 0.45);
+    /* ===== LIQUID GLASS BACKGROUND ===== */
+    /* More translucent for better see-through */
+    background:
+        linear-gradient(135deg,
+            rgba(255, 255, 255, 0.06) 0%,
+            rgba(255, 255, 255, 0.02) 40%,
+            rgba(255, 255, 255, 0.01) 100%),
+        rgba(18, 20, 28, 0.35);
 
-    /* Gemini-style gradient border with glow */
-    border: 1.5px solid rgba(255, 255, 255, 0.15);
-    background-image: linear-gradient(rgba(15, 17, 23, 0.45), rgba(15, 17, 23, 0.45)),
-        linear-gradient(135deg, rgba(66, 133, 244, 0.8), rgba(155, 114, 203, 0.8), rgba(217, 101, 112, 0.6));
+    /* ===== LIQUID GLASS BORDER ===== */
+    /* Gradient border mimicking light refraction on curved glass */
+    border: 1.5px solid transparent;
     background-origin: border-box;
     background-clip: padding-box, border-box;
 
-    /* Layered glassmorphic shadows */
+    /* ===== LIQUID GLASS SHADOWS ===== */
+    /* Subtle shadows - minimal blue glow */
     box-shadow:
-        0 8px 32px rgba(0, 0, 0, 0.4),
-        0 0 20px rgba(66, 133, 244, 0.15),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1),
-        inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+        /* Very subtle outer glow */
+        0 0 20px rgba(100, 140, 255, 0.04),
+        /* Drop shadow - depth */
+        0 10px 30px rgba(0, 0, 0, 0.3),
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        /* Inner top highlight */
+        inset 0 1px 1px rgba(255, 255, 255, 0.2),
+        /* Inner gradient shadow */
+        inset 0 -1px 8px rgba(0, 0, 0, 0.1);
 
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
     color: #ececf1;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
-    /* Strong glassmorphic blur - very visible */
-    backdrop-filter: blur(28px) saturate(200%);
-    -webkit-backdrop-filter: blur(28px) saturate(200%);
+    /* ===== LIQUID GLASS BLUR ===== */
+    /* Strong backdrop blur for frosted glass effect */
+    backdrop-filter: blur(32px) saturate(180%) brightness(1.05);
+    -webkit-backdrop-filter: blur(32px) saturate(180%) brightness(1.05);
 
     /* Initial state (collapsed) */
     height: 58px;
     display: flex;
     flex-direction: column;
+
+    /* Isolation for pseudo-elements */
+    isolation: isolate;
+}
+
+/* ===== SPECULAR HIGHLIGHT LAYER ===== */
+/* Animated shine that mimics light reflecting off curved glass */
+.chatContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: 1;
+
+    /* Specular highlight gradient - light source from top-left */
+    background:
+        radial-gradient(ellipse 80% 50% at 20% 10%,
+            rgba(255, 255, 255, 0.25) 0%,
+            rgba(255, 255, 255, 0.08) 30%,
+            transparent 70%),
+        linear-gradient(165deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            transparent 40%);
+
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Animated shine removed for cleaner look */
+
+/* Hover state - subtle enhancement */
+.chatContainer:hover {
+    box-shadow:
+        0 0 20px rgba(100, 140, 255, 0.05),
+        0 12px 32px rgba(0, 0, 0, 0.32),
+        0 5px 14px rgba(0, 0, 0, 0.22),
+        inset 0 1px 1px rgba(255, 255, 255, 0.22),
+        inset 0 -1px 8px rgba(0, 0, 0, 0.1);
 }
 
 .chatContainer.expanded {
@@ -387,7 +440,13 @@
 
     .chatContainer.expanded {
         max-height: 420px;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        /* Liquid Glass shadows for mobile - subtle */
+        box-shadow:
+            0 0 18px rgba(100, 140, 255, 0.04),
+            0 12px 36px rgba(0, 0, 0, 0.4),
+            0 4px 14px rgba(0, 0, 0, 0.28),
+            inset 0 1px 1px rgba(255, 255, 255, 0.18),
+            inset 0 -1px 8px rgba(0, 0, 0, 0.1);
     }
 
     .messages {

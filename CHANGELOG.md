@@ -3,6 +3,42 @@
 
 ---
 
+## ✨ v5.7 - LIQUID GLASS UI
+**Date:** December 15, 2025 (5:15 PM IST)
+
+### 🪟 Apple Liquid Glass Design Language
+Implemented Apple's iOS 26 "Liquid Glass" aesthetic across the UI:
+
+#### Components with Liquid Glass Effect
+- **AI Chatbot** — Full glass effect with specular highlights
+- **Slide Viewer Controls** — Matching glass overlay for zoom/navigation
+- **Search Input** — Frosted glass search bar in sidebar
+
+#### Visual Effects
+- **Frosted Glass Blur** — Enhanced backdrop-filter with 20-32px blur + saturation boost
+- **Specular Highlights** — Radial gradient pseudo-element simulating curved glass reflection
+- **Translucent Backgrounds** — Semi-transparent layered gradients (0.35–0.5 opacity)
+- **Multi-layer Shadows** — Outer drops + inner highlights for depth
+- **Focus States** — Subtle purple glow on search input focus
+
+#### Performance Optimizations
+- **Disabled SVG Filters** — Removed `feTurbulence` + `feDisplacementMap` filters that caused hover lag
+- **GPU-Accelerated Only** — Using only backdrop-filter and box-shadow (hardware accelerated)
+
+#### New Files
+| File | Purpose |
+|------|---------|
+| `src/components/LiquidGlassFilter.jsx` | SVG filter definitions (unused for performance) |
+
+#### Modified Files
+| File | Change |
+|------|--------|
+| `src/components/ChatBot.module.css` | Liquid Glass + specular highlights |
+| `src/components/SlideViewer.module.css` | Matching controls overlay effect |
+| `src/App.jsx` | Search input Liquid Glass + filter component |
+
+---
+
 ## 🔒 v5.6 - BOUNDARY LOCK & UI POLISH
 **Date:** December 15, 2025 (4:35 PM IST)
 
