@@ -24,17 +24,37 @@ let db = null;
 
 if (isFirebaseAdminConfigured && !admin.apps.length) {
     try {
+        // Handle different escape formats for private key
+        let privateKey = process.env.FIREBASE_PRIVATE_KEY;
+        // Replace literal \n with actual newlines
+        privateKey = privateKey.replace(/\\n/g, '\n');
+        // Also handle if it was JSON stringified (double escaped)
+        if (privateKey.startsWith('"')) {
+            try {
+                privateKey = JSON.parse(privateKey);
+            } catch (e) {
+                // Not JSON, use as-is
+            }
+        }
+
+        console.log('[Firebase Admin] Private key format check:', {
+            startsWithBegin: privateKey.startsWith('-----BEGIN'),
+            endsWithEnd: privateKey.includes('-----END'),
+            hasNewlines: privateKey.includes('\n'),
+            length: privateKey.length
+        });
+
         admin.initializeApp({
             credential: admin.credential.cert({
                 projectId: process.env.FIREBASE_PROJECT_ID,
                 clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-                privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+                privateKey: privateKey,
             }),
         });
         db = admin.firestore();
         console.log('Firebase Admin initialized successfully');
     } catch (error) {
-        console.error('Firebase Admin initialization error:', error);
+        console.error('Firebase Admin initialization error:', error.message);
     }
 } else if (!isFirebaseAdminConfigured) {
     console.warn('Firebase Admin not configured. Set FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_PRIVATE_KEY env vars.');
