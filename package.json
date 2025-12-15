@@ -1,7 +1,7 @@
 {
   "name": "histo",
   "private": true,
-  "version": "5.0.0",
+  "version": "6.9.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,7 +20,6 @@
     "firebase-admin": "^13.6.0",
     "lucide-react": "^0.560.0",
     "metadata-scraper": "^0.2.61",
-    "openseadragon": "^5.0.1",
     "puppeteer": "^24.32.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

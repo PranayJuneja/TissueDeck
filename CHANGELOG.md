@@ -3,54 +3,76 @@
 
 ---
 
-## 🏷️ v6.5 - BRANDING UPDATE
-**Date:** December 15, 2025 (6:20 PM IST)
+## � v6.9 - CLEANUP & MOBILE FIX
+**Date:** December 15, 2025 (6:42 PM IST)
 
-### 📝 Slide Viewer Branding
-- **Updated footer** — Changed slide viewer credit from "MIT Licensed" to "MIT License | ©2025 PJ"
+### 🗑️ Codebase Debloat (~209 KB removed)
+Removed unused files to keep the template clean:
+- `slide_dump.html` (90 KB) — Scraped HTML, never used
+- `slides.original.json` (108 KB) — Backup data file
+- `scraped_tissues.json` (7 KB) — Intermediate scraper output
+- `test_wiki.js` — Debug script
+- `vite.svg` — Default Vite logo (custom favicon used)
+- `versionhistory.md` — Duplicate of CHANGELOG
+- `openseadragon` dependency — Never imported
+
+### 📱 Mobile/Tablet Fixes
+- **Slide Navigation Buttons** — Fixed +/- buttons not responding to touch taps on mobile/tablet
+  - Added `onTouchEnd` handlers to prev/next buttons
+  - Removed blocking `stopPropagation` from controls overlay
+- **Sidebar Text Alignment** — All nav item first letters now align on the same vertical axis
+  - Chevron icons (`>`) now use `position: absolute` so they don't push text
+  - Consistent padding across all nav levels
+
+#### Files Changed
+| File | Change |
+|------|--------|
+| `package.json` | Removed unused `openseadragon` dep, bumped to v6.9 |
+| `src/components/SlideViewer.jsx` | Fixed touch handling on slide buttons |
+| `src/App.module.css` | Fixed sidebar alignment with absolute chevrons |
+| *Deleted files* | 6 unused files removed |
 
 ---
 
-## 🪟 v6.1 - GLASS UI REFINEMENTS
-**Date:** December 15, 2025 (6:00 PM IST)
+## �🪟 v6.5 - GLASS UI & BRANDING UPDATE
+**Date:** December 15, 2025 (6:20 PM IST)
+
+### 📝 Branding
+- **Top Bar Glass Effect** — Added subtle glassmorphism to breadcrumbs bar (desktop only)
+- **Slide Viewer Footer** — Changed credit from "MIT Licensed" to "MIT License | ©2025 PJ"
 
 ### 🎨 Glassmorphism Improvements
 Applied cohesive glass effects to major UI containers:
-
 - **Sidebar Container** — Glass effect with gradient overlay, backdrop blur (20px), and subtle border
 - **Theory Panel Container** — Matching glass effect for visual consistency
 - **Chatbot UI** — Increased blur from 32px → 64px and opacity from 0.35 → 0.88 for better text coverage
 
 ### 📜 Sleeker Scrollbars
-Completely redesigned scrollbars for a minimal, modern look:
 - Width reduced from 10px → 6px
 - Track now transparent
 - Thumb uses subtle 8% opacity (15% on hover)
-- Removed heavy gradients and borders
 
 ### 📌 Fixed Sidebar Header (Desktop)
-- "Tissue Deck" title and search bar now stay fixed at top
+- "Tissue Deck" title and search bar stay fixed at top
 - Only the navigation list scrolls independently below
-- Better UX for long category lists
 
 ### 🧭 Navigation Alignment
-- All nav items, section headers, and subsection headers now align on the same vertical axis
+- All nav items, section headers align on the same vertical axis
 - Consistent left padding (40px) across all levels
 
 ### 📱 Tablet Mode Chatbot Fix
-- Chatbot now uses `position: fixed` with `z-index: 1000`
+- Chatbot uses `position: fixed` with `z-index: 1000`
 - Floats above both slide viewer and theory panel
-- Proper viewport-aware max-height with `calc()`
 
 ### ⚡ Font Loading
 - Added `display=swap` for non-blocking font loading
-- Fonts load in background while showing fallback text immediately
 
 #### Files Changed
 | File | Change |
 |------|--------|
-| `src/App.module.css` | Glass sidebar, fixed header, sleeker scrollbars, nav alignment |
+| `src/App.module.css` | Glass sidebar/topBar, fixed header, scrollbars, nav alignment |
 | `src/components/ChatBot.module.css` | Increased blur, tablet mode fixes |
+| `src/components/SlideViewer.jsx` | Updated branding footer |
 | `src/styles/global.css` | Minimal scrollbar styling |
 | `index.html` | Font display swap |
 

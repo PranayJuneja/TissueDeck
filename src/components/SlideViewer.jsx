@@ -302,9 +302,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
             {/* Controls Overlay */}
             <div
                 className={styles.controlsOverlay}
-                onTouchStart={(e) => e.stopPropagation()}
-                onTouchMove={(e) => e.stopPropagation()}
-                onTouchEnd={(e) => e.stopPropagation()}
+                onMouseDown={(e) => e.stopPropagation()}
             >
                 {/* Zoom Controls */}
                 <div className={styles.zoomControls}>
@@ -324,6 +322,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
                     <div className={styles.slideControls}>
                         <button
                             onClick={prevSlide}
+                            onTouchEnd={(e) => { e.stopPropagation(); if (currentSlideIndex > 0) prevSlide(); }}
                             className={`${styles.slideBtn} ${currentSlideIndex === 0 ? styles.disabled : ''}`}
                             disabled={currentSlideIndex === 0}
                             title="Previous Slide"
@@ -335,6 +334,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
                         </span>
                         <button
                             onClick={nextSlide}
+                            onTouchEnd={(e) => { e.stopPropagation(); if (currentSlideIndex < totalSlides - 1) nextSlide(); }}
                             className={`${styles.slideBtn} ${currentSlideIndex === totalSlides - 1 ? styles.disabled : ''}`}
                             disabled={currentSlideIndex === totalSlides - 1}
                             title="Next Slide"

@@ -9,7 +9,7 @@
 ## ✨ Features
 
 ### 🔬 Virtual Microscope
-- **Deep Zoom Imaging** — Smooth, high-resolution zooming and panning powered by OpenSeadragon
+- **Smooth Zoom & Pan** — High-resolution zooming and panning with boundary constraints
 - **Linear Slide Navigation** — Browse through multiple magnification levels (1/n interface)
 - **Touch Gesture Support** — Pinch-to-zoom and drag-to-pan on mobile devices
 - **Mouse Wheel Zoom** — Desktop-friendly zoom controls with scroll wheel
@@ -57,9 +57,8 @@ Every slide includes:
 ### Frontend
 - **React 19** — Component-based architecture
 - **Vite** — Lightning-fast development builds
-- **OpenSeadragon** — Advanced deep zoom viewer
 - **Lucide React** — Beautiful iconography
-- **CSS Modules** — Modular, scoped styling
+- **CSS Modules** — Modular, scoped styling with glassmorphism effects
 
 ### Backend & AI
 - **Vercel Serverless Functions** — API routes for AI chat
@@ -116,7 +115,7 @@ TissueDeck/
 │   └── ingest_*.js         # Content ingestion scripts
 ├── src/
 │   ├── components/         # React UI components
-│   │   ├── SlideViewer.jsx # OpenSeadragon viewer
+│   │   ├── SlideViewer.jsx # Custom zoom/pan viewer
 │   │   ├── TheoryPanel.jsx # Educational side panel
 │   │   └── ChatBot.jsx     # AI chatbot interface
 │   ├── contexts/           # React contexts
