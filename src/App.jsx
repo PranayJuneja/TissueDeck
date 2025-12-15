@@ -544,17 +544,36 @@ function App() {
           width: 28px;
           height: 28px;
           padding: 0;
-          background: rgba(255, 255, 255, 0.1);
-          border: none;
+          
+          /* LIQUID GLASS */
+          background: 
+            linear-gradient(135deg,
+              rgba(255, 255, 255, 0.12) 0%,
+              rgba(255, 255, 255, 0.04) 100%),
+            rgba(30, 32, 40, 0.5);
+          backdrop-filter: blur(12px) saturate(140%);
+          -webkit-backdrop-filter: blur(12px) saturate(140%);
+          border: 1px solid rgba(255, 255, 255, 0.1);
           border-radius: 50%;
-          color: var(--md-sys-color-on-surface-variant);
+          box-shadow:
+            0 2px 8px rgba(0, 0, 0, 0.2),
+            inset 0 1px 1px rgba(255, 255, 255, 0.15);
+          
+          color: var(--md-sys-color-on-surface);
           cursor: pointer;
-          transition: all 0.2s;
+          transition: all 0.2s ease;
         }
 
         .search-clear-btn:hover {
-          background: rgba(255, 255, 255, 0.2);
-          color: var(--md-sys-color-on-surface);
+          background: 
+            linear-gradient(135deg,
+              rgba(255, 255, 255, 0.18) 0%,
+              rgba(255, 255, 255, 0.08) 100%),
+            rgba(30, 32, 40, 0.6);
+          box-shadow:
+            0 4px 12px rgba(0, 0, 0, 0.25),
+            inset 0 1px 1px rgba(255, 255, 255, 0.2);
+          color: #fff;
         }
 
         .search-clear-btn .material-icon {
@@ -719,8 +738,19 @@ function App() {
         }
 
         .nav-item.active {
-          background-color: var(--md-sys-color-secondary-container);
-          color: var(--md-sys-color-on-secondary-container);
+          /* LIQUID GLASS - neutral tint */
+          background: 
+            linear-gradient(135deg,
+              rgba(255, 255, 255, 0.1) 0%,
+              rgba(255, 255, 255, 0.03) 100%),
+            rgba(50, 52, 60, 0.6);
+          backdrop-filter: blur(8px) saturate(130%);
+          -webkit-backdrop-filter: blur(8px) saturate(130%);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          box-shadow:
+            0 2px 8px rgba(0, 0, 0, 0.15),
+            inset 0 1px 1px rgba(255, 255, 255, 0.12);
+          color: #fff;
           font-weight: 500;
         }
 
@@ -850,17 +880,37 @@ function App() {
           justify-content: center;
           width: 44px;
           height: 44px;
-          background: transparent;
-          border: none;
+          padding: 0;
+          
+          /* LIQUID GLASS */
+          background: 
+            linear-gradient(135deg,
+              rgba(255, 255, 255, 0.1) 0%,
+              rgba(255, 255, 255, 0.03) 100%),
+            rgba(30, 32, 40, 0.45);
+          backdrop-filter: blur(12px) saturate(140%);
+          -webkit-backdrop-filter: blur(12px) saturate(140%);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: var(--radius-full);
+          box-shadow:
+            0 2px 10px rgba(0, 0, 0, 0.2),
+            inset 0 1px 1px rgba(255, 255, 255, 0.12);
+          
           color: var(--md-sys-color-on-surface);
           cursor: pointer;
-          border-radius: var(--radius-full);
-          transition: background 0.2s;
-          flex-shrink: 0; /* Don't shrink in flex container */
+          transition: all 0.2s ease;
+          flex-shrink: 0;
         }
 
         .close-sidebar-btn:hover {
-          background: rgba(255, 255, 255, 0.1);
+          background: 
+            linear-gradient(135deg,
+              rgba(255, 255, 255, 0.15) 0%,
+              rgba(255, 255, 255, 0.06) 100%),
+            rgba(30, 32, 40, 0.55);
+          box-shadow:
+            0 4px 14px rgba(0, 0, 0, 0.25),
+            inset 0 1px 1px rgba(255, 255, 255, 0.18);
         }
 
         /* Responsive Breakpoint: < 1024px (Tablets & Mobile) */
@@ -936,17 +986,37 @@ function App() {
             justify-content: center;
             width: 44px;
             height: 44px;
-            background: transparent;
-            border: none;
+            padding: 0;
+            
+            /* LIQUID GLASS */
+            background: 
+              linear-gradient(135deg,
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(255, 255, 255, 0.03) 100%),
+              rgba(30, 32, 40, 0.45);
+            backdrop-filter: blur(12px) saturate(140%);
+            -webkit-backdrop-filter: blur(12px) saturate(140%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-full);
+            box-shadow:
+              0 2px 10px rgba(0, 0, 0, 0.2),
+              inset 0 1px 1px rgba(255, 255, 255, 0.12);
+            
             color: var(--md-sys-color-on-surface);
             cursor: pointer;
-            border-radius: var(--radius-full);
-            transition: background 0.2s;
+            transition: all 0.2s ease;
             flex-shrink: 0;
           }
 
           .hamburger-btn:hover {
-            background: rgba(255, 255, 255, 0.1);
+            background: 
+              linear-gradient(135deg,
+                rgba(255, 255, 255, 0.15) 0%,
+                rgba(255, 255, 255, 0.06) 100%),
+              rgba(30, 32, 40, 0.55);
+            box-shadow:
+              0 4px 14px rgba(0, 0, 0, 0.25),
+              inset 0 1px 1px rgba(255, 255, 255, 0.18);
           }
 
           .main-content {
@@ -987,6 +1057,23 @@ function App() {
             flex-direction: column;
             align-items: flex-start;
             gap: 12px;
+          }
+          
+          /* LIQUID GLASS breadcrumbs on tablet/mobile */
+          .breadcrumbs {
+            background: 
+              linear-gradient(135deg,
+                rgba(255, 255, 255, 0.06) 0%,
+                rgba(255, 255, 255, 0.02) 100%),
+              rgba(30, 32, 40, 0.35);
+            backdrop-filter: blur(16px) saturate(140%);
+            -webkit-backdrop-filter: blur(16px) saturate(140%);
+            padding: 8px 16px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow:
+              0 2px 10px rgba(0, 0, 0, 0.15),
+              inset 0 1px 1px rgba(255, 255, 255, 0.1);
           }
           
           .top-bar-left {

@@ -4,38 +4,45 @@
 ---
 
 ## ✨ v5.7 - LIQUID GLASS UI
-**Date:** December 15, 2025 (5:15 PM IST)
+**Date:** December 15, 2025 (5:30 PM IST)
 
 ### 🪟 Apple Liquid Glass Design Language
 Implemented Apple's iOS 26 "Liquid Glass" aesthetic across the UI:
 
 #### Components with Liquid Glass Effect
-- **AI Chatbot** — Full glass effect with specular highlights
-- **Slide Viewer Controls** — Matching glass overlay for zoom/navigation
-- **Search Input** — Frosted glass search bar in sidebar
+- **AI Chatbot** — Frosted glass with specular highlights
+- **Slide Viewer Controls** — Glass overlay for zoom/navigation
+- **Search Input** — Glass search bar with purple focus glow
+- **Search Clear Button** — Circular glass button
+- **Hamburger Menu** — Glass menu button (mobile/tablet)
+- **Sidebar Close Button** — Glass close button (mobile/tablet)
+- **Breadcrumbs** — Glass container (mobile/tablet only)
+- **Selected Nav Item** — Neutral glass highlight for active selection
+- **Scrollbars** — Frosted glass scrollbar thumbs globally
 
 #### Visual Effects
-- **Frosted Glass Blur** — Enhanced backdrop-filter with 20-32px blur + saturation boost
-- **Specular Highlights** — Radial gradient pseudo-element simulating curved glass reflection
-- **Translucent Backgrounds** — Semi-transparent layered gradients (0.35–0.5 opacity)
+- **Frosted Glass Blur** — backdrop-filter with 8-32px blur + saturation
+- **Specular Highlights** — Radial gradient simulating curved glass reflection
+- **Translucent Backgrounds** — Semi-transparent layered gradients
 - **Multi-layer Shadows** — Outer drops + inner highlights for depth
-- **Focus States** — Subtle purple glow on search input focus
+- **Inner Glow** — Subtle inset shadows for glass depth
 
 #### Performance Optimizations
-- **Disabled SVG Filters** — Removed `feTurbulence` + `feDisplacementMap` filters that caused hover lag
-- **GPU-Accelerated Only** — Using only backdrop-filter and box-shadow (hardware accelerated)
+- **Disabled SVG Filters** — Removed expensive `feTurbulence` filters that caused hover lag
+- **GPU-Accelerated Only** — Using only backdrop-filter and box-shadow
 
-#### New Files
-| File | Purpose |
-|------|---------|
-| `src/components/LiquidGlassFilter.jsx` | SVG filter definitions (unused for performance) |
+#### Other Fixes
+- **PWA Meta Tag** — Added `mobile-web-app-capable` meta tag (deprecated warning fix)
+- **Tablet ChatBot Layout** — Fixed positioning for 768-1024px viewport
 
 #### Modified Files
 | File | Change |
 |------|--------|
-| `src/components/ChatBot.module.css` | Liquid Glass + specular highlights |
-| `src/components/SlideViewer.module.css` | Matching controls overlay effect |
-| `src/App.jsx` | Search input Liquid Glass + filter component |
+| `src/components/ChatBot.module.css` | Liquid Glass + tablet media query |
+| `src/components/SlideViewer.module.css` | Glass controls overlay |
+| `src/App.jsx` | Glass for search, buttons, nav items, breadcrumbs |
+| `src/styles/global.css` | Glass scrollbars |
+| `index.html` | PWA meta tag fix |
 
 ---
 

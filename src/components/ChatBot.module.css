@@ -427,6 +427,21 @@
     font-size: 1rem;
 }
 
+/* Tablet - fixed position to span full width */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .chatContainer {
+        position: fixed;
+        width: auto;
+        bottom: 12px;
+        right: 12px;
+        left: 12px;
+    }
+
+    .chatContainer.expanded {
+        max-height: 500px;
+    }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .chatContainer {
