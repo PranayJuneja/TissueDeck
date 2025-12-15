@@ -228,7 +228,7 @@ export async function POST(req) {
 
         // Call AI using Vercel AI Gateway
         const result = streamText({
-            model: gateway('openai/gpt-5-nano'),
+            model: gateway('google/gemini-2.5-flash-lite'),
             system: systemMessage,
             messages: formattedMessages,
             maxTokens: 800,

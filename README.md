@@ -1,6 +1,6 @@
 # 🔬 Tissue Deck
 
-**Tissue Deck** is a comprehensive, AI-powered histology learning platform designed for 1st-year MBBS students. It offers a virtual microscope experience with high-resolution zoomable slides, integrated theory panels, and an intelligent chatbot assistant — all in a beautiful, modern interface.
+**Tissue Deck** is a free, open-source histology learning platform built for 1st-year MBBS students. Experience histology like never before — explore high-resolution zoomable slides with a virtual microscope, access structured theory for every tissue, and get instant AI-powered explanations tailored to your exams. Clean, modern, and designed to make slide identification effortless.
 
 [![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
