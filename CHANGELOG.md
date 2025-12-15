@@ -3,6 +3,14 @@
 
 ---
 
+## 🏷️ v6.5 - BRANDING UPDATE
+**Date:** December 15, 2025 (6:20 PM IST)
+
+### 📝 Slide Viewer Branding
+- **Updated footer** — Changed slide viewer credit from "MIT Licensed" to "MIT License | ©2025 PJ"
+
+---
+
 ## 🪟 v6.1 - GLASS UI REFINEMENTS
 **Date:** December 15, 2025 (6:00 PM IST)
 

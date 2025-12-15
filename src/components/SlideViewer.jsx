@@ -348,7 +348,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
             {/* Source Credit */}
             {currentSlide && (
                 <div className={styles.sourceCredit}>
-                    MIT Licensed
+                    MIT License | ©2025 PJ
                 </div>
             )}
         </div>
