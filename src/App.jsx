@@ -125,6 +125,23 @@ function App() {
 
   return (
     <div className={styles.layout}>
+      {/* Background Ambience - Globally Applied */}
+      <div className={styles.aurora}></div>
+      <div className={styles.gridOverlay}></div>
+
+      {/* Floating Particles/Stars */}
+      <div className={styles.particlesContainer}>
+        {[...Array(30)].map((_, i) => (
+          <div key={i} className={styles.particle} style={{
+            left: `${Math.random() * 100}%`,
+            top: `${Math.random() * 100}%`,
+            animationDelay: `${Math.random() * 5}s`,
+            animationDuration: `${15 + Math.random() * 15}s`,
+            opacity: Math.random() * 0.5 + 0.2
+          }} />
+        ))}
+      </div>
+
       {/* Mobile Overlay */}
       {sidebarOpen && <div className={styles.sidebarOverlay} onClick={() => setSidebarOpen(false)} />}
 
