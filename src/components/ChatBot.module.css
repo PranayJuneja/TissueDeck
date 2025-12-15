@@ -437,7 +437,8 @@
         left: 16px;
         top: auto;
         width: auto;
-        z-index: 1000;
+        z-index: 998;
+        /* Below sidebar (1000) and overlay (999) */
     }
 
     .chatContainer.expanded {
@@ -459,6 +460,8 @@
         right: 12px;
         left: 12px;
         top: auto;
+        z-index: 998;
+        /* Below sidebar (1000) and overlay (999) */
     }
 
     .chatContainer.expanded {
