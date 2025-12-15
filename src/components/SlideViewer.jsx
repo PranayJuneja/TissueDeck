@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import styles from './SlideViewer.module.css';
 
 const SlideViewer = ({ tissue, showLabels }) => {
@@ -8,6 +8,10 @@ const SlideViewer = ({ tissue, showLabels }) => {
     const [isDragging, setIsDragging] = useState(false);
     const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
     const [imageError, setImageError] = useState(false);
+
+    // Refs for boundary calculation
+    const containerRef = useRef(null);
+    const imageRef = useRef(null);
 
     // Get all slides combined into a linear list (low -> medium -> high -> default)
     const getAllSlides = () => {
@@ -33,13 +37,64 @@ const SlideViewer = ({ tissue, showLabels }) => {
         setImageError(false);
     }, [tissue]);
 
+    // Clamp position to keep image within bounds
+    // The image edge cannot go past the container edge
+    const clampPosition = useCallback((x, y, currentZoom) => {
+        if (!containerRef.current || !imageRef.current) {
+            return { x, y };
+        }
+
+        const container = containerRef.current.getBoundingClientRect();
+        const image = imageRef.current;
+
+        // Get the natural/rendered size of the image
+        const imageWidth = image.naturalWidth || image.offsetWidth;
+        const imageHeight = image.naturalHeight || image.offsetHeight;
+
+        // Calculate the displayed size (image is contained within container, then scaled by zoom)
+        // First find the scale factor when image is "contained" in the container
+        const containerAspect = container.width / container.height;
+        const imageAspect = imageWidth / imageHeight;
+
+        let displayedWidth, displayedHeight;
+        if (imageAspect > containerAspect) {
+            // Image is wider - width fills container
+            displayedWidth = container.width;
+            displayedHeight = container.width / imageAspect;
+        } else {
+            // Image is taller - height fills container
+            displayedHeight = container.height;
+            displayedWidth = container.height * imageAspect;
+        }
+
+        // Apply zoom to get the actual displayed size
+        const scaledWidth = displayedWidth * currentZoom;
+        const scaledHeight = displayedHeight * currentZoom;
+
+        // Calculate maximum pan distance
+        // When zoomed in, the image can pan until its edge reaches the container edge
+        const maxPanX = Math.max(0, (scaledWidth - container.width) / 2);
+        const maxPanY = Math.max(0, (scaledHeight - container.height) / 2);
+
+        // Clamp the position
+        const clampedX = Math.max(-maxPanX, Math.min(maxPanX, x));
+        const clampedY = Math.max(-maxPanY, Math.min(maxPanY, y));
+
+        return { x: clampedX, y: clampedY };
+    }, []);
+
     // Zoom controls
     const handleZoomIn = () => {
         setZoom(prev => Math.min(prev * 1.5, 5));
     };
 
     const handleZoomOut = () => {
-        setZoom(prev => Math.max(prev / 1.5, 1));
+        setZoom(prev => {
+            const newZoom = Math.max(prev / 1.5, 1);
+            // Re-clamp position when zooming out
+            setPosition(currentPos => clampPosition(currentPos.x, currentPos.y, newZoom));
+            return newZoom;
+        });
     };
 
     const handleReset = () => {
@@ -55,10 +110,10 @@ const SlideViewer = ({ tissue, showLabels }) => {
 
     const handleMouseMove = (e) => {
         if (isDragging) {
-            setPosition({
-                x: e.clientX - dragStart.x,
-                y: e.clientY - dragStart.y
-            });
+            const rawX = e.clientX - dragStart.x;
+            const rawY = e.clientY - dragStart.y;
+            const clamped = clampPosition(rawX, rawY, zoom);
+            setPosition(clamped);
         }
     };
 
@@ -103,17 +158,21 @@ const SlideViewer = ({ tissue, showLabels }) => {
             if (lastTouchDistance !== null && newDistance !== null) {
                 const scale = newDistance / lastTouchDistance;
                 setZoom(prev => {
-                    const newZoom = prev * scale;
-                    return Math.min(Math.max(newZoom, 1), 5);
+                    const newZoom = Math.min(Math.max(prev * scale, 1), 5);
+                    // Re-clamp position when zooming out
+                    if (scale < 1) {
+                        setPosition(currentPos => clampPosition(currentPos.x, currentPos.y, newZoom));
+                    }
+                    return newZoom;
                 });
                 setLastTouchDistance(newDistance);
             }
         } else if (isDragging && e.touches.length === 1) {
             // Single finger panning
-            setPosition({
-                x: e.touches[0].clientX - dragStart.x,
-                y: e.touches[0].clientY - dragStart.y
-            });
+            const rawX = e.touches[0].clientX - dragStart.x;
+            const rawY = e.touches[0].clientY - dragStart.y;
+            const clamped = clampPosition(rawX, rawY, zoom);
+            setPosition(clamped);
         }
     };
 
@@ -129,8 +188,12 @@ const SlideViewer = ({ tissue, showLabels }) => {
         e.preventDefault();
         const delta = e.deltaY > 0 ? -0.04 : 0.04;
         setZoom(prev => {
-            const newZoom = prev + delta;
-            return Math.min(Math.max(newZoom, 1), 5);
+            const newZoom = Math.min(Math.max(prev + delta, 1), 5);
+            // Re-clamp position when zooming out
+            if (delta < 0) {
+                setPosition(currentPos => clampPosition(currentPos.x, currentPos.y, newZoom));
+            }
+            return newZoom;
         });
     };
 
@@ -169,6 +232,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
 
     return (
         <div
+            ref={containerRef}
             className={styles.viewerContainer}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
@@ -189,6 +253,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
             >
                 {currentSlide && !imageError ? (
                     <img
+                        ref={imageRef}
                         src={currentSlide}
                         alt={tissue.name}
                         className={styles.slideImage}

@@ -3,7 +3,27 @@
 
 ---
 
-## 🔍 v5.5 - VIEWER POLISH
+## � v5.6 - BOUNDARY LOCK
+**Date:** December 15, 2025 (4:22 PM IST)
+
+### 🖼️ Slide Viewer Improvements
+- **Pan Boundary Constraints** — The slide image can no longer be dragged beyond the edges of the viewer box
+  - Image edges will stop at the container edges when panning
+  - Works seamlessly with all zoom levels
+  - Position automatically re-clamps when zooming out
+  - Prevents "losing" the image off-screen during navigation
+
+### 🔧 Technical Details
+- Added `clampPosition` function to calculate maximum allowed pan distance
+- Boundary calculation considers:
+  - Container dimensions (viewer box size)
+  - Image natural dimensions and aspect ratio
+  - Current zoom level
+- Applied to all pan methods: mouse drag, touch panning, scroll wheel zoom, pinch-to-zoom
+
+---
+
+## �🔍 v5.5 - VIEWER POLISH
 **Date:** December 15, 2025 (12:17 PM IST)
 
 ### 🖼️ Slide Viewer Improvements
