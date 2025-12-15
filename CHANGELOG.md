@@ -3,8 +3,8 @@
 
 ---
 
-## � v5.6 - BOUNDARY LOCK
-**Date:** December 15, 2025 (4:22 PM IST)
+## 🔒 v5.6 - BOUNDARY LOCK & UI POLISH
+**Date:** December 15, 2025 (4:35 PM IST)
 
 ### 🖼️ Slide Viewer Improvements
 - **Pan Boundary Constraints** — The slide image can no longer be dragged beyond the edges of the viewer box
@@ -13,13 +13,23 @@
   - Position automatically re-clamps when zooming out
   - Prevents "losing" the image off-screen during navigation
 
-### 🔧 Technical Details
+### 🐛 Bug Fixes
+- **Fixed Passive Event Listener Error** — Resolved console errors for `preventDefault` inside passive touch/wheel events
+  - Touch and wheel events now use native `addEventListener` with `{ passive: false }`
+  - Pinch-to-zoom and scroll-to-zoom now work without console warnings
+- **Form Accessibility** — Added `id` and `name` attributes to search and chat input fields
+  - Fixes browser autofill warnings
+
+### � Tablet Layout Improvements
+- **Consistent Header Layout** — Tablet view (768px - 1024px) now matches mobile layout:
+  - "Tissue Deck" branding centered in top row
+  - Breadcrumbs displayed in a translucent box below
+  - Previously the branding would disappear at tablet widths
+
+### �🔧 Technical Details
 - Added `clampPosition` function to calculate maximum allowed pan distance
-- Boundary calculation considers:
-  - Container dimensions (viewer box size)
-  - Image natural dimensions and aspect ratio
-  - Current zoom level
-- Applied to all pan methods: mouse drag, touch panning, scroll wheel zoom, pinch-to-zoom
+- Boundary calculation considers container dimensions, image aspect ratio, and zoom level
+- Refactored touch/wheel handlers into `useEffect` with `stateRef` for proper state access
 
 ---
 

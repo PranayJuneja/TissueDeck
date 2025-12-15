@@ -255,6 +255,8 @@ export default function ChatBot({ tissueContext }) {
             <form onSubmit={handleSubmit} className={styles.inputArea}>
                 <input
                     ref={inputRef}
+                    id="chat-message-input"
+                    name="chat-message"
                     type="text"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}

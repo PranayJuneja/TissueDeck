@@ -124,6 +124,12 @@ const SlideViewer = ({ tissue, showLabels }) => {
     // Touch events for mobile - with pinch-to-zoom support
     const [lastTouchDistance, setLastTouchDistance] = useState(null);
 
+    // Use refs to store latest values for event handlers
+    const stateRef = useRef({ position, zoom, isDragging, dragStart, lastTouchDistance });
+    useEffect(() => {
+        stateRef.current = { position, zoom, isDragging, dragStart, lastTouchDistance };
+    }, [position, zoom, isDragging, dragStart, lastTouchDistance]);
+
     const getTouchDistance = (touches) => {
         if (touches.length < 2) return null;
         const dx = touches[0].clientX - touches[1].clientX;
@@ -131,71 +137,92 @@ const SlideViewer = ({ tissue, showLabels }) => {
         return Math.sqrt(dx * dx + dy * dy);
     };
 
-    const handleTouchStart = (e) => {
-        // Prevent default to stop page from scrolling/zooming
-        e.preventDefault();
+    // Attach touch events with { passive: false } to allow preventDefault
+    useEffect(() => {
+        const container = containerRef.current;
+        if (!container) return;
 
-        if (e.touches.length === 2) {
-            // Pinch gesture starting
-            setLastTouchDistance(getTouchDistance(e.touches));
-        } else if (e.touches.length === 1) {
-            // Single finger drag (panning)
-            setIsDragging(true);
-            setDragStart({
-                x: e.touches[0].clientX - position.x,
-                y: e.touches[0].clientY - position.y
-            });
-        }
-    };
+        const handleTouchStart = (e) => {
+            // Prevent default to stop page from scrolling/zooming
+            e.preventDefault();
 
-    const handleTouchMove = (e) => {
-        // Prevent default to stop page from scrolling/zooming
-        e.preventDefault();
-
-        if (e.touches.length === 2) {
-            // Pinch-to-zoom
-            const newDistance = getTouchDistance(e.touches);
-            if (lastTouchDistance !== null && newDistance !== null) {
-                const scale = newDistance / lastTouchDistance;
-                setZoom(prev => {
-                    const newZoom = Math.min(Math.max(prev * scale, 1), 5);
-                    // Re-clamp position when zooming out
-                    if (scale < 1) {
-                        setPosition(currentPos => clampPosition(currentPos.x, currentPos.y, newZoom));
-                    }
-                    return newZoom;
+            if (e.touches.length === 2) {
+                // Pinch gesture starting
+                setLastTouchDistance(getTouchDistance(e.touches));
+            } else if (e.touches.length === 1) {
+                // Single finger drag (panning)
+                setIsDragging(true);
+                setDragStart({
+                    x: e.touches[0].clientX - stateRef.current.position.x,
+                    y: e.touches[0].clientY - stateRef.current.position.y
                 });
-                setLastTouchDistance(newDistance);
             }
-        } else if (isDragging && e.touches.length === 1) {
-            // Single finger panning
-            const rawX = e.touches[0].clientX - dragStart.x;
-            const rawY = e.touches[0].clientY - dragStart.y;
-            const clamped = clampPosition(rawX, rawY, zoom);
-            setPosition(clamped);
-        }
-    };
+        };
 
-    const handleTouchEnd = (e) => {
-        // Prevent default
-        e.preventDefault();
-        setIsDragging(false);
-        setLastTouchDistance(null);
-    };
+        const handleTouchMove = (e) => {
+            // Prevent default to stop page from scrolling/zooming
+            e.preventDefault();
 
-    // Mouse wheel for zooming
-    const handleWheel = (e) => {
-        e.preventDefault();
-        const delta = e.deltaY > 0 ? -0.04 : 0.04;
-        setZoom(prev => {
-            const newZoom = Math.min(Math.max(prev + delta, 1), 5);
-            // Re-clamp position when zooming out
-            if (delta < 0) {
-                setPosition(currentPos => clampPosition(currentPos.x, currentPos.y, newZoom));
+            const { isDragging, dragStart, lastTouchDistance, zoom } = stateRef.current;
+
+            if (e.touches.length === 2) {
+                // Pinch-to-zoom
+                const newDistance = getTouchDistance(e.touches);
+                if (lastTouchDistance !== null && newDistance !== null) {
+                    const scale = newDistance / lastTouchDistance;
+                    setZoom(prev => {
+                        const newZoom = Math.min(Math.max(prev * scale, 1), 5);
+                        // Re-clamp position when zooming out
+                        if (scale < 1) {
+                            setPosition(currentPos => clampPosition(currentPos.x, currentPos.y, newZoom));
+                        }
+                        return newZoom;
+                    });
+                    setLastTouchDistance(newDistance);
+                }
+            } else if (isDragging && e.touches.length === 1) {
+                // Single finger panning
+                const rawX = e.touches[0].clientX - dragStart.x;
+                const rawY = e.touches[0].clientY - dragStart.y;
+                const clamped = clampPosition(rawX, rawY, zoom);
+                setPosition(clamped);
             }
-            return newZoom;
-        });
-    };
+        };
+
+        const handleTouchEnd = (e) => {
+            // Prevent default
+            e.preventDefault();
+            setIsDragging(false);
+            setLastTouchDistance(null);
+        };
+
+        // Mouse wheel for zooming
+        const handleWheel = (e) => {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? -0.04 : 0.04;
+            setZoom(prev => {
+                const newZoom = Math.min(Math.max(prev + delta, 1), 5);
+                // Re-clamp position when zooming out
+                if (delta < 0) {
+                    setPosition(currentPos => clampPosition(currentPos.x, currentPos.y, newZoom));
+                }
+                return newZoom;
+            });
+        };
+
+        // Add event listeners with { passive: false } to enable preventDefault
+        container.addEventListener('touchstart', handleTouchStart, { passive: false });
+        container.addEventListener('touchmove', handleTouchMove, { passive: false });
+        container.addEventListener('touchend', handleTouchEnd, { passive: false });
+        container.addEventListener('wheel', handleWheel, { passive: false });
+
+        return () => {
+            container.removeEventListener('touchstart', handleTouchStart);
+            container.removeEventListener('touchmove', handleTouchMove);
+            container.removeEventListener('touchend', handleTouchEnd);
+            container.removeEventListener('wheel', handleWheel);
+        };
+    }, [clampPosition]);
 
     // Navigate slides
     const nextSlide = () => {
@@ -238,10 +265,6 @@ const SlideViewer = ({ tissue, showLabels }) => {
             onMouseMove={handleMouseMove}
             onMouseUp={handleMouseUp}
             onMouseLeave={handleMouseUp}
-            onWheel={handleWheel}
-            onTouchStart={handleTouchStart}
-            onTouchMove={handleTouchMove}
-            onTouchEnd={handleTouchEnd}
         >
             {/* Image Display */}
             <div

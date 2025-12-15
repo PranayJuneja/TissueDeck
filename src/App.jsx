@@ -141,6 +141,8 @@ function App() {
           <div className="search-container">
             <span className="material-icon search-icon">search</span>
             <input
+              id="slide-search-input"
+              name="slide-search"
               type="text"
               placeholder="Search slides..."
               value={searchTerm}
@@ -899,6 +901,70 @@ function App() {
           
           .view-controls {
             display: none;
+          }
+          
+          /* Stacked header layout for tablet (similar to mobile) */
+          .top-bar {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+          }
+          
+          .top-bar-left {
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+          }
+          
+          .mobile-header-row {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            justify-content: flex-start;
+            min-height: 44px;
+          }
+
+          /* Show mobile brand at tablet size since sidebar is hidden */
+          .mobile-brand {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            margin-left: 0;
+          }
+          
+          .brand h1 {
+            margin-bottom: 0;
+            font-size: 1.2rem;
+          }
+          
+          /* Breadcrumbs in translucent box */
+          .breadcrumbs {
+            width: 100%;
+            background-color: rgba(30, 30, 30, 0.6);
+            backdrop-filter: blur(4px);
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-sizing: border-box;
+            margin-top: 4px;
+            flex-wrap: wrap;
+            white-space: normal;
+          }
+
+          .crumb-category, .crumb-name {
+            font-size: 0.95rem;
+          }
+          
+          .crumb-name {
+            color: #E6E1E5;
+          }
+          
+          .crumb-separator {
+            color: rgba(230, 225, 229, 0.5);
           }
           
           .mobile-footer {
