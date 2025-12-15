@@ -39,7 +39,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
     };
 
     const handleZoomOut = () => {
-        setZoom(prev => Math.max(prev / 1.5, 0.35));
+        setZoom(prev => Math.max(prev / 1.5, 1));
     };
 
     const handleReset = () => {
@@ -104,7 +104,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
                 const scale = newDistance / lastTouchDistance;
                 setZoom(prev => {
                     const newZoom = prev * scale;
-                    return Math.min(Math.max(newZoom, 0.35), 5);
+                    return Math.min(Math.max(newZoom, 1), 5);
                 });
                 setLastTouchDistance(newDistance);
             }
@@ -130,7 +130,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
         const delta = e.deltaY > 0 ? -0.05 : 0.05;
         setZoom(prev => {
             const newZoom = prev + delta;
-            return Math.min(Math.max(newZoom, 0.35), 5);
+            return Math.min(Math.max(newZoom, 1), 5);
         });
     };
 
@@ -138,6 +138,8 @@ const SlideViewer = ({ tissue, showLabels }) => {
     const nextSlide = () => {
         if (totalSlides > 1) {
             setCurrentSlideIndex(prev => Math.min(prev + 1, totalSlides - 1));
+            setZoom(1);
+            setPosition({ x: 0, y: 0 });
             setImageError(false);
         }
     };
@@ -145,6 +147,8 @@ const SlideViewer = ({ tissue, showLabels }) => {
     const prevSlide = () => {
         if (totalSlides > 1) {
             setCurrentSlideIndex(prev => Math.max(prev - 1, 0));
+            setZoom(1);
+            setPosition({ x: 0, y: 0 });
             setImageError(false);
         }
     };

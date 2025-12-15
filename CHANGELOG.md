@@ -3,6 +3,18 @@
 
 ---
 
+## 🔍 v5.5 - VIEWER POLISH
+**Date:** December 15, 2025 (12:17 PM IST)
+
+### 🖼️ Slide Viewer Improvements
+- **Zoom Limit** — Maximum zoom-out now stops at 100% (image never shrinks smaller than the viewport)
+- **Slide Navigation Reset** — Switching between slides (1/n, 2/n, etc.) now resets zoom and position to default
+
+### 📜 Theory Panel Improvements
+- **Scroll Reset** — Changing tissue sections now scrolls the theory panel back to the top automatically
+
+---
+
 ## 💅 v5.4 - THE LAYOUT POLISH
 **Date:** December 15, 2025 (5:08 AM IST)
 

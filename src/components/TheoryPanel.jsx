@@ -1,11 +1,21 @@
+import { useRef, useEffect } from 'react';
 import styles from './TheoryPanel.module.css';
 
 // Helper for displaying theory features
 
 const TheoryPanel = ({ tissue }) => {
+    const panelRef = useRef(null);
+
+    // Scroll to top when tissue changes
+    useEffect(() => {
+        if (panelRef.current) {
+            panelRef.current.scrollTop = 0;
+        }
+    }, [tissue]);
+
     if (!tissue) {
         return (
-            <div className={styles.panel}>
+            <div className={styles.panel} ref={panelRef}>
                 <div className={styles.emptyState}>
                     Select a tissue to view theory
                 </div>
@@ -17,7 +27,7 @@ const TheoryPanel = ({ tissue }) => {
 
     return (
         <div className={styles.panel}>
-            <div className={styles.content}>
+            <div className={styles.content} ref={panelRef}>
                 <header className={styles.header}>
                     <div className={styles.category}>{tissue.category}</div>
                     <h2 className={styles.title}>{tissue.name}</h2>
