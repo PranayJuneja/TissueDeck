@@ -23,6 +23,9 @@ Removed unused files to keep the template clean:
 - **Sidebar Text Alignment** — All nav item first letters now align on the same vertical axis
   - Chevron icons (`>`) now use `position: absolute` so they don't push text
   - Consistent padding across all nav levels
+- **ChatBot Layout Fixed** — Moved chatbot out of restricted container to allow full expansion without clipping
+  - Desktop: Uses Grid positioning to sit correctly in the theory column
+  - Tablet/Mobile: Floats freely over the entire interface (z-index 1000)
 
 #### Files Changed
 | File | Change |

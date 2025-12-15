@@ -366,10 +366,11 @@ function App() {
             <div className={styles.infoSection}>
               <TheoryPanel tissue={selectedTissue} />
             </div>
-            <ChatBot tissueContext={formatTissueContext(selectedTissue)} />
           </div>
         </div>
 
+        {/* Chatbot floats over entire viewport */}
+        <ChatBot tissueContext={formatTissueContext(selectedTissue)} />
       </main>
     </div>
   );
