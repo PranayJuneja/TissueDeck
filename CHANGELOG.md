@@ -3,6 +3,51 @@
 
 ---
 
+## 🪟 v6.1 - GLASS UI REFINEMENTS
+**Date:** December 15, 2025 (6:00 PM IST)
+
+### 🎨 Glassmorphism Improvements
+Applied cohesive glass effects to major UI containers:
+
+- **Sidebar Container** — Glass effect with gradient overlay, backdrop blur (20px), and subtle border
+- **Theory Panel Container** — Matching glass effect for visual consistency
+- **Chatbot UI** — Increased blur from 32px → 64px and opacity from 0.35 → 0.88 for better text coverage
+
+### 📜 Sleeker Scrollbars
+Completely redesigned scrollbars for a minimal, modern look:
+- Width reduced from 10px → 6px
+- Track now transparent
+- Thumb uses subtle 8% opacity (15% on hover)
+- Removed heavy gradients and borders
+
+### 📌 Fixed Sidebar Header (Desktop)
+- "Tissue Deck" title and search bar now stay fixed at top
+- Only the navigation list scrolls independently below
+- Better UX for long category lists
+
+### 🧭 Navigation Alignment
+- All nav items, section headers, and subsection headers now align on the same vertical axis
+- Consistent left padding (40px) across all levels
+
+### 📱 Tablet Mode Chatbot Fix
+- Chatbot now uses `position: fixed` with `z-index: 1000`
+- Floats above both slide viewer and theory panel
+- Proper viewport-aware max-height with `calc()`
+
+### ⚡ Font Loading
+- Added `display=swap` for non-blocking font loading
+- Fonts load in background while showing fallback text immediately
+
+#### Files Changed
+| File | Change |
+|------|--------|
+| `src/App.module.css` | Glass sidebar, fixed header, sleeker scrollbars, nav alignment |
+| `src/components/ChatBot.module.css` | Increased blur, tablet mode fixes |
+| `src/styles/global.css` | Minimal scrollbar styling |
+| `index.html` | Font display swap |
+
+---
+
 ## 🧹 v6.0 - THE GREAT DEBLOAT
 **Date:** December 15, 2025 (5:35 PM IST)
 
@@ -28,49 +73,6 @@ Massive refactoring effort to reduce bloat and improve maintainability.
 | `src/App.jsx` | Refactored from 1,278 → 330 lines |
 | `src/App.module.css` | **NEW** — Extracted CSS module |
 | `src/components/LiquidGlassFilter.jsx` | **DELETED** — Unused |
-
----
-
-## ✨ v5.7 - LIQUID GLASS UI
-**Date:** December 15, 2025 (5:30 PM IST)
-
-### 🪟 Apple Liquid Glass Design Language
-Implemented Apple's iOS 26 "Liquid Glass" aesthetic across the UI:
-
-#### Components with Liquid Glass Effect
-- **AI Chatbot** — Frosted glass with specular highlights
-- **Slide Viewer Controls** — Glass overlay for zoom/navigation
-- **Search Input** — Glass search bar with purple focus glow
-- **Search Clear Button** — Circular glass button
-- **Hamburger Menu** — Glass menu button (mobile/tablet)
-- **Sidebar Close Button** — Glass close button (mobile/tablet)
-- **Breadcrumbs** — Glass container (mobile/tablet only)
-- **Selected Nav Item** — Neutral glass highlight for active selection
-- **Scrollbars** — Frosted glass scrollbar thumbs globally
-
-#### Visual Effects
-- **Frosted Glass Blur** — backdrop-filter with 8-32px blur + saturation
-- **Specular Highlights** — Radial gradient simulating curved glass reflection
-- **Translucent Backgrounds** — Semi-transparent layered gradients
-- **Multi-layer Shadows** — Outer drops + inner highlights for depth
-- **Inner Glow** — Subtle inset shadows for glass depth
-
-#### Performance Optimizations
-- **Disabled SVG Filters** — Removed expensive `feTurbulence` filters that caused hover lag
-- **GPU-Accelerated Only** — Using only backdrop-filter and box-shadow
-
-#### Other Fixes
-- **PWA Meta Tag** — Added `mobile-web-app-capable` meta tag (deprecated warning fix)
-- **Tablet ChatBot Layout** — Fixed positioning for 768-1024px viewport
-
-#### Modified Files
-| File | Change |
-|------|--------|
-| `src/components/ChatBot.module.css` | Liquid Glass + tablet media query |
-| `src/components/SlideViewer.module.css` | Glass controls overlay |
-| `src/App.jsx` | Glass for search, buttons, nav items, breadcrumbs |
-| `src/styles/global.css` | Glass scrollbars |
-| `index.html` | PWA meta tag fix |
 
 ---
 
