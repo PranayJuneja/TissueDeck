@@ -3,7 +3,29 @@
 
 ---
 
-## � v6.9 - CLEANUP & MOBILE FIX
+## 🌌 v7.0 - ANTIGRAVITY UI REVOLUTION
+**Date:** December 16, 2025 (12:55 AM IST)
+
+### 🎨 Global Antigravity Theme
+- **Aurora Background** — Implemented vivid "Aurora" background (pulsing radial gradient) globally.
+- **Glassmorphism UI** — Applied "Liquid Glass" effect to Sidebar, Theory Panel, and Slide Viewer.
+- **Floating Particles** — Added dynamic particle effects to the unified interface.
+
+### 🏠 Home Page Removal
+- **Streamlined UX** — Removed the landing page entirely; app now loads directly into the main interface.
+- **Deletions** — Removed `Home.jsx`, `Home.module.css`, and routing logic.
+
+### 🖼️ Slide Viewer Refinement
+- **Darker Glass** — Slide Viewer now features a darker, more opaque background (`0.65` opacity) for image focus.
+- **Sharp Edges** — Removed vignetting/gradient masks for clear, sharp image presentation.
+- **Transparency** — The global theme is visible through the viewer when images don't fill the frame.
+
+### 📱 Responsive Glass
+- **Mobile Optimized** — Glass effects adjusted for performance and readability on smaller screens.
+
+---
+
+##  v6.9 - CLEANUP & MOBILE FIX
 **Date:** December 15, 2025 (6:42 PM IST)
 
 ### 🗑️ Codebase Debloat (~209 KB removed)
