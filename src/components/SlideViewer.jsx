@@ -127,7 +127,7 @@ const SlideViewer = ({ tissue, showLabels }) => {
     // Mouse wheel for zooming
     const handleWheel = (e) => {
         e.preventDefault();
-        const delta = e.deltaY > 0 ? -0.05 : 0.05;
+        const delta = e.deltaY > 0 ? -0.04 : 0.04;
         setZoom(prev => {
             const newZoom = prev + delta;
             return Math.min(Math.max(newZoom, 1), 5);
