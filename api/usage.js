@@ -79,7 +79,6 @@ export async function GET(req) {
 
         if (!db || !admin.apps.length) {
             // Return default if Firebase not configured
-            console.log('[Usage API] No db configured, returning default 100');
             return new Response(JSON.stringify({ remaining: 100 }), {
                 status: 200,
                 headers: { 'Content-Type': 'application/json' }
@@ -91,9 +90,7 @@ export async function GET(req) {
         let decodedToken;
         try {
             decodedToken = await admin.auth().verifyIdToken(token);
-            console.log('[Usage API] Token verified for user:', decodedToken.uid);
         } catch (error) {
-            console.log('[Usage API] Token verification failed:', error.message);
             return new Response(JSON.stringify({ remaining: 100 }), {
                 status: 200,
                 headers: { 'Content-Type': 'application/json' }
@@ -115,7 +112,6 @@ export async function GET(req) {
         }
 
         const remaining = Math.max(0, MONTHLY_LIMIT - messageCount);
-        console.log('[Usage API] Returning remaining:', remaining, 'messageCount:', messageCount);
 
         return new Response(JSON.stringify({ remaining }), {
             status: 200,
