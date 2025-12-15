@@ -20,13 +20,21 @@
 - **Form Accessibility** — Added `id` and `name` attributes to search and chat input fields
   - Fixes browser autofill warnings
 
-### � Tablet Layout Improvements
+### 📱 Tablet Layout Improvements
 - **Consistent Header Layout** — Tablet view (768px - 1024px) now matches mobile layout:
   - "Tissue Deck" branding centered in top row
   - Breadcrumbs displayed in a translucent box below
   - Previously the branding would disappear at tablet widths
 
-### �🔧 Technical Details
+### 🔍 Search UX Improvements
+- **Clear Button** — Added an (X) button inside the search input that appears when text is present
+  - One-tap clearing of search queries
+  - Circular button with subtle hover effects
+- **Auto-Select on Focus** — Tapping/clicking the search input now selects all text
+  - Makes it easy to replace the current search on mobile
+  - Standard UX pattern for search fields
+
+### 🔧 Technical Details
 - Added `clampPosition` function to calculate maximum allowed pan distance
 - Boundary calculation considers container dimensions, image aspect ratio, and zoom level
 - Refactored touch/wheel handlers into `useEffect` with `stateRef` for proper state access

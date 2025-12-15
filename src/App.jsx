@@ -147,8 +147,18 @@ function App() {
               placeholder="Search slides..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
+              onFocus={(e) => e.target.select()}
               className="search-input"
             />
+            {searchTerm && (
+              <button
+                className="search-clear-btn"
+                onClick={() => setSearchTerm('')}
+                aria-label="Clear search"
+              >
+                <span className="material-icon">close</span>
+              </button>
+            )}
           </div>
           <button className="close-sidebar-btn" onClick={() => setSidebarOpen(false)}>
             <span className="material-icon">close</span>
@@ -465,7 +475,7 @@ function App() {
         .search-input {
           width: 100%;
           box-sizing: border-box;
-          padding: 10px 12px 10px 40px;
+          padding: 10px 40px 10px 40px;
           background-color: var(--md-sys-color-surface-variant);
           border: none;
           border-radius: var(--radius-full);
@@ -480,6 +490,34 @@ function App() {
           background-color: var(--md-sys-color-surface-variant); /* slightly lighter if needed */
           color: var(--md-sys-color-on-surface);
           outline: 2px solid var(--md-sys-color-primary);
+        }
+
+        .search-clear-btn {
+          position: absolute;
+          right: 6px;
+          top: 50%;
+          transform: translateY(-50%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 28px;
+          height: 28px;
+          padding: 0;
+          background: rgba(255, 255, 255, 0.1);
+          border: none;
+          border-radius: 50%;
+          color: var(--md-sys-color-on-surface-variant);
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+
+        .search-clear-btn:hover {
+          background: rgba(255, 255, 255, 0.2);
+          color: var(--md-sys-color-on-surface);
+        }
+
+        .search-clear-btn .material-icon {
+          font-size: 18px;
         }
 
         .nav-list {
@@ -1076,7 +1114,7 @@ function App() {
 
           .search-input {
             font-size: 1rem;
-            padding: 12px 12px 12px 44px;
+            padding: 12px 44px 12px 44px;
           }
 
           .main-content {
