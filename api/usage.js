@@ -3,58 +3,60 @@ dotenv.config({ path: '.env.local' });
 
 import admin from 'firebase-admin';
 
-// Check if Firebase Admin is configured
+// Check if Firebase Admin is configured via Base64 service account JSON (recommended)
+const hasServiceAccountBase64 = !!process.env.FIREBASE_SERVICE_ACCOUNT_BASE64;
+
+// Fallback: individual env vars
 const hasProjectId = !!process.env.FIREBASE_PROJECT_ID;
 const hasClientEmail = !!process.env.FIREBASE_CLIENT_EMAIL;
 const hasPrivateKey = !!process.env.FIREBASE_PRIVATE_KEY;
 
 console.log('[Firebase Admin - Usage] Environment check:', {
+    hasServiceAccountBase64,
     hasProjectId,
     hasClientEmail,
     hasPrivateKey,
-    privateKeyLength: process.env.FIREBASE_PRIVATE_KEY?.length || 0
 });
-
-const isFirebaseAdminConfigured = hasProjectId && hasClientEmail && hasPrivateKey;
 
 // Initialize Firebase Admin (singleton pattern)
 let db = null;
 
-if (isFirebaseAdminConfigured && !admin.apps.length) {
+if (!admin.apps.length) {
     try {
-        // Handle different escape formats for private key
-        let privateKey = process.env.FIREBASE_PRIVATE_KEY;
-        // Replace literal \n with actual newlines
-        privateKey = privateKey.replace(/\\n/g, '\n');
-        // Also handle if it was JSON stringified (double escaped)
-        if (privateKey.startsWith('"')) {
-            try {
-                privateKey = JSON.parse(privateKey);
-            } catch (e) {
-                // Not JSON, use as-is
+        let credential;
+
+        if (hasServiceAccountBase64) {
+            // RECOMMENDED: Decode Base64 service account JSON
+            const serviceAccountJson = Buffer.from(
+                process.env.FIREBASE_SERVICE_ACCOUNT_BASE64,
+                'base64'
+            ).toString('utf-8');
+            const serviceAccount = JSON.parse(serviceAccountJson);
+            credential = admin.credential.cert(serviceAccount);
+        } else if (hasProjectId && hasClientEmail && hasPrivateKey) {
+            // FALLBACK: Individual env vars
+            let privateKey = process.env.FIREBASE_PRIVATE_KEY;
+            privateKey = privateKey.replace(/\\n/g, '\n');
+            if (privateKey.includes('\\\\n')) {
+                privateKey = privateKey.replace(/\\\\n/g, '\n');
             }
-        }
 
-        console.log('[Firebase Admin - Usage] Private key format check:', {
-            startsWithBegin: privateKey.startsWith('-----BEGIN'),
-            endsWithEnd: privateKey.includes('-----END'),
-            hasNewlines: privateKey.includes('\n'),
-            length: privateKey.length
-        });
-
-        admin.initializeApp({
-            credential: admin.credential.cert({
+            credential = admin.credential.cert({
                 projectId: process.env.FIREBASE_PROJECT_ID,
                 clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
                 privateKey: privateKey,
-            }),
-        });
-        db = admin.firestore();
-        console.log('[Firebase Admin - Usage] Initialized successfully');
+            });
+        }
+
+        if (credential) {
+            admin.initializeApp({ credential });
+            db = admin.firestore();
+            console.log('[Firebase Admin - Usage] Initialized successfully');
+        }
     } catch (error) {
         console.error('[Firebase Admin - Usage] Initialization error:', error.message);
     }
-} else if (admin.apps.length) {
+} else {
     db = admin.firestore();
 }
 

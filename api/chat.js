@@ -5,60 +5,74 @@ import { streamText } from 'ai';
 import { gateway } from '@ai-sdk/gateway';
 import admin from 'firebase-admin';
 
-// Check if Firebase Admin is configured
+// Check if Firebase Admin is configured via Base64 service account JSON (recommended)
+const hasServiceAccountBase64 = !!process.env.FIREBASE_SERVICE_ACCOUNT_BASE64;
+
+// Fallback: individual env vars
 const hasProjectId = !!process.env.FIREBASE_PROJECT_ID;
 const hasClientEmail = !!process.env.FIREBASE_CLIENT_EMAIL;
 const hasPrivateKey = !!process.env.FIREBASE_PRIVATE_KEY;
 
 console.log('[Firebase Admin] Environment check:', {
+    hasServiceAccountBase64,
     hasProjectId,
     hasClientEmail,
     hasPrivateKey,
-    privateKeyLength: process.env.FIREBASE_PRIVATE_KEY?.length || 0
 });
-
-const isFirebaseAdminConfigured = hasProjectId && hasClientEmail && hasPrivateKey;
 
 // Initialize Firebase Admin (singleton pattern)
 let db = null;
 
-if (isFirebaseAdminConfigured && !admin.apps.length) {
+if (!admin.apps.length) {
     try {
-        // Handle different escape formats for private key
-        let privateKey = process.env.FIREBASE_PRIVATE_KEY;
-        // Replace literal \n with actual newlines
-        privateKey = privateKey.replace(/\\n/g, '\n');
-        // Also handle if it was JSON stringified (double escaped)
-        if (privateKey.startsWith('"')) {
-            try {
-                privateKey = JSON.parse(privateKey);
-            } catch (e) {
-                // Not JSON, use as-is
+        let credential;
+
+        if (hasServiceAccountBase64) {
+            // RECOMMENDED: Decode Base64 service account JSON
+            console.log('[Firebase Admin] Using Base64 service account JSON');
+            const serviceAccountJson = Buffer.from(
+                process.env.FIREBASE_SERVICE_ACCOUNT_BASE64,
+                'base64'
+            ).toString('utf-8');
+            const serviceAccount = JSON.parse(serviceAccountJson);
+            credential = admin.credential.cert(serviceAccount);
+        } else if (hasProjectId && hasClientEmail && hasPrivateKey) {
+            // FALLBACK: Individual env vars with private key parsing
+            console.log('[Firebase Admin] Using individual env vars');
+            let privateKey = process.env.FIREBASE_PRIVATE_KEY;
+
+            // Handle escaped newlines
+            privateKey = privateKey.replace(/\\n/g, '\n');
+
+            // Handle double-escaped (from JSON)
+            if (privateKey.includes('\\\\n')) {
+                privateKey = privateKey.replace(/\\\\n/g, '\n');
             }
-        }
 
-        console.log('[Firebase Admin] Private key format check:', {
-            startsWithBegin: privateKey.startsWith('-----BEGIN'),
-            endsWithEnd: privateKey.includes('-----END'),
-            hasNewlines: privateKey.includes('\n'),
-            length: privateKey.length
-        });
+            console.log('[Firebase Admin] Private key format:', {
+                startsWithBegin: privateKey.startsWith('-----BEGIN'),
+                endsWithEnd: privateKey.includes('-----END'),
+                length: privateKey.length
+            });
 
-        admin.initializeApp({
-            credential: admin.credential.cert({
+            credential = admin.credential.cert({
                 projectId: process.env.FIREBASE_PROJECT_ID,
                 clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
                 privateKey: privateKey,
-            }),
-        });
-        db = admin.firestore();
-        console.log('Firebase Admin initialized successfully');
+            });
+        } else {
+            console.warn('[Firebase Admin] Not configured. Set FIREBASE_SERVICE_ACCOUNT_BASE64 or individual vars.');
+        }
+
+        if (credential) {
+            admin.initializeApp({ credential });
+            db = admin.firestore();
+            console.log('[Firebase Admin] Initialized successfully');
+        }
     } catch (error) {
-        console.error('Firebase Admin initialization error:', error.message);
+        console.error('[Firebase Admin] Initialization error:', error.message);
     }
-} else if (!isFirebaseAdminConfigured) {
-    console.warn('Firebase Admin not configured. Set FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_PRIVATE_KEY env vars.');
-} else if (admin.apps.length) {
+} else {
     db = admin.firestore();
 }
 
