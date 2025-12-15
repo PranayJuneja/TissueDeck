@@ -6,10 +6,18 @@ import { gateway } from '@ai-sdk/gateway';
 import admin from 'firebase-admin';
 
 // Check if Firebase Admin is configured
-const isFirebaseAdminConfigured =
-    process.env.FIREBASE_PROJECT_ID &&
-    process.env.FIREBASE_CLIENT_EMAIL &&
-    process.env.FIREBASE_PRIVATE_KEY;
+const hasProjectId = !!process.env.FIREBASE_PROJECT_ID;
+const hasClientEmail = !!process.env.FIREBASE_CLIENT_EMAIL;
+const hasPrivateKey = !!process.env.FIREBASE_PRIVATE_KEY;
+
+console.log('[Firebase Admin] Environment check:', {
+    hasProjectId,
+    hasClientEmail,
+    hasPrivateKey,
+    privateKeyLength: process.env.FIREBASE_PRIVATE_KEY?.length || 0
+});
+
+const isFirebaseAdminConfigured = hasProjectId && hasClientEmail && hasPrivateKey;
 
 // Initialize Firebase Admin (singleton pattern)
 let db = null;
