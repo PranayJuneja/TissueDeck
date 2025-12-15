@@ -22,6 +22,7 @@
     flex-direction: column;
     padding: 20px;
     overflow: hidden;
+    overflow-x: hidden;
 }
 
 .sidebarFooter {
@@ -234,17 +235,13 @@
 .flexRow {
     display: flex;
     align-items: center;
-    gap: 0;
+    gap: 8px;
     text-align: left;
     flex: 1;
-    position: relative;
-    padding-left: 0;
 }
 
 .flexRow>span.material-icon,
 .flexRow>span[class*="material"] {
-    position: absolute;
-    left: -20px;
     flex-shrink: 0;
 }
 
@@ -683,7 +680,8 @@
         width: 100%;
         position: relative;
         justify-content: flex-start;
-        min-height: 44px;
+        min-height: 40px;
+        gap: 12px;
     }
 
     .mobileBrand {
@@ -697,7 +695,7 @@
 
     .brand h1 {
         margin-bottom: 0;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .breadcrumbs {
@@ -709,21 +707,21 @@
             rgba(30, 32, 40, 0.35);
         backdrop-filter: blur(16px) saturate(140%);
         -webkit-backdrop-filter: blur(16px) saturate(140%);
-        padding: 8px 12px;
+        padding: 6px 10px;
         border-radius: 8px;
         border: 1px solid rgba(255, 255, 255, 0.08);
         box-shadow:
             0 2px 10px rgba(0, 0, 0, 0.15),
             inset 0 1px 1px rgba(255, 255, 255, 0.1);
         box-sizing: border-box;
-        margin-top: 4px;
+        margin-top: 0;
         flex-wrap: wrap;
         white-space: normal;
     }
 
     .crumbCategory,
     .crumbName {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
     }
 
     .crumbName {
@@ -732,6 +730,27 @@
 
     .crumbSeparator {
         color: rgba(230, 225, 229, 0.5);
+        font-size: 0.85rem;
+    }
+
+    .sidebar {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .navList {
+        padding-right: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .categoryHeader {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .categoryItems {
+        margin-left: 20px;
     }
 }
 
