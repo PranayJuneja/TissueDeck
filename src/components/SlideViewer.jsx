@@ -37,6 +37,44 @@ const SlideViewer = ({ tissue, showLabels }) => {
         setImageError(false);
     }, [tissue]);
 
+    // Preload slides for smoother navigation
+    useEffect(() => {
+        if (!slides.length) return;
+
+        // Preload current slide and next 2-3 slides
+        const preloadIndices = [
+            currentSlideIndex,
+            currentSlideIndex + 1,
+            currentSlideIndex + 2,
+            currentSlideIndex - 1, // Also preload previous for back navigation
+        ].filter(i => i >= 0 && i < slides.length);
+
+        preloadIndices.forEach(index => {
+            const img = new Image();
+            img.src = slides[index];
+        });
+    }, [currentSlideIndex, slides]);
+
+    // Preload all slides when tissue changes (background loading)
+    useEffect(() => {
+        if (!slides.length) return;
+
+        // Preload all slides in the background with slight delay to not block UI
+        const preloadAll = () => {
+            slides.forEach((slidePath, index) => {
+                // Stagger loading to avoid overwhelming the network
+                setTimeout(() => {
+                    const img = new Image();
+                    img.src = slidePath;
+                }, index * 100); // 100ms delay between each
+            });
+        };
+
+        // Start preloading after a short delay to prioritize visible content
+        const timeoutId = setTimeout(preloadAll, 1000);
+        return () => clearTimeout(timeoutId);
+    }, [tissue, slides]);
+
     // Clamp position to keep image within bounds
     // The image edge cannot go past the container edge
     const clampPosition = useCallback((x, y, currentZoom) => {

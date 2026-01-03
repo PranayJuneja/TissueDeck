@@ -3,10 +3,26 @@
 
 ---
 
-## 🌌 v7.0 - ANTIGRAVITY UI REVOLUTION
+## ⚡ v7.1 - PERFORMANCE BOOST
+**Date:** January 4, 2026 (12:22 AM IST)
+
+### 🚀 Image Preloading
+- **Adjacent Slide Preloading** — When navigating slides, the next 2 and previous 1 slides are immediately preloaded in browser cache
+- **Background Preloading** — When selecting a new tissue/topic, all slides begin loading in the background with staggered timing (100ms apart)
+- **Smart Timing** — Background preloading starts after 1 second delay to prioritize visible content first
+- **Faster Navigation** — Slides now load near-instantly from cache instead of making new network requests
+
+#### Files Changed
+| File | Change |
+|------|--------|
+| `src/components/SlideViewer.jsx` | Added two `useEffect` hooks for image preloading |
+
+---
+
+## 🌌 v7.0 - UI REVOLUTION
 **Date:** December 16, 2025 (12:55 AM IST)
 
-### 🎨 Global Antigravity Theme
+### 🎨 Global Theme
 - **Aurora Background** — Implemented vivid "Aurora" background (pulsing radial gradient) globally.
 - **Glassmorphism UI** — Applied "Liquid Glass" effect to Sidebar, Theory Panel, and Slide Viewer.
 - **Floating Particles** — Added dynamic particle effects to the unified interface.
