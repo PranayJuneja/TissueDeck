@@ -14,6 +14,11 @@
 - **Touch Gesture Support** — Pinch-to-zoom and drag-to-pan on mobile devices
 - **Mouse Wheel Zoom** — Desktop-friendly zoom controls with scroll wheel
 
+### ⚡ Performance Optimizations
+- **Image Preloading** — Adjacent slides preload in background for instant navigation
+- **WebP Format** — All 263 slides converted to WebP for faster decoding
+- **Cache-First Strategy** — Slides load instantly from browser cache after first view
+
 ### 🤖 Meded AI Assistant
 - **Context-Aware AI** — The chatbot knows exactly which tissue you're viewing
 - **Streaming Responses** — Watch the AI type answers in real-time
@@ -34,19 +39,21 @@ Every slide includes:
 | System | Slides |
 |--------|--------|
 | Cardiovascular System | 12 |
-| Central Nervous System | 32+ |
-| Gastrointestinal Tract | 14 |
-| Hepatobiliary & Pancreas | 8 |
-| Eye | 8 |
-| Musculoskeletal System | 7 |
-| Urogenital & Reproductive | 10 |
-| Haematolymphoid System | 4 |
-| Skin, Thyroid, & More | 8+ |
+| Central Nervous System | 52 |
+| Gastrointestinal Tract | 41 |
+| Hepatobiliary & Pancreas | 29 |
+| Eye | 42 |
+| Musculoskeletal System | 15 |
+| Urogenital & Reproductive | 30 |
+| Haematolymphoid System | 10 |
+| Skin, Thyroid, & More | 32 |
 
-**100+ slides** across **13 organ systems** with full theory data.
+**263 slides** across **13 organ systems** with full theory data.
 
 ### 📱 Progressive Web App (PWA)
 - **Installable** — Add to home screen on Android & iOS
+- **Full Offline Support** — Works 100% offline after first visit
+- **Progressive Caching** — All slides cached silently in background (~33MB)
 - **Standalone Mode** — Runs without browser UI for a native app feel
 - **Responsive Design** — Optimized for desktop, tablet, and mobile
 
@@ -106,16 +113,19 @@ TissueDeck/
 ├── api/                    # Vercel serverless functions
 │   └── chat.js             # AI chat endpoint
 ├── public/                 # Static assets & slides
-│   ├── slides/             # Organized slide images
+│   ├── slides/             # Organized slide images (WebP format)
+│   ├── sw.js               # Service Worker for offline support
+│   ├── slide-manifest.json # List of all slides for caching
 │   ├── favicon.png         # Custom microscope icon
 │   └── manifest.json       # PWA manifest
-├── scripts/                # Data ingestion utilities
+├── scripts/                # Data ingestion & build utilities
 │   ├── scanSlides.js       # Slide folder scanner
-│   ├── scraper.js          # Base scraper logic
+│   ├── convertToWebP.js    # Image format converter
+│   ├── generateSlideManifest.js # Slide manifest generator
 │   └── ingest_*.js         # Content ingestion scripts
 ├── src/
 │   ├── components/         # React UI components
-│   │   ├── SlideViewer.jsx # Custom zoom/pan viewer
+│   │   ├── SlideViewer.jsx # Custom zoom/pan viewer with preloading
 │   │   ├── TheoryPanel.jsx # Educational side panel
 │   │   └── ChatBot.jsx     # AI chatbot interface
 │   ├── contexts/           # React contexts
@@ -124,7 +134,7 @@ TissueDeck/
 │   │   └── index.js        # Data aggregator
 │   ├── firebase.js         # Firebase initialization
 │   ├── App.jsx             # Main layout
-│   └── main.jsx            # Entry point
+│   └── main.jsx            # Entry point + SW registration
 ├── .env.example            # Environment template
 ├── vercel.json             # Serverless config
 ├── package.json            # Dependencies
