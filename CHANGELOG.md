@@ -4,18 +4,23 @@
 ---
 
 ## 📴 v7.3 - FULL OFFLINE SUPPORT
-**Date:** January 4, 2026 (7:40 PM IST)
+**Date:** January 4, 2026 (7:45 PM IST)
 
 ### 🔌 Progressive Web App Enhancement
 - **Service Worker** — Implemented full offline caching for the entire app
-- **Progressive Caching** — All 221 slide images are cached in the background silently
+- **Progressive Caching** — All 263 slide images are cached in the background silently
 - **Offline Mode** — App works 100% offline after first visit (study without internet!)
 - **Cache-First Strategy** — Slides load instantly from local cache
-- **Auto-Updates** — Service Worker checks for updates every hour
+- **Auto-Updates** — Service Worker checks for updates every 30 minutes
+
+### 🖼️ PNG to WebP Conversion
+- **Eye Slides Converted** — Converted 42 PNG images to WebP format
+- **Space Saved** — 78MB saved from PNG conversion alone (~80% reduction)
+- **All 263 slides now WebP** — Unified format for optimal performance
 
 ### 📦 What Gets Cached
 - App shell (HTML, CSS, JavaScript)
-- All slide images (~111MB, cached progressively)
+- All slide images (~33MB total after PNG conversion)
 - All theory/exam tip data (JSON files)
 - Fonts and icons
 
@@ -23,9 +28,10 @@
 | File | Change |
 |------|--------|
 | `public/sw.js` | **NEW** — Service Worker for offline support |
-| `public/slide-manifest.json` | **NEW** — List of all slides for progressive caching |
+| `public/slide-manifest.json` | **NEW** — List of all 263 slides for progressive caching |
 | `scripts/generateSlideManifest.js` | **NEW** — Script to generate slide manifest |
-| `src/main.jsx` | Added Service Worker registration |
+| `scripts/convertToWebP.js` | Updated to handle PNG files |
+| `src/main.jsx` | Added Service Worker registration (production only) |
 
 ---
 

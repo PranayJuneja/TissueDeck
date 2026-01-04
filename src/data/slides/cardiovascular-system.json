@@ -35,8 +35,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-1.png",
-        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-2.png"
+        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-1.webp",
+        "/slides/Cardiovascular System/Atrioventricular valve/Atrioventricular valve/Atrioventricular-valve-2.webp"
       ]
     }
   },
@@ -76,7 +76,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Cardiovascular System/Atrioventricular valve/Chordae Tendine/Chordae-tendineae-1.png"
+        "/slides/Cardiovascular System/Atrioventricular valve/Chordae Tendine/Chordae-tendineae-1.webp"
       ]
     }
   },
@@ -161,10 +161,10 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-Medium-power-1.png"
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-Medium-power-1.webp"
       ],
       "high": [
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-High-power-1.png"
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Adventitia/Aorta-–-Tunica-adventitia-High-power-1.webp"
       ],
       "default": []
     }
@@ -205,8 +205,8 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-1-1.png",
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-3.png"
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-1-1.webp",
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta- Tunica Media/Aorta-–-Tunica-media-High-power-3.webp"
       ],
       "default": []
     }
@@ -335,8 +335,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-1.png",
-        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-2.png"
+        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-1.webp",
+        "/slides/Cardiovascular System/Heart/Endocardium/Endocardium-2.webp"
       ]
     }
   },
@@ -377,9 +377,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-1.png",
-        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-2.png",
-        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-3.png"
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-1.webp",
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-2.webp",
+        "/slides/Cardiovascular System/Heart/Epicardium/Epicardium-3.webp"
       ]
     }
   },
@@ -419,8 +419,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-1.png",
-        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-2.png"
+        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-1.webp",
+        "/slides/Cardiovascular System/Heart/Myocardium/Myocardium-2.webp"
       ]
     }
   },
@@ -461,7 +461,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Cardiovascular System/Heart/Normal Heart/Normal-heart-1.png"
+        "/slides/Cardiovascular System/Heart/Normal Heart/Normal-heart-1.webp"
       ]
     }
   }
