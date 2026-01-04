@@ -40,11 +40,6 @@ if ('serviceWorker' in navigator && isProduction) {
             };
           }
         };
-
-        // Check for updates periodically (every 30 minutes)
-        setInterval(() => {
-          registration.update();
-        }, 30 * 60 * 1000);
       })
       .catch((error) => {
         console.log('[App] Service Worker registration failed:', error);

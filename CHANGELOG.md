@@ -11,7 +11,7 @@
 - **Progressive Caching** — All 263 slide images are cached in the background silently
 - **Offline Mode** — App works 100% offline after first visit (study without internet!)
 - **Cache-First Strategy** — Slides load instantly from local cache
-- **Auto-Updates** — Service Worker checks for updates every 30 minutes
+- **Auto-Updates** — Browser automatically checks for updates (on visit, refresh, or every 24 hours)
 
 ### 🖼️ PNG to WebP Conversion
 - **Eye Slides Converted** — Converted 42 PNG images to WebP format
