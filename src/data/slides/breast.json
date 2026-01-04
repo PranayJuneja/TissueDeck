@@ -34,8 +34,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Breast/normal-breast-1.jpg",
-        "/slides/Breast/normal-breast-2.jpg"
+        "/slides/Breast/normal-breast-1.webp",
+        "/slides/Breast/normal-breast-2.webp"
       ]
     }
   }

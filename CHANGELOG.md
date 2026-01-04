@@ -3,6 +3,24 @@
 
 ---
 
+## 🖼️ v7.2 - WEBP IMAGE FORMAT
+**Date:** January 4, 2026 (7:30 PM IST)
+
+### 📦 Image Format Conversion
+- **WebP Format** — Converted all 221 slide images from JPEG to WebP format
+- **Quality Preserved** — Used 92% quality for lossless-like preservation of histology detail
+- **Faster Decoding** — WebP decodes faster in modern browsers for smoother viewing
+- **All JSON Updated** — Slide data files automatically updated to reference `.webp` extensions
+
+#### Files Changed
+| File | Change |
+|------|--------|
+| `public/slides/**/*.webp` | Converted 221 images from JPEG to WebP |
+| `src/data/slides/*.json` | Updated all 12 JSON files with .webp references |
+| `scripts/convertToWebP.js` | **NEW** — Image conversion utility script |
+
+---
+
 ## ⚡ v7.1 - PERFORMANCE BOOST
 **Date:** January 4, 2026 (12:22 AM IST)
 

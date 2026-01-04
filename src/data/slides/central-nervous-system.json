@@ -35,7 +35,7 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellar Cortex/Cerebellar-cortex-high-2.jpg"
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellar Cortex/Cerebellar-cortex-high-2.webp"
       ],
       "default": []
     }
@@ -75,11 +75,11 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-2.jpg",
-        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-3.jpg"
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-2.webp",
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-low-3.webp"
       ],
       "medium": [
-        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-medium-4.jpg"
+        "/slides/Central Nervous System/Brain/Cerebellum/Cerebellum/Cerebellum-medium-4.webp"
       ],
       "high": [],
       "default": []
@@ -120,13 +120,13 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-low-2.jpg"
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-low-2.webp"
       ],
       "medium": [
-        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-Medium-2.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-High-2.jpg"
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebral Cortex/Cerebral-cortex-High-2.webp"
       ],
       "default": []
     }
@@ -167,7 +167,7 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Brain/Cerebrum/Cerebrum/Cerebrum-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Cerebrum/Cerebrum/Cerebrum-Medium-2.webp"
       ],
       "high": [],
       "default": []
@@ -210,7 +210,7 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Central Nervous System/Brain/Cerebrum/White Matter/White-matter-High-2.jpg"
+        "/slides/Central Nervous System/Brain/Cerebrum/White Matter/White-matter-High-2.webp"
       ],
       "default": []
     }
@@ -251,8 +251,8 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-2.jpg",
-        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-4.jpg"
+        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-2.webp",
+        "/slides/Central Nervous System/Brain/Hippocampus/Dentate Gyrus/Dentate-gyrus-Medium-4.webp"
       ],
       "high": [],
       "default": []
@@ -293,8 +293,8 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-2.jpg",
-        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-4.jpg"
+        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-2.webp",
+        "/slides/Central Nervous System/Brain/Hippocampus/Hippocampus/Hippocampus-Low-4.webp"
       ],
       "medium": [],
       "high": [],
@@ -338,8 +338,8 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Inferior-olivary-nucleus-High-2.jpg",
-        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Medial-lemniscus-High-2.jpg"
+        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Inferior-olivary-nucleus-High-2.webp",
+        "/slides/Central Nervous System/Brain/Medulla/M.O. (Inferior Olivary Nucleus)/Medulla-Oblongata-Medial-lemniscus-High-2.webp"
       ],
       "default": []
     }
@@ -379,16 +379,16 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-2.jpg",
-        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-4.jpg"
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-2.webp",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Low-4.webp"
       ],
       "medium": [
-        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-2.jpg",
-        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-4.jpg"
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-2.webp",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-Medium-4.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-2.jpg",
-        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-4.jpg"
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-2.webp",
+        "/slides/Central Nervous System/Brain/Medulla/Medulla Oblongata/Medulla-Oblongata-High-4.webp"
       ],
       "default": []
     }
@@ -428,10 +428,10 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Low-power-2.jpg"
+        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Low-power-2.webp"
       ],
       "medium": [
-        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Midbrain/Midbrain/Midbrain-Medium-2.webp"
       ],
       "high": [],
       "default": []
@@ -474,7 +474,7 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Central Nervous System/Brain/Midbrain/Substantia Nigra/Substantia-nigra-High-2.jpg"
+        "/slides/Central Nervous System/Brain/Midbrain/Substantia Nigra/Substantia-nigra-High-2.webp"
       ],
       "default": []
     }
@@ -515,11 +515,11 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-Medium-2.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-2.jpg",
-        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-4.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-2.webp",
+        "/slides/Central Nervous System/Brain/Pituitary/Anterior Pituitary/Anterior-pituitary-High-4.webp"
       ],
       "default": []
     }
@@ -559,10 +559,10 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Low-2.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Low-2.webp"
       ],
       "medium": [
-        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Pars Intermedia/Pars-intermedia-Medium-2.webp"
       ],
       "high": [],
       "default": []
@@ -603,8 +603,8 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-2.jpg",
-        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-4.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-2.webp",
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Gland/Pituitary-gland-Low-4.webp"
       ],
       "medium": [],
       "high": [],
@@ -647,10 +647,10 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-Medium-2.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-High-2.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Pituitary Stalk/Pituitary-stalk-High-2.webp"
       ],
       "default": []
     }
@@ -691,10 +691,10 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-Medium-2.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-High-2.jpg"
+        "/slides/Central Nervous System/Brain/Pituitary/Posterior Pituitary/Posterior-pituitary-High-2.webp"
       ],
       "default": []
     }
@@ -735,10 +735,10 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-Medium-2.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-High-2.jpg"
+        "/slides/Central Nervous System/Brain/Pons/Basal Pons/Basal-pons-High-2.webp"
       ],
       "default": []
     }
@@ -778,10 +778,10 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Low-power-2.jpg"
+        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Low-power-2.webp"
       ],
       "medium": [
-        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Medium-2.jpg"
+        "/slides/Central Nervous System/Brain/Pons/Pons/Pons-Medium-2.webp"
       ],
       "high": [],
       "default": []
@@ -824,7 +824,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord/0.-Spinal-cord-1-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord/0.-Spinal-cord-1-1.webp"
       ]
     }
   },
@@ -864,8 +864,8 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/13.-Spinal-cord-–-Central-canal-High-power-1.jpg",
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/14.-Spinal-cord-–-Central-canal-High-power-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/13.-Spinal-cord-–-Central-canal-High-power-1.webp",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Central Canal)/14.-Spinal-cord-–-Central-canal-High-power-1.webp"
       ],
       "default": []
     }
@@ -904,8 +904,8 @@
     ],
     "slides": {
       "low": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/1.-Spinal-cord-–-Cervical-enlargement-Very-low-power-1.jpg",
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/2.-Spinal-cord-–-Cervical-enlargement-Very-low-power-Luxol-fast-blue-LFB-stain-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/1.-Spinal-cord-–-Cervical-enlargement-Very-low-power-1.webp",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Cervical Enlargement)/2.-Spinal-cord-–-Cervical-enlargement-Very-low-power-Luxol-fast-blue-LFB-stain-1.webp"
       ],
       "medium": [],
       "high": [],
@@ -947,8 +947,8 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/3.-Spinal-cord-–-Dorsal-columns-Medium-power-dorsal-aspect-1.jpg",
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/4.-Spinal-cord-–-Dorsal-columns-Medium-power-LFB-stain-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/3.-Spinal-cord-–-Dorsal-columns-Medium-power-dorsal-aspect-1.webp",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsal Column)/4.-Spinal-cord-–-Dorsal-columns-Medium-power-LFB-stain-1.webp"
       ],
       "high": [],
       "default": []
@@ -989,7 +989,7 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsolateral Sulcus)/7.-Spinal-cord-–-Dorsolateral-sulcus-Medium-power-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Dorsolateral Sulcus)/7.-Spinal-cord-–-Dorsolateral-sulcus-Medium-power-1.webp"
       ],
       "high": [],
       "default": []
@@ -1031,11 +1031,11 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/5.-Spinal-cord-–-Ventral-horns-Medium-power-1.jpg",
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/9.-Spinal-cord-–-Ventral-horns-Medium-power-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/5.-Spinal-cord-–-Ventral-horns-Medium-power-1.webp",
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/9.-Spinal-cord-–-Ventral-horns-Medium-power-1.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/11.-Spinal-cord-–-Ventral-horns-High-power-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral horns/11.-Spinal-cord-–-Ventral-horns-High-power-1.webp"
       ],
       "default": []
     }
@@ -1077,10 +1077,10 @@
       "low": [],
       "medium": [
         "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/10.-Spinal-cord-–-Ventral-horns-Medium-power-LFB-stain-1-1.png",
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/6.-Spinal-cord-–-Ventral-horns-Medium-power-LFB-stain-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/6.-Spinal-cord-–-Ventral-horns-Medium-power-LFB-stain-1.webp"
       ],
       "high": [
-        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/12.-Spinal-cord-–-Ventral-horns-High-power-Luxol-fast-blue-1.jpg"
+        "/slides/Central Nervous System/Spinal Cord/Spinal Cord (Ventral Horns)/Ventral Horns (LFB Stains)/12.-Spinal-cord-–-Ventral-horns-High-power-Luxol-fast-blue-1.webp"
       ],
       "default": []
     }

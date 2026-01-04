@@ -34,7 +34,7 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Musculoskeletal System/Bone/Bone/Bone-high-power-1-scaled.jpg"
+        "/slides/Musculoskeletal System/Bone/Bone/Bone-high-power-1-scaled.webp"
       ],
       "default": []
     }
@@ -71,7 +71,7 @@
     ],
     "slides": {
       "low": [
-        "/slides/Musculoskeletal System/Bone/Bone Marrow/Bone-marrow-low-power-1-scaled.jpg"
+        "/slides/Musculoskeletal System/Bone/Bone Marrow/Bone-marrow-low-power-1-scaled.webp"
       ],
       "medium": [],
       "high": [],
@@ -112,11 +112,11 @@
     ],
     "slides": {
       "low": [
-        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-low-power-1-scaled.jpg"
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-low-power-1-scaled.webp"
       ],
       "medium": [
-        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-1-scaled.jpg",
-        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-3-scaled.jpg"
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-1-scaled.webp",
+        "/slides/Musculoskeletal System/Bone/Cancellous Bone/Cancellous-bone-medium-power-3-scaled.webp"
       ],
       "high": [],
       "default": []
@@ -156,8 +156,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-6.jpg",
-        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-7.jpg"
+        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-6.webp",
+        "/slides/Musculoskeletal System/Bone/Epiphyseal Growth Plate/normal-bone-7.webp"
       ]
     }
   },
@@ -196,11 +196,11 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-1.jpg",
-        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-2.jpg",
-        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-3.jpg",
-        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-4.jpg",
-        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-5.jpg"
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-1.webp",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-2.webp",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-3.webp",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-4.webp",
+        "/slides/Musculoskeletal System/Bone/Normal Bone/normal-bone-5.webp"
       ]
     }
   },
@@ -239,9 +239,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-1.jpg",
-        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-2.jpg",
-        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-3.jpg"
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-1.webp",
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-2.webp",
+        "/slides/Musculoskeletal System/Skeletal muscle/normal-skeletal-muscle-3.webp"
       ]
     }
   }

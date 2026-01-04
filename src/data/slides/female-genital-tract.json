@@ -34,8 +34,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-1.jpg",
-        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-2.jpg"
+        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-1.webp",
+        "/slides/Female Genital Tract/Fallopian tube/normal-fallopian-tube-2.webp"
       ]
     }
   },
@@ -74,8 +74,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Female Genital Tract/Ovary/normal-ovary-1.jpg",
-        "/slides/Female Genital Tract/Ovary/normal-ovary-2.jpg"
+        "/slides/Female Genital Tract/Ovary/normal-ovary-1.webp",
+        "/slides/Female Genital Tract/Ovary/normal-ovary-2.webp"
       ]
     }
   },
@@ -113,8 +113,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Female Genital Tract/Uterus/normal-uterus-1.jpg",
-        "/slides/Female Genital Tract/Uterus/normal-uterus-2.jpg"
+        "/slides/Female Genital Tract/Uterus/normal-uterus-1.webp",
+        "/slides/Female Genital Tract/Uterus/normal-uterus-2.webp"
       ]
     }
   }

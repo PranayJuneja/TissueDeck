@@ -34,9 +34,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-1.jpg",
-        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-2.jpg",
-        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-3.jpg"
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-1.webp",
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-2.webp",
+        "/slides/Thyroid and Endocrine System/Adrenal/normal-adrenal-3.webp"
       ]
     }
   },
@@ -74,10 +74,10 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-1.jpg",
-        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-2.jpg",
-        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-3.jpg",
-        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-4.jpg"
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-1.webp",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-2.webp",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-3.webp",
+        "/slides/Thyroid and Endocrine System/Parathyroid/normal-parathyroid-4.webp"
       ]
     }
   },
@@ -115,7 +115,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Thyroid and Endocrine System/Thyroid/normal-thyroid-1.jpg"
+        "/slides/Thyroid and Endocrine System/Thyroid/normal-thyroid-1.webp"
       ]
     }
   }

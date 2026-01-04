@@ -35,7 +35,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Appendix/normal-appendix-1.jpg"
+        "/slides/Gastrointestinal Tract/Appendix/normal-appendix-1.webp"
       ]
     }
   },
@@ -75,9 +75,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Colon/normal-colon-1.jpg",
-        "/slides/Gastrointestinal Tract/Colon/normal-colon-2.jpg",
-        "/slides/Gastrointestinal Tract/Colon/normal-colon-3.jpg"
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-1.webp",
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-2.webp",
+        "/slides/Gastrointestinal Tract/Colon/normal-colon-3.webp"
       ]
     }
   },
@@ -118,7 +118,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Oesophagus/Myentric Plexus/normal-oesophagus-4.jpg"
+        "/slides/Gastrointestinal Tract/Oesophagus/Myentric Plexus/normal-oesophagus-4.webp"
       ]
     }
   },
@@ -159,7 +159,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Oesophagus/Oesophageal Mucosa/normal-oesophagus-6.jpg"
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophageal Mucosa/normal-oesophagus-6.webp"
       ]
     }
   },
@@ -200,11 +200,11 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-1.jpg",
-        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-2.jpg",
-        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-3.jpg",
-        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-5.jpg",
-        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-7.jpg"
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-1.webp",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-2.webp",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-3.webp",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-5.webp",
+        "/slides/Gastrointestinal Tract/Oesophagus/Oesophagus/normal-oesophagus-7.webp"
       ]
     }
   },
@@ -244,12 +244,12 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-1.jpg",
-        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-2.jpg",
-        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-3.jpg",
-        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-4.jpg",
-        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-5.jpg",
-        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-6.jpg"
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-1.webp",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-2.webp",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-3.webp",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-4.webp",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-5.webp",
+        "/slides/Gastrointestinal Tract/Salivary gland/normal-salivary-gland-6.webp"
       ]
     }
   },
@@ -289,11 +289,11 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-1.jpg",
-        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-2.jpg",
-        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-3.jpg",
-        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-4.jpg",
-        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-5.jpg"
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-1.webp",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-2.webp",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-3.webp",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-4.webp",
+        "/slides/Gastrointestinal Tract/Small bowel/normal-small-bowel-5.webp"
       ]
     }
   },
@@ -332,7 +332,7 @@
     "slides": {
       "low": [],
       "medium": [
-        "/slides/Gastrointestinal Tract/Stomach/Gastric Antrum/Gastric-antrum-medium-power-3-scaled.jpg"
+        "/slides/Gastrointestinal Tract/Stomach/Gastric Antrum/Gastric-antrum-medium-power-3-scaled.webp"
       ],
       "high": [],
       "default": []
@@ -374,7 +374,7 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Stomach/Gastric Foveolae/Gastric-foveolae-or-pits-1-scaled.jpg"
+        "/slides/Gastrointestinal Tract/Stomach/Gastric Foveolae/Gastric-foveolae-or-pits-1-scaled.webp"
       ]
     }
   },
@@ -415,9 +415,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-1.jpg",
-        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-2.jpg",
-        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-3.jpg"
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-1.webp",
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-2.webp",
+        "/slides/Gastrointestinal Tract/Stomach/Normal Stomach/normal-stomach-3.webp"
       ]
     }
   },
@@ -455,12 +455,12 @@
     ],
     "slides": {
       "low": [
-        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-low-power-1-scaled.jpg"
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-low-power-1-scaled.webp"
       ],
       "medium": [],
       "high": [
-        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-lamina-propria-high-power-1-scaled.jpg",
-        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-non-specialised-glands-high-power-1-scaled.jpg"
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-lamina-propria-high-power-1-scaled.webp",
+        "/slides/Gastrointestinal Tract/Stomach/Pylorus/Gastric-antrumpylorus-–-non-specialised-glands-high-power-1-scaled.webp"
       ],
       "default": []
     }
@@ -499,15 +499,15 @@
     ],
     "slides": {
       "low": [
-        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-1-annotated.jpg",
-        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-2-annotated.jpg",
-        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-3-annotated.jpg"
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-1-annotated.webp",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-2-annotated.webp",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-low-power-3-annotated.webp"
       ],
       "medium": [],
       "high": [
-        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-1-annotated.jpg",
-        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-2-annotated.jpg",
-        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-3-annotated.jpg"
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-1-annotated.webp",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-2-annotated.webp",
+        "/slides/Gastrointestinal Tract/Tongue/tongue-high-power-3-annotated.webp"
       ],
       "default": []
     }
@@ -545,15 +545,15 @@
     ],
     "slides": {
       "low": [
-        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-low-power-1-scaled.jpg"
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-low-power-1-scaled.webp"
       ],
       "medium": [
-        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-1-scaled.jpg",
-        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-3-scaled.jpg"
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-1-scaled.webp",
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-medium-power-3-scaled.webp"
       ],
       "high": [
-        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-1-scaled.jpg",
-        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-3-scaled.jpg"
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-1-scaled.webp",
+        "/slides/Gastrointestinal Tract/Tonsil (Palatine Tonsil)/Tonsil-–-Palatine-tonsil-high-power-3-scaled.webp"
       ],
       "default": []
     }

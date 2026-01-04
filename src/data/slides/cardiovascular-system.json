@@ -114,14 +114,14 @@
     ],
     "slides": {
       "low": [
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Low-power-1.jpg"
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Low-power-1.webp"
       ],
       "medium": [
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Medium-power-1.jpg"
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-Medium-power-1.webp"
       ],
       "high": [
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-6.2-scaled.jpg",
-        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-3-3.jpg"
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-6.2-scaled.webp",
+        "/slides/Cardiovascular System/Blood vessels/Aorta/Aorta/Aorta-High-power-3-3.webp"
       ],
       "default": []
     }
@@ -245,7 +245,7 @@
     ],
     "slides": {
       "low": [
-        "/slides/Cardiovascular System/Blood vessels/Coronary Artery/Coronary-artery-and-veins-Low-power-1.jpg"
+        "/slides/Cardiovascular System/Blood vessels/Coronary Artery/Coronary-artery-and-veins-Low-power-1.webp"
       ],
       "medium": [],
       "high": [],
@@ -286,14 +286,14 @@
     ],
     "slides": {
       "low": [
-        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-Low-power-1.jpg"
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-Low-power-1.webp"
       ],
       "medium": [
-        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-–-Valve-Medium-power-1.jpg"
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-–-Valve-Medium-power-1.webp"
       ],
       "high": [
-        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-1.jpg",
-        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-4.jpg"
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-1.webp",
+        "/slides/Cardiovascular System/Blood vessels/Coronary Vein/Coronary-vein-High-power-4.webp"
       ],
       "default": []
     }

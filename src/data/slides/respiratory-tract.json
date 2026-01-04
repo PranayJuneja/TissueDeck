@@ -35,11 +35,11 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Respiratory Tract/Bronchus/normal-bronchus-1.jpg",
-        "/slides/Respiratory Tract/Bronchus/normal-bronchus-2.jpg",
-        "/slides/Respiratory Tract/Bronchus/normal-bronchus-3.jpg",
-        "/slides/Respiratory Tract/Bronchus/normal-bronchus-4.jpg",
-        "/slides/Respiratory Tract/Bronchus/normal-bronchus-5.jpg"
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-1.webp",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-2.webp",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-3.webp",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-4.webp",
+        "/slides/Respiratory Tract/Bronchus/normal-bronchus-5.webp"
       ]
     }
   },
@@ -79,9 +79,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Respiratory Tract/Lung/normal-lung-1.jpg",
-        "/slides/Respiratory Tract/Lung/normal-lung-2.jpg",
-        "/slides/Respiratory Tract/Lung/normal-lung-3.jpg"
+        "/slides/Respiratory Tract/Lung/normal-lung-1.webp",
+        "/slides/Respiratory Tract/Lung/normal-lung-2.webp",
+        "/slides/Respiratory Tract/Lung/normal-lung-3.webp"
       ]
     }
   },
@@ -121,10 +121,10 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Respiratory Tract/Trachea/T1.jpg",
-        "/slides/Respiratory Tract/Trachea/T2.jpg",
-        "/slides/Respiratory Tract/Trachea/T3.jpg",
-        "/slides/Respiratory Tract/Trachea/T4.jpg"
+        "/slides/Respiratory Tract/Trachea/T1.webp",
+        "/slides/Respiratory Tract/Trachea/T2.webp",
+        "/slides/Respiratory Tract/Trachea/T3.webp",
+        "/slides/Respiratory Tract/Trachea/T4.webp"
       ]
     }
   }

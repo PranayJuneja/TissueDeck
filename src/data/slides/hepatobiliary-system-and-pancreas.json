@@ -33,13 +33,13 @@
     ],
     "slides": {
       "low": [
-        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-low-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-low-power-1-scaled.webp"
       ],
       "medium": [
-        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-medium-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-medium-power-1-scaled.webp"
       ],
       "high": [
-        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-high-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla/Ampulla-high-power-1-scaled.webp"
       ],
       "default": []
     }
@@ -76,7 +76,7 @@
     ],
     "slides": {
       "low": [
-        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla of Vater/Ampulla-of-Vater-low-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Ampulla of Vater/Ampulla-of-Vater-low-power-1-scaled.webp"
       ],
       "medium": [],
       "high": [],
@@ -118,7 +118,7 @@
       "low": [],
       "medium": [],
       "high": [
-        "/slides/Hepatobiliary System and Pancreas/Ampulla/Major Papilla/Major-papilla-high-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Ampulla/Major Papilla/Major-papilla-high-power-1-scaled.webp"
       ],
       "default": []
     }
@@ -159,10 +159,10 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD1.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD2.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD3.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD4.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD1.webp",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD2.webp",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD3.webp",
+        "/slides/Hepatobiliary System and Pancreas/Bile duct/BD4.webp"
       ]
     }
   },
@@ -199,13 +199,13 @@
     ],
     "slides": {
       "low": [
-        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-low-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-low-power-1-scaled.webp"
       ],
       "medium": [
-        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-medium-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-medium-power-1-scaled.webp"
       ],
       "high": [
-        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-high-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Cystic Duct/Cystic-duct-high-power-1-scaled.webp"
       ],
       "default": []
     }
@@ -245,14 +245,14 @@
     ],
     "slides": {
       "low": [
-        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-low-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-low-power-1-scaled.webp"
       ],
       "medium": [
-        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-medium-power-1-scaled.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-medium-power-1-scaled.webp"
       ],
       "high": [
-        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-1-scaled.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-3-300x222.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-1-scaled.webp",
+        "/slides/Hepatobiliary System and Pancreas/Gallbladder/Gallbladder/Gallbladder-high-power-3-300x222.webp"
       ],
       "default": []
     }
@@ -294,9 +294,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-1.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-2.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-3.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-1.webp",
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-2.webp",
+        "/slides/Hepatobiliary System and Pancreas/Liver/normal-liver-3.webp"
       ]
     }
   },
@@ -335,16 +335,16 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-1.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-4.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-6.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-7.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-8.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-9.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-10.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-11.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-12.jpg",
-        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-13.jpg"
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-1.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-4.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-6.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-7.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-8.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-9.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-10.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-11.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-12.webp",
+        "/slides/Hepatobiliary System and Pancreas/Pancreas/normal-pancreas-13.webp"
       ]
     }
   }

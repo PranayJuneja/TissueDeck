@@ -34,8 +34,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-1.jpg",
-        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-2.jpg"
+        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-1.webp",
+        "/slides/Haematolymphoid System/Bone marrow/normal-bone-marrow-2.webp"
       ]
     }
   },
@@ -73,8 +73,8 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-1.jpg",
-        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-2.jpg"
+        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-1.webp",
+        "/slides/Haematolymphoid System/Lymph node/normal-lymph-node-2.webp"
       ]
     }
   },
@@ -113,9 +113,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Haematolymphoid System/Spleen/normal-spleen-1.jpg",
-        "/slides/Haematolymphoid System/Spleen/normal-spleen-2.jpg",
-        "/slides/Haematolymphoid System/Spleen/normal-spleen-3.jpg"
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-1.webp",
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-2.webp",
+        "/slides/Haematolymphoid System/Spleen/normal-spleen-3.webp"
       ]
     }
   },
@@ -153,9 +153,9 @@
       "medium": [],
       "high": [],
       "default": [
-        "/slides/Haematolymphoid System/Thymus/normal-thymus-1.jpg",
-        "/slides/Haematolymphoid System/Thymus/normal-thymus-2.jpg",
-        "/slides/Haematolymphoid System/Thymus/normal-thymus-3.jpg"
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-1.webp",
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-2.webp",
+        "/slides/Haematolymphoid System/Thymus/normal-thymus-3.webp"
       ]
     }
   }
