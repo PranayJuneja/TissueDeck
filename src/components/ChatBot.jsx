@@ -226,10 +226,17 @@ export default function ChatBot({ tissueContext }) {
                         </div>
                         <div className={styles.headerRight}>
                             <span className={styles.remaining}>{remaining}/100</span>
-                            <button onClick={handleClose} className={styles.closeBtn}>×</button>
+                            <button onClick={handleClose} className={styles.closeBtn} aria-label="Close chat">×</button>
                         </div>
                     </div>
-                    <div className={styles.messages} ref={messagesContainerRef}>
+                    <div
+                        className={styles.messages}
+                        ref={messagesContainerRef}
+                        role="log"
+                        aria-live="polite"
+                        aria-atomic="false"
+                        tabIndex={0}
+                    >
                         {messages.length === 0 && (
                             <div className={styles.welcomeMessage}>
                                 <div className={styles.welcomeIcon}>🧬</div>
@@ -253,6 +260,9 @@ export default function ChatBot({ tissueContext }) {
             )}
 
             <form onSubmit={handleSubmit} className={styles.inputArea}>
+                <label htmlFor="chat-message-input" className={styles.srOnly}>
+                    {user ? "Ask a question about this tissue" : "Sign in to ask questions"}
+                </label>
                 <input
                     ref={inputRef}
                     id="chat-message-input"
@@ -269,13 +279,20 @@ export default function ChatBot({ tissueContext }) {
                     type="submit"
                     className={styles.sendBtn}
                     disabled={isLoading || remaining === 0}
+                    aria-label={
+                        !user
+                            ? "Sign in to chat"
+                            : isLoading
+                                ? "Sending message..."
+                                : "Send message"
+                    }
                 >
                     {!user ? (
-                        <span className={styles.lockIcon}>🔐</span>
+                        <span className={styles.lockIcon} aria-hidden="true">🔐</span>
                     ) : isLoading ? (
-                        <span className={styles.loadingDots}>...</span>
+                        <span className={styles.loadingDots} aria-hidden="true">...</span>
                     ) : (
-                        <span className={styles.sendIcon}>→</span>
+                        <span className={styles.sendIcon} aria-hidden="true">→</span>
                     )}
                 </button>
             </form>
