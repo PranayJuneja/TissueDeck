@@ -148,7 +148,11 @@ export async function POST(req) {
                 decodedToken = await admin.auth().verifyIdToken(token);
             } catch (error) {
                 console.error('Token verification failed:', error);
-                // Continue without tracking if token verification fails
+                // Return 401 if verification fails - do not proceed
+                return new Response(JSON.stringify({ error: 'Invalid token' }), {
+                    status: 401,
+                    headers: { 'Content-Type': 'application/json' }
+                });
             }
 
             if (decodedToken) {
