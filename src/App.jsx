@@ -3,6 +3,7 @@ import slides from './data/slides/index.js';
 import SlideViewer from './components/SlideViewer';
 import TheoryPanel from './components/TheoryPanel';
 import ChatBot from './components/ChatBot';
+import Particles from './components/Particles';
 import './styles/global.css';
 import styles from './App.module.css';
 
@@ -130,17 +131,10 @@ function App() {
       <div className={styles.gridOverlay}></div>
 
       {/* Floating Particles/Stars */}
-      <div className={styles.particlesContainer}>
-        {[...Array(30)].map((_, i) => (
-          <div key={i} className={styles.particle} style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 5}s`,
-            animationDuration: `${15 + Math.random() * 15}s`,
-            opacity: Math.random() * 0.5 + 0.2
-          }} />
-        ))}
-      </div>
+      <Particles
+        containerClassName={styles.particlesContainer}
+        particleClassName={styles.particle}
+      />
 
       {/* Mobile Overlay */}
       {sidebarOpen && <div className={styles.sidebarOverlay} onClick={() => setSidebarOpen(false)} />}
